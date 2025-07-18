@@ -34,7 +34,7 @@ result = api.optimize_route([0, 1, 2, 3])
 
 The dashboard provides interactive route visualization with both straight-line and real road routing options:
 
-![Preset Route Example](preset_path.png)
+![Preset Route Example](images/preset_path.png)
 
 *Example of a preset route connecting multiple European destinations. The system now supports both straight-line paths (shown above) and real road routing for more accurate travel planning.*
 
