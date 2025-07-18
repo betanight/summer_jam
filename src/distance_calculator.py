@@ -34,6 +34,70 @@ def haversine_distance(lat1: float, lon1: float, lat2: float, lon2: float) -> fl
     
     return c * r
 
+class DistanceCalculator:
+    """
+    Distance calculator class for route optimization.
+    """
+    
+    def __init__(self, coordinates: np.ndarray):
+        """
+        Initialize with coordinates.
+        
+        Args:
+            coordinates (np.ndarray): Array of coordinates [lat, lon]
+        """
+        self.coordinates = coordinates
+        self.distance_matrix = self._calculate_distance_matrix()
+    
+    def _calculate_distance_matrix(self) -> np.ndarray:
+        """
+        Calculate distance matrix between all pairs of locations.
+        
+        Returns:
+            np.ndarray: Distance matrix where [i][j] is distance from i to j
+        """
+        n = len(self.coordinates)
+        distance_matrix = np.zeros((n, n))
+        
+        for i in range(n):
+            for j in range(n):
+                if i != j:
+                    distance_matrix[i][j] = haversine_distance(
+                        self.coordinates[i][0], self.coordinates[i][1],
+                        self.coordinates[j][0], self.coordinates[j][1]
+                    )
+        
+        logger.info(f"Distance matrix calculated for {n} locations")
+        return distance_matrix
+    
+    def calculate_route_distance(self, route: List[int]) -> float:
+        """
+        Calculate total distance for a given route.
+        
+        Args:
+            route (List[int]): List of location indices representing the route
+            
+        Returns:
+            float: Total route distance in kilometers
+        """
+        total_distance = 0
+        
+        for i in range(len(route) - 1):
+            current = route[i]
+            next_city = route[i + 1]
+            total_distance += self.distance_matrix[current][next_city]
+        
+        return total_distance
+    
+    def get_distance_matrix(self) -> np.ndarray:
+        """
+        Get the pre-calculated distance matrix.
+        
+        Returns:
+            np.ndarray: Distance matrix
+        """
+        return self.distance_matrix
+
 def calculate_distance_matrix(coordinates: np.ndarray) -> np.ndarray:
     """
     Calculate distance matrix between all pairs of locations.

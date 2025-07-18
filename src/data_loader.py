@@ -44,10 +44,10 @@ class DataLoader:
             locations = []
             with open(self.data_file, 'r', encoding='utf-8') as file:
                 reader = csv.DictReader(file)
-                for row in reader:
+                for i, row in enumerate(reader):
                     locations.append({
-                        'id': int(row['id']),
-                        'name': row['name'],
+                        'id': i,  # Generate ID based on row index
+                        'name': row['location_name'],
                         'latitude': float(row['latitude']),
                         'longitude': float(row['longitude'])
                     })
