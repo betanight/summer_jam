@@ -23,11 +23,20 @@ result = api.optimize_route([0, 1, 2, 3])
 
 - **Interactive Map Dashboard** - Click to add locations and optimize routes
 - **Genetic Algorithm Optimization** - Finds optimal routes using evolutionary algorithms
-- **Real Tourist Attractions** - 9 famous European landmarks with accurate coordinates
+- **Real Tourist Attractions** - 9 famous European landmarks with accurate GPS coordinates
 - **Custom Location Addition** - Add your own hotels, restaurants, etc.
 - **Distance Calculation** - Uses Haversine formula for real-world distances
 - **Performance Comparison** - Shows improvement vs random routes
 - **Web-Ready API** - RESTful endpoints for frontend integration
+- **Real Road Routing** - Uses OSRM API for actual road paths instead of straight lines
+
+### 🗺️ Route Visualization
+
+The dashboard provides interactive route visualization with both straight-line and real road routing options:
+
+![Preset Route Example](preset_path.png)
+
+*Example of a preset route connecting multiple European destinations. The system now supports both straight-line paths (shown above) and real road routing for more accurate travel planning.*
 
 ## 🎯 Results
 
@@ -130,13 +139,15 @@ The dashboard provides a complete web interface:
 2. **Location Selection** - Choose from preset attractions or custom locations
 3. **Route Optimization** - One-click optimization with visual results
 4. **Real-time Results** - See distance, time, and route order
+5. **Road Routing Toggle** - Switch between straight lines and real road paths
 
 ### How to Use:
 1. Open http://localhost:5001
 2. Click on the map to add custom locations
 3. Select locations from the list
-4. Click "Optimize Route" to find the best path
-5. View the optimized route on the map
+4. Choose road routing option (straight lines vs real roads)
+5. Click "Optimize Route" to find the best path
+6. View the optimized route on the map
 
 ## 📊 Performance
 
@@ -171,6 +182,12 @@ The dashboard provides a complete web interface:
 - **Haversine formula** for real-world distances
 - **Accounts for Earth's curvature**
 - **Accurate GPS coordinates**
+
+### Road Routing
+- **OSRM API integration** for real road paths
+- **Fallback to straight lines** if API unavailable
+- **User toggle** to switch between modes
+- **Performance optimized** with rate limiting
 
 ### Performance
 - **Optimization time:** ~0.05 seconds for 9 locations
@@ -232,6 +249,9 @@ A: Very fast! Takes less than 0.05 seconds to find the optimal route.
 **Q: Can I use this for other regions?**
 A: Yes! The algorithm works with any GPS coordinates worldwide.
 
+**Q: What's the difference between straight lines and road routing?**
+A: Straight lines show direct distances, while road routing shows actual driving paths along real roads.
+
 ## 🎉 Success Metrics
 
 ✅ **Distance reduced by 20.4%**  
@@ -240,5 +260,6 @@ A: Yes! The algorithm works with any GPS coordinates worldwide.
 ✅ **Interactive visualizations**  
 ✅ **Production-ready code**  
 ✅ **Web integration ready**  
+✅ **Real road routing**  
 
 **Your route optimization system is complete and ready for use!** 🚀 
