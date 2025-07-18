@@ -124,6 +124,7 @@ def get_route_visualization():
         logger.error(f"Error getting visualization data: {e}")
         return jsonify({'error': str(e)}), 500
 
+# For local development
 if __name__ == '__main__':
     print("🚀 Starting Interactive Route Optimization Dashboard")
     print("📍 Open http://localhost:5001 in your browser")
