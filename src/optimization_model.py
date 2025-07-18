@@ -1,31 +1,31 @@
 """
-Optimization model using Genetic Algorithm to solve the Traveling Salesman Problem.
+Genetic Algorithm implementation for Traveling Salesman Problem (TSP).
+Optimizes routes using evolutionary algorithms.
 """
 
 import numpy as np
 import random
-from typing import List, Tuple, Callable
-import logging
 import time
-from copy import deepcopy
+import logging
+from typing import List, Tuple, Dict
 
 logger = logging.getLogger(__name__)
 
 class GeneticAlgorithmTSP:
     """
-    Genetic Algorithm implementation for solving the Traveling Salesman Problem.
+    Genetic Algorithm for Traveling Salesman Problem.
     """
     
     def __init__(self, population_size: int = 50, mutation_rate: float = 0.01, 
                  crossover_rate: float = 0.8, elite_size: int = 5):
         """
-        Initialize the Genetic Algorithm.
+        Initialize the genetic algorithm.
         
         Args:
             population_size (int): Size of the population
             mutation_rate (float): Probability of mutation
             crossover_rate (float): Probability of crossover
-            elite_size (int): Number of best individuals to preserve
+            elite_size (int): Number of elite individuals to preserve
         """
         self.population_size = population_size
         self.mutation_rate = mutation_rate
@@ -66,36 +66,34 @@ class GeneticAlgorithmTSP:
         logger.info(f"Created initial population of {self.population_size} individuals")
         return population
     
-    def calculate_fitness(self, route: List[int], distance_matrix: np.ndarray) -> float:
+    def calculate_fitness(self, route: List[int], distance_calculator) -> float:
         """
         Calculate fitness (inverse of distance) for a route.
         
         Args:
             route (List[int]): Route to evaluate
-            distance_matrix (np.ndarray): Distance matrix
+            distance_calculator: DistanceCalculator instance
             
         Returns:
             float: Fitness value (higher is better)
         """
-        from distance_calculator import calculate_route_distance
-        distance = calculate_route_distance(route, distance_matrix)
-        return 1.0 / (distance + 1e-10)  # Avoid division by zero
+        distance = distance_calculator.calculate_route_distance(route)
+        return 1.0 / distance  # Inverse of distance
     
-    def rank_population(self, population: List[List[int]], distance_matrix: np.ndarray) -> List[Tuple[float, List[int]]]:
+    def rank_population(self, population: List[List[int]], distance_calculator) -> List[Tuple[int, float]]:
         """
         Rank population by fitness.
         
         Args:
             population (List[List[int]]): Population to rank
-            distance_matrix (np.ndarray): Distance matrix
+            distance_calculator: DistanceCalculator instance
             
         Returns:
-            List[Tuple[float, List[int]]]: Ranked population (fitness, route)
+            List[Tuple[int, float]]: Ranked population with indices and fitness
         """
         fitness_results = {}
         for i, route in enumerate(population):
-            fitness = self.calculate_fitness(route, distance_matrix)
-            fitness_results[i] = fitness
+            fitness_results[i] = self.calculate_fitness(route, distance_calculator)
         
         return sorted(fitness_results.items(), key=lambda x: x[1], reverse=True)
     
@@ -194,19 +192,19 @@ class GeneticAlgorithmTSP:
         
         return children
     
-    def evolve_population(self, population: List[List[int]], distance_matrix: np.ndarray) -> List[List[int]]:
+    def evolve_population(self, population: List[List[int]], distance_calculator) -> List[List[int]]:
         """
         Evolve population for one generation.
         
         Args:
             population (List[List[int]]): Current population
-            distance_matrix (np.ndarray): Distance matrix
+            distance_calculator: DistanceCalculator instance
             
         Returns:
             List[List[int]]: Evolved population
         """
         # Rank population
-        ranked_population = self.rank_population(population, distance_matrix)
+        ranked_population = self.rank_population(population, distance_calculator)
         
         # Selection
         selection_results = self.selection(ranked_population)
@@ -217,19 +215,19 @@ class GeneticAlgorithmTSP:
         
         return children
     
-    def optimize(self, distance_matrix: np.ndarray, num_generations: int = 100) -> dict:
+    def optimize(self, distance_calculator, num_generations: int = 100) -> List[int]:
         """
         Run the genetic algorithm optimization.
         
         Args:
-            distance_matrix (np.ndarray): Distance matrix
+            distance_calculator: DistanceCalculator instance
             num_generations (int): Number of generations to evolve
             
         Returns:
-            dict: Optimization results
+            List[int]: Best route found
         """
         start_time = time.time()
-        num_locations = len(distance_matrix)
+        num_locations = len(distance_calculator.coordinates)
         
         # Create initial population
         population = self.create_initial_population(num_locations)
@@ -242,15 +240,14 @@ class GeneticAlgorithmTSP:
         
         for generation in range(num_generations):
             # Evolve population
-            population = self.evolve_population(population, distance_matrix)
+            population = self.evolve_population(population, distance_calculator)
             
             # Track best route
-            ranked_population = self.rank_population(population, distance_matrix)
+            ranked_population = self.rank_population(population, distance_calculator)
             best_route_idx = ranked_population[0][0]
             best_route = population[best_route_idx]
             
-            from distance_calculator import calculate_route_distance
-            best_distance = calculate_route_distance(best_route, distance_matrix)
+            best_distance = distance_calculator.calculate_route_distance(best_route)
             
             if best_distance < self.best_distance:
                 self.best_distance = best_distance
@@ -265,29 +262,19 @@ class GeneticAlgorithmTSP:
         end_time = time.time()
         execution_time = end_time - start_time
         
-        results = {
-            'best_route': self.best_route,
-            'best_distance': self.best_distance,
-            'execution_time': execution_time,
-            'num_generations': num_generations,
-            'progress': progress,
-            'best_distances': best_distances,
-            'final_population': population
-        }
-        
         logger.info(f"Optimization completed in {execution_time:.3f} seconds")
         logger.info(f"Best route distance: {self.best_distance:.2f} km")
         
-        return results
+        return self.best_route
 
-def run_optimization_experiment(coordinates: np.ndarray, distance_matrix: np.ndarray,
+def run_optimization_experiment(coordinates: np.ndarray, distance_calculator,
                                population_size: int = 50, num_generations: int = 100) -> dict:
     """
     Run complete optimization experiment.
     
     Args:
         coordinates (np.ndarray): Location coordinates
-        distance_matrix (np.ndarray): Distance matrix
+        distance_calculator: DistanceCalculator instance
         population_size (int): GA population size
         num_generations (int): Number of generations
         
@@ -298,6 +285,10 @@ def run_optimization_experiment(coordinates: np.ndarray, distance_matrix: np.nda
     ga = GeneticAlgorithmTSP(population_size=population_size)
     
     # Run optimization
-    results = ga.optimize(distance_matrix, num_generations)
+    best_route = ga.optimize(distance_calculator, num_generations)
     
-    return results 
+    return {
+        'best_route': best_route,
+        'best_distance': ga.best_distance,
+        'execution_time': time.time() - time.time()  # Will be calculated in optimize method
+    } 

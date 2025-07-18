@@ -4,6 +4,11 @@ Interactive Route Optimization Dashboard
 Flask web app with map interface for testing the optimization system
 """
 
+import sys
+import os
+# Add parent directory to path to import from src
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+
 from flask import Flask, render_template, request, jsonify
 from api_interface import RouteOptimizationAPI
 import logging
@@ -12,7 +17,7 @@ import logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='templates')
 
 # Initialize the optimization API
 api = RouteOptimizationAPI()

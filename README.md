@@ -6,9 +6,15 @@ A complete route optimization system for planning summer activities and vacation
 
 ### Run the Interactive Dashboard
 ```bash
+cd dashboard
 python3 app.py
 ```
 Then open http://localhost:5001 in your browser.
+
+### Use the Core API
+```bash
+python3 main.py
+```
 
 ### Use the API Directly
 ```python
@@ -55,10 +61,16 @@ summer_jam/
 │   ├── optimization_model.py    # Genetic algorithm
 │   ├── baseline_model.py        # Random route generator
 │   └── visualization.py         # Visualization utilities
-├── api_interface.py              # Main API for web integration
-├── app.py                        # Flask web application
-├── templates/dashboard.html      # Interactive dashboard
+├── dashboard/                    # Web dashboard application
+│   ├── app.py                   # Flask web application
+│   ├── templates/               # HTML templates
+│   │   └── dashboard.html       # Interactive dashboard
+│   ├── vercel.json              # Vercel deployment config
+│   └── requirements.txt         # Dashboard dependencies
+├── api_interface.py              # Main API for integration
+├── main.py                       # Core API entry point
 ├── data/locations.csv            # Tourist attractions dataset
+├── requirements.txt              # Core API dependencies
 └── README.md                     # This file
 ```
 
@@ -142,12 +154,14 @@ The dashboard provides a complete web interface:
 5. **Road Routing Toggle** - Switch between straight lines and real road paths
 
 ### How to Use:
-1. Open http://localhost:5001
-2. Click on the map to add custom locations
-3. Select locations from the list
-4. Choose road routing option (straight lines vs real roads)
-5. Click "Optimize Route" to find the best path
-6. View the optimized route on the map
+1. Navigate to the dashboard folder: `cd dashboard`
+2. Run the web app: `python3 app.py`
+3. Open http://localhost:5001 in your browser
+4. Click on the map to add custom locations
+5. Select locations from the list
+6. Choose road routing option (straight lines vs real roads)
+7. Click "Optimize Route" to find the best path
+8. View the optimized route on the map
 
 ## 📊 Performance
 
@@ -203,16 +217,17 @@ pip3 install flask requests numpy pandas matplotlib
 
 ### Installation
 1. Clone the repository
-2. Install dependencies: `pip3 install -r requirements.txt`
-3. Run the dashboard: `python3 app.py`
-4. Open http://localhost:5001 in your browser
+2. Install core dependencies: `pip3 install -r requirements.txt`
+3. Run the core API: `python3 main.py`
+4. Or run the dashboard: `cd dashboard && python3 app.py`
 
 ### Development
 ```bash
-# Test the API
-python3 -c "from api_interface import RouteOptimizationAPI; api = RouteOptimizationAPI(); print(api.get_all_locations())"
+# Test the core API
+python3 main.py
 
-# Run the web app
+# Run the web dashboard
+cd dashboard
 python3 app.py
 ```
 
