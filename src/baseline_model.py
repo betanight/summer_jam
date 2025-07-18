@@ -44,6 +44,8 @@ class RandomRouteGenerator:
         logger.info(f"Generated random route: {route}")
         return route
     
+
+    
     def generate_multiple_routes(self, num_locations: int, num_routes: int = 10) -> List[List[int]]:
         """
         Generate multiple random routes for statistical analysis.

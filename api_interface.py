@@ -57,7 +57,7 @@ class RouteOptimizationAPI:
             self.distance_calculator = DistanceCalculator(self.coordinates)
             
             # Initialize models
-            self.baseline_model = RandomRouteGenerator(len(self.coordinates))
+            self.baseline_model = RandomRouteGenerator()
             self.optimization_model = GeneticAlgorithmTSP(len(self.coordinates))
             
             logger.info(f"API initialized with {len(self.coordinates)} locations")
@@ -100,7 +100,7 @@ class RouteOptimizationAPI:
             self.distance_calculator = DistanceCalculator(self.coordinates)
             
             # Reinitialize models with new number of locations
-            self.baseline_model = RandomRouteGenerator(len(self.coordinates))
+            self.baseline_model = RandomRouteGenerator()
             self.optimization_model = GeneticAlgorithmTSP(len(self.coordinates))
             
             logger.info(f"Added custom location: {name} (ID: {new_id})")
@@ -198,7 +198,7 @@ class RouteOptimizationAPI:
             temp_distance_calc = DistanceCalculator(selected_coords)
             
             # Generate random route
-            random_route = self.baseline_model.generate_route()
+            random_route = self.baseline_model.generate_random_route(len(selected_coords))
             random_distance = temp_distance_calc.calculate_route_distance(random_route)
             
             # Calculate improvement
@@ -207,7 +207,7 @@ class RouteOptimizationAPI:
             comparison = {
                 'random_route': {
                     'distance': random_distance,
-                    'route': random_route.tolist()
+                    'route': random_route
                 },
                 'optimized_route': {
                     'distance': optimized_distance,
@@ -259,4 +259,84 @@ class RouteOptimizationAPI:
             
         except Exception as e:
             logger.error(f"Error getting visualization data: {e}")
-            raise 
+            raise
+    
+    def get_street_routing_data(self, route_ids: List[int]) -> Dict[str, Any]:
+        """
+        Get street routing data using OSRM API for actual road paths.
+        
+        Args:
+            route_ids (List[int]): List of location IDs in route order
+            
+        Returns:
+            Dict[str, Any]: Street routing data with actual road coordinates
+        """
+        try:
+            import requests
+            
+            # Get coordinates for the route
+            route_coordinates = []
+            route_names = []
+            
+            for loc_id in route_ids:
+                location = next(loc for loc in self.locations if loc['id'] == loc_id)
+                route_coordinates.append([location['longitude'], location['latitude']])  # OSRM uses lon,lat
+                route_names.append(location['name'])
+            
+            # Build OSRM API URL
+            coordinates_str = ';'.join([f"{coord[0]},{coord[1]}" for coord in route_coordinates])
+            osrm_url = f"http://router.project-osrm.org/route/v1/driving/{coordinates_str}?overview=full&geometries=geojson"
+            
+            # Get street routing data
+            response = requests.get(osrm_url, timeout=10)
+            response.raise_for_status()
+            
+            route_data = response.json()
+            
+            if route_data.get('code') == 'Ok' and route_data.get('routes'):
+                route = route_data['routes'][0]
+                street_coordinates = route['geometry']['coordinates']
+                
+                # Convert back to lat,lon for frontend
+                street_coordinates = [[coord[1], coord[0]] for coord in street_coordinates]
+                
+                return {
+                    'street_coordinates': street_coordinates,
+                    'route_names': route_names,
+                    'total_distance_km': route['distance'] / 1000,  # Convert meters to km
+                    'total_time_hours': route['duration'] / 3600,   # Convert seconds to hours
+                    'num_locations': len(route_ids),
+                    'routing_success': True
+                }
+            else:
+                # Fallback to straight-line coordinates
+                return {
+                    'street_coordinates': route_coordinates,
+                    'route_names': route_names,
+                    'total_distance_km': 0,  # Will be calculated by frontend
+                    'total_time_hours': 0,
+                    'num_locations': len(route_ids),
+                    'routing_success': False,
+                    'error': 'OSRM routing failed, using straight-line coordinates'
+                }
+                
+        except Exception as e:
+            logger.error(f"Error getting street routing data: {e}")
+            # Fallback to straight-line coordinates
+            route_coordinates = []
+            route_names = []
+            
+            for loc_id in route_ids:
+                location = next(loc for loc in self.locations if loc['id'] == loc_id)
+                route_coordinates.append([location['latitude'], location['longitude']])
+                route_names.append(location['name'])
+            
+            return {
+                'street_coordinates': route_coordinates,
+                'route_names': route_names,
+                'total_distance_km': 0,
+                'total_time_hours': 0,
+                'num_locations': len(route_ids),
+                'routing_success': False,
+                'error': f'Street routing unavailable: {str(e)}'
+            } 
