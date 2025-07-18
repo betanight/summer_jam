@@ -1,25 +1,20 @@
 #!/usr/bin/env python3
 """
-API Interface for Software Engineering Team Integration
-Provides simple functions for the web team to use the optimization engine
+API interface for the route optimization system.
+Provides a clean interface for web applications to interact with the optimization engine.
 """
 
-import sys
-import os
-sys.path.append('src')
-
-import json
-import pickle
-import numpy as np
-import pandas as pd
-from typing import List, Dict, Tuple, Optional
 import logging
+import numpy as np
+from typing import List, Dict, Any, Optional
+import time
+import json
 
 # Import our modules
-from data_loader import load_locations, preprocess_data
-from distance_calculator import calculate_distance_matrix
-from optimization_model import GeneticAlgorithmTSP
-from baseline_model import RandomRouteGenerator
+from src.data_loader import DataLoader
+from src.distance_calculator import DistanceCalculator
+from src.baseline_model import RandomRouteGenerator
+from src.optimization_model import GeneticAlgorithmTSP
 
 # Set up logging
 logging.basicConfig(level=logging.INFO)
@@ -27,8 +22,8 @@ logger = logging.getLogger(__name__)
 
 class RouteOptimizationAPI:
     """
-    Simple API interface for the software engineering team.
-    Provides easy-to-use functions for route optimization.
+    Main API class for route optimization functionality.
+    Provides methods for loading data, optimizing routes, and comparing results.
     """
     
     def __init__(self, data_file: str = "data/locations.csv"):
@@ -36,190 +31,53 @@ class RouteOptimizationAPI:
         Initialize the API with location data.
         
         Args:
-            data_file (str): Path to the locations CSV file
+            data_file (str): Path to the CSV file containing location data
         """
         self.data_file = data_file
-        self.locations_df = None
+        self.data_loader = DataLoader(data_file)
+        self.distance_calculator = None
+        self.baseline_model = None
+        self.optimization_model = None
         self.coordinates = None
-        self.location_names = None
-        self.distance_matrix = None
-        self._load_data()
+        self.location_names = []
+        self.locations = []
+        
+        # Initialize the system
+        self._initialize_system()
     
-    def _load_data(self):
-        """Load and prepare the location data."""
+    def _initialize_system(self):
+        """Initialize all components of the optimization system."""
         try:
             # Load and preprocess data
-            self.locations_df, self.coordinates, self.location_names = preprocess_data(self.data_file)
+            self.coordinates, self.location_names = self.data_loader.load_data()
+            self.data_loader.preprocess_data()
+            self.locations = self.data_loader.get_locations()
             
-            # Calculate distance matrix
-            self.distance_matrix = calculate_distance_matrix(self.coordinates)
+            # Initialize distance calculator
+            self.distance_calculator = DistanceCalculator(self.coordinates)
             
-            logger.info(f"API initialized with {len(self.location_names)} locations")
+            # Initialize models
+            self.baseline_model = RandomRouteGenerator(len(self.coordinates))
+            self.optimization_model = GeneticAlgorithmTSP(len(self.coordinates))
+            
+            logger.info(f"API initialized with {len(self.coordinates)} locations")
             
         except Exception as e:
             logger.error(f"Error initializing API: {e}")
             raise
     
-    def get_all_locations(self) -> List[Dict]:
+    def get_all_locations(self) -> List[Dict[str, Any]]:
         """
-        Get all available locations for the web team.
+        Get all available locations.
         
         Returns:
-            List[Dict]: List of location dictionaries with id, name, coordinates
+            List[Dict[str, Any]]: List of location dictionaries
         """
-        locations = []
-        for i, (name, lat, lon) in enumerate(zip(self.location_names, 
-                                                 self.coordinates[:, 0], 
-                                                 self.coordinates[:, 1])):
-            locations.append({
-                'id': i,
-                'name': name,
-                'latitude': float(lat),
-                'longitude': float(lon)
-            })
-        return locations
-    
-    def optimize_route(self, selected_location_ids: List[int], 
-                      population_size: int = 50, 
-                      generations: int = 100) -> Dict:
-        """
-        Optimize a route for selected locations.
-        
-        Args:
-            selected_location_ids (List[int]): List of location IDs to optimize
-            population_size (int): GA population size
-            generations (int): Number of generations
-            
-        Returns:
-            Dict: Optimization results
-        """
-        if not selected_location_ids:
-            raise ValueError("No locations selected")
-        
-        if len(selected_location_ids) < 2:
-            raise ValueError("Need at least 2 locations for route optimization")
-        
-        # Filter coordinates and names for selected locations
-        selected_coordinates = self.coordinates[selected_location_ids]
-        selected_names = [self.location_names[i] for i in selected_location_ids]
-        
-        # Create distance matrix for selected locations
-        selected_distance_matrix = calculate_distance_matrix(selected_coordinates)
-        
-        # Run optimization
-        ga = GeneticAlgorithmTSP(population_size=population_size)
-        results = ga.optimize(selected_distance_matrix, generations)
-        
-        # Convert route indices back to original location IDs
-        optimized_route_ids = [selected_location_ids[i] for i in results['best_route']]
-        optimized_route_names = [selected_names[i] for i in results['best_route']]
-        
-        return {
-            'optimized_route': {
-                'location_ids': optimized_route_ids,
-                'location_names': optimized_route_names,
-                'total_distance': float(results['best_distance']),
-                'execution_time': float(results['execution_time'])
-            },
-            'algorithm_info': {
-                'population_size': population_size,
-                'generations': generations,
-                'algorithm': 'Genetic Algorithm'
-            }
-        }
-    
-    def compare_with_random(self, selected_location_ids: List[int]) -> Dict:
-        """
-        Compare optimized route with a random route.
-        
-        Args:
-            selected_location_ids (List[int]): List of location IDs
-            
-        Returns:
-            Dict: Comparison results
-        """
-        if len(selected_location_ids) < 2:
-            raise ValueError("Need at least 2 locations")
-        
-        # Get optimized route
-        optimized_result = self.optimize_route(selected_location_ids)
-        
-        # Generate random route for comparison
-        selected_coordinates = self.coordinates[selected_location_ids]
-        selected_names = [self.location_names[i] for i in selected_location_ids]
-        selected_distance_matrix = calculate_distance_matrix(selected_coordinates)
-        
-        random_generator = RandomRouteGenerator()
-        random_route = random_generator.generate_random_route(len(selected_location_ids))
-        
-        from distance_calculator import calculate_route_distance
-        random_distance = calculate_route_distance(random_route, selected_distance_matrix)
-        
-        random_route_ids = [selected_location_ids[i] for i in random_route]
-        random_route_names = [selected_names[i] for i in random_route]
-        
-        optimized_distance = optimized_result['optimized_route']['total_distance']
-        improvement = ((random_distance - optimized_distance) / random_distance) * 100
-        
-        return {
-            'random_route': {
-                'location_ids': random_route_ids,
-                'location_names': random_route_names,
-                'total_distance': float(random_distance)
-            },
-            'optimized_route': optimized_result['optimized_route'],
-            'comparison': {
-                'distance_saved': float(random_distance - optimized_distance),
-                'improvement_percentage': float(improvement)
-            }
-        }
-    
-    def get_route_visualization_data(self, route_location_ids: List[int]) -> Dict:
-        """
-        Get data for route visualization (coordinates, names, distances).
-        
-        Args:
-            route_location_ids (List[int]): List of location IDs in route order
-            
-        Returns:
-            Dict: Visualization data
-        """
-        route_coordinates = self.coordinates[route_location_ids]
-        route_names = [self.location_names[i] for i in route_location_ids]
-        
-        # Calculate distances between consecutive points
-        distances = []
-        total_distance = 0
-        
-        for i in range(len(route_coordinates) - 1):
-            from distance_calculator import haversine_distance
-            lat1, lon1 = route_coordinates[i]
-            lat2, lon2 = route_coordinates[i + 1]
-            distance = haversine_distance(lat1, lon1, lat2, lon2)
-            distances.append(float(distance))
-            total_distance += distance
-        
-        # Add return to start distance
-        if len(route_coordinates) > 2:
-            lat1, lon1 = route_coordinates[-1]
-            lat2, lon2 = route_coordinates[0]
-            return_distance = haversine_distance(lat1, lon1, lat2, lon2)
-            distances.append(float(return_distance))
-            total_distance += return_distance
-        
-        return {
-            'route': {
-                'location_ids': route_location_ids,
-                'location_names': route_names,
-                'coordinates': route_coordinates.tolist(),
-                'segment_distances': distances,
-                'total_distance': float(total_distance)
-            }
-        }
+        return self.locations
     
     def add_custom_location(self, name: str, latitude: float, longitude: float) -> int:
         """
-        Add a custom location to the dataset.
+        Add a custom location to the system.
         
         Args:
             name (str): Location name
@@ -227,66 +85,178 @@ class RouteOptimizationAPI:
             longitude (float): Longitude coordinate
             
         Returns:
-            int: New location ID
+            int: ID of the new location
         """
-        # Validate coordinates
-        if not (-90 <= latitude <= 90) or not (-180 <= longitude <= 180):
-            raise ValueError("Invalid coordinates")
-        
-        # Add to existing data
-        new_id = len(self.location_names)
-        self.location_names.append(name)
-        
-        # Add coordinates
-        new_coord = np.array([[latitude, longitude]])
-        self.coordinates = np.vstack([self.coordinates, new_coord])
-        
-        # Recalculate distance matrix
-        self.distance_matrix = calculate_distance_matrix(self.coordinates)
-        
-        logger.info(f"Added custom location: {name} (ID: {new_id})")
-        return new_id
+        try:
+            # Add location to data loader
+            new_id = self.data_loader.add_location(name, latitude, longitude)
+            
+            # Update our local references
+            self.locations = self.data_loader.get_locations()
+            self.coordinates = self.data_loader.coordinates
+            self.location_names = self.data_loader.location_names
+            
+            # Reinitialize distance calculator with new coordinates
+            self.distance_calculator = DistanceCalculator(self.coordinates)
+            
+            # Reinitialize models with new number of locations
+            self.baseline_model = RandomRouteGenerator(len(self.coordinates))
+            self.optimization_model = GeneticAlgorithmTSP(len(self.coordinates))
+            
+            logger.info(f"Added custom location: {name} (ID: {new_id})")
+            return new_id
+            
+        except Exception as e:
+            logger.error(f"Error adding custom location: {e}")
+            raise
     
-    def export_results_to_json(self, results: Dict, filename: str = "optimization_results.json"):
+    def optimize_route(self, location_ids: List[int]) -> Dict[str, Any]:
         """
-        Export optimization results to JSON for web team.
+        Optimize a route for the given location IDs.
         
         Args:
-            results (Dict): Optimization results
-            filename (str): Output filename
+            location_ids (List[int]): List of location IDs to optimize
+            
+        Returns:
+            Dict[str, Any]: Optimization results including route and metrics
         """
-        with open(filename, 'w') as f:
-            json.dump(results, f, indent=2)
-        logger.info(f"Results exported to {filename}")
-
-# Example usage functions for the web team
-def create_api_instance():
-    """Create and return an API instance."""
-    return RouteOptimizationAPI()
-
-def get_sample_optimization():
-    """Example function showing how to use the API."""
-    api = RouteOptimizationAPI()
+        try:
+            if len(location_ids) < 2:
+                raise ValueError("Need at least 2 locations to optimize")
+            
+            # Validate location IDs
+            valid_ids = [loc['id'] for loc in self.locations]
+            for loc_id in location_ids:
+                if loc_id not in valid_ids:
+                    raise ValueError(f"Invalid location ID: {loc_id}")
+            
+            # Get coordinates for selected locations
+            selected_coords = []
+            selected_names = []
+            for loc_id in location_ids:
+                location = next(loc for loc in self.locations if loc['id'] == loc_id)
+                selected_coords.append([location['latitude'], location['longitude']])
+                selected_names.append(location['name'])
+            
+            selected_coords = np.array(selected_coords)
+            
+            # Create distance calculator for selected locations
+            temp_distance_calc = DistanceCalculator(selected_coords)
+            
+            # Run optimization
+            start_time = time.time()
+            optimized_route = self.optimization_model.optimize(temp_distance_calc)
+            execution_time = time.time() - start_time
+            
+            # Calculate total distance
+            total_distance = temp_distance_calc.calculate_route_distance(optimized_route)
+            
+            # Get location names in optimized order
+            optimized_names = [selected_names[i] for i in optimized_route]
+            optimized_ids = [location_ids[i] for i in optimized_route]
+            
+            result = {
+                'optimized_route': {
+                    'location_ids': optimized_ids,
+                    'location_names': optimized_names,
+                    'total_distance': total_distance,
+                    'execution_time': execution_time
+                }
+            }
+            
+            return result
+            
+        except Exception as e:
+            logger.error(f"Error optimizing route: {e}")
+            raise
     
-    # Get all available locations
-    locations = api.get_all_locations()
-    print(f"Available locations: {len(locations)}")
+    def compare_with_random(self, location_ids: List[int]) -> Dict[str, Any]:
+        """
+        Compare optimized route with a random route.
+        
+        Args:
+            location_ids (List[int]): List of location IDs to compare
+            
+        Returns:
+            Dict[str, Any]: Comparison results
+        """
+        try:
+            if len(location_ids) < 2:
+                raise ValueError("Need at least 2 locations to compare")
+            
+            # Get optimized route
+            optimized_result = self.optimize_route(location_ids)
+            optimized_distance = optimized_result['optimized_route']['total_distance']
+            
+            # Get coordinates for selected locations
+            selected_coords = []
+            for loc_id in location_ids:
+                location = next(loc for loc in self.locations if loc['id'] == loc_id)
+                selected_coords.append([location['latitude'], location['longitude']])
+            
+            selected_coords = np.array(selected_coords)
+            temp_distance_calc = DistanceCalculator(selected_coords)
+            
+            # Generate random route
+            random_route = self.baseline_model.generate_route()
+            random_distance = temp_distance_calc.calculate_route_distance(random_route)
+            
+            # Calculate improvement
+            improvement = ((random_distance - optimized_distance) / random_distance) * 100
+            
+            comparison = {
+                'random_route': {
+                    'distance': random_distance,
+                    'route': random_route.tolist()
+                },
+                'optimized_route': {
+                    'distance': optimized_distance,
+                    'route': optimized_result['optimized_route']['location_ids']
+                },
+                'improvement_percentage': improvement,
+                'distance_saved': random_distance - optimized_distance
+            }
+            
+            return comparison
+            
+        except Exception as e:
+            logger.error(f"Error comparing routes: {e}")
+            raise
     
-    # Select some locations (first 5)
-    selected_ids = [0, 1, 2, 3, 4]
-    
-    # Optimize route
-    result = api.optimize_route(selected_ids)
-    print(f"Optimized route: {result['optimized_route']['location_names']}")
-    print(f"Total distance: {result['optimized_route']['total_distance']:.2f} km")
-    
-    # Compare with random
-    comparison = api.compare_with_random(selected_ids)
-    print(f"Improvement: {comparison['comparison']['improvement_percentage']:.1f}%")
-    
-    return result
-
-if __name__ == "__main__":
-    # Example usage
-    result = get_sample_optimization()
-    print("\nAPI is ready for web team integration!") 
+    def get_route_visualization_data(self, route_ids: List[int]) -> Dict[str, Any]:
+        """
+        Get visualization data for a route (simplified for web deployment).
+        
+        Args:
+            route_ids (List[int]): List of location IDs in route order
+            
+        Returns:
+            Dict[str, Any]: Visualization data
+        """
+        try:
+            # Get coordinates and names for the route
+            route_coordinates = []
+            route_names = []
+            
+            for loc_id in route_ids:
+                location = next(loc for loc in self.locations if loc['id'] == loc_id)
+                route_coordinates.append([location['latitude'], location['longitude']])
+                route_names.append(location['name'])
+            
+            # Calculate total distance
+            coords_array = np.array(route_coordinates)
+            temp_distance_calc = DistanceCalculator(coords_array)
+            total_distance = temp_distance_calc.calculate_route_distance(list(range(len(route_coordinates))))
+            
+            visualization_data = {
+                'route_coordinates': route_coordinates,
+                'route_names': route_names,
+                'total_distance': total_distance,
+                'num_locations': len(route_ids)
+            }
+            
+            return visualization_data
+            
+        except Exception as e:
+            logger.error(f"Error getting visualization data: {e}")
+            raise 
