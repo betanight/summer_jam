@@ -1,0 +1,17 @@
+
+
+.body{
+font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+   font-size: 16px;
+  line-height: 20px;
+   font-weight: 500;
+}
+
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+
+ 
+}
