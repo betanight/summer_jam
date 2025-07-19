@@ -11,6 +11,7 @@ This system solves the Traveling Salesman Problem (TSP) to find the most efficie
 - Genetic algorithm optimization for finding optimal routes
 - Distance calculations using the Haversine formula
 - Performance metrics and route comparisons
+- **NEW: Web API for software engineering team integration**
 
 ## Project Structure
 
@@ -25,7 +26,11 @@ summer_jam/
 │   │   └── visualization.py   # Visualization utilities
 │   ├── data/                # Location datasets
 │   │   └── locations.csv    # European landmarks with coordinates
-│   ├── api_interface.py     # Main API for integration
+│   ├── api_interface.py     # Core API for integration
+│   ├── web_api.py          # FastAPI web server (NEW)
+│   ├── start_api.py        # Easy startup script (NEW)
+│   ├── test_api.py         # API testing script (NEW)
+│   ├── API_DOCUMENTATION.md # Complete API docs (NEW)
 │   ├── main.py             # Core entry point
 │   └── requirements.txt    # Python dependencies
 ├── SOFTWARE_ENGINEERS_GUIDE.md  # Integration guide for React team
@@ -35,59 +40,73 @@ summer_jam/
 
 ## Quick Start
 
-### Installation
+### For Data Science Team
 
 ```bash
 cd backend
 pip install -r requirements.txt
+python main.py
 ```
 
-### Basic Usage
+### For Software Engineering Team
 
-```python
-from api_interface import RouteOptimizationAPI
-
-# Initialize the API
-api = RouteOptimizationAPI()
-
-# Get all available locations
-locations = api.get_all_locations()
-
-# Optimize a route for specific locations
-location_ids = [0, 1, 2, 3, 4]  # First 5 locations
-result = api.optimize_route(location_ids)
-
-# Compare with random route
-comparison = api.compare_with_random(location_ids)
+```bash
+cd backend
+pip install -r requirements.txt
+python start_api.py
 ```
 
-## API Reference
+The API will be available at `http://localhost:8000`
 
-### RouteOptimizationAPI
+## Web API for Software Engineers
 
-The main API class providing all optimization functionality.
+### Start the API Server
 
-#### Methods
-
-- `get_all_locations()` - Returns all available locations
-- `add_custom_location(name, latitude, longitude)` - Add new location
-- `optimize_route(location_ids)` - Optimize route for selected locations
-- `compare_with_random(location_ids)` - Compare optimized vs random route
-- `get_route_visualization_data(route_ids)` - Get data for visualization
-- `get_street_routing_data(route_ids)` - Get actual road routing data
-
-#### Example Response Format
-
-```json
-{
-  "optimized_route": {
-    "location_ids": [0, 2, 1, 4, 3],
-    "location_names": ["Sagrada Familia", "Anne Frank House", "Eiffel Tower", "Colosseum", "Big Ben"],
-    "total_distance": 2847.3,
-    "execution_time": 0.045
-  }
-}
+```bash
+cd backend
+python start_api.py
 ```
+
+### Available Endpoints
+
+- **GET** `/health` - Health check
+- **GET** `/locations` - Get all available locations
+- **POST** `/locations` - Add custom location
+- **POST** `/optimize` - Optimize route for given locations
+- **POST** `/compare` - Compare optimized vs random route
+- **POST** `/visualization` - Get visualization data
+- **POST** `/street-routing` - Get actual street routing data
+- **GET** `/quick-optimize` - Quick optimization with query params
+- **GET** `/stats` - API statistics
+
+### Interactive Documentation
+
+Visit `http://localhost:8000/docs` for interactive API documentation with Swagger UI.
+
+### Test the API
+
+```bash
+cd backend
+python test_api.py
+```
+
+### Example Usage
+
+```javascript
+// Get all locations
+const response = await fetch('http://localhost:8000/locations');
+const data = await response.json();
+
+// Optimize a route
+const optimizeResponse = await fetch('http://localhost:8000/optimize', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify({ location_ids: [0, 1, 2, 3, 4] })
+});
+const result = await optimizeResponse.json();
+```
+
+For complete API documentation, see `backend/API_DOCUMENTATION.md`.
 
 ## Data Science Components
 
@@ -127,6 +146,7 @@ The main API class providing all optimization functionality.
 - Flexible API: Easy integration with any frontend
 - Extensible: Add custom locations dynamically
 - Production Ready: Error handling, logging, validation
+- **Web API**: RESTful endpoints for software engineering team
 
 ## Task Requirements Met
 
@@ -151,3 +171,17 @@ The main API class providing all optimization functionality.
 - Model explanations and algorithm descriptions
 - Results analysis with performance metrics
 - Next steps for further exploration
+- **NEW: Web API with comprehensive documentation**
+
+## API Integration Guide
+
+The web API provides easy access to all data science functionality:
+
+1. **Route Optimization**: Use genetic algorithms to find optimal routes
+2. **Performance Comparison**: Compare optimized vs random routes
+3. **Visualization Data**: Get coordinates and data for map visualization
+4. **Street Routing**: Get actual road routing using OSRM
+5. **Custom Locations**: Add new locations dynamically
+6. **Health Monitoring**: Check API status and statistics
+
+All endpoints return consistent JSON responses with proper error handling and validation.

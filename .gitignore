@@ -52,10 +52,20 @@ logs/
 *.tmp
 *.temp
 
-# Data files (if you want to exclude large data files)
-# *.csv
-# *.pkl
-# *.pickle
+# Large data files and images
+backend/data/archive*/
+backend/data/*.jpg
+backend/data/*.jpeg
+backend/data/*.png
+backend/data/*.gif
+backend/data/*.bmp
+backend/data/*.tiff
+backend/data/*.webp
+backend/data/raw_data/
+backend/data/processed_data.pkl
+
+# Keep essential data files
+!backend/data/locations.csv
 
 # Flask
 instance/
