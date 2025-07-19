@@ -1,24 +1,26 @@
-
-
-.body{
-font-family: "Inter", Arial, sans-serif;
+.body {
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
-   font-size: 16px;
+  font-size: 16px;
   line-height: 20px;
-   font-weight: 500;
+  font-weight: 500;
 }
-
 
 .nav {
   display: flex;
   justify-content: space-between;
-
- 
 }
 
+.search {
+  margin: 0 auto;
+  display: block;
+}
 
-.search-btn:hover{
+.search-btn:hover {
+  cursor: pointer;
+}
 
-    cursor: pointer;
-
+.map {
+  max-width: 500px;
+  max-height: 500px;
 }
