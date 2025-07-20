@@ -36,7 +36,7 @@ def test_get_locations():
             locations = data['data']['locations']
             print(f"✅ Retrieved {len(locations)} locations")
             for loc in locations[:3]:  # Show first 3
-                print(f"   - {loc['name']} ({loc['city']})")
+                print(f"   - {loc['name']}")
             return locations
         else:
             print(f"❌ Get locations failed: {response.status_code}")
