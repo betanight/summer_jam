@@ -4,7 +4,7 @@ Welcome to the team! We built this cool route optimization thing and now you get
 
 ## What This Thing Does 🎯
 
-Basically, we have a bunch of cool roadside attractions across the USA (like the Teapot Dome gas station, Mickey's Diner, Dog Bark Park, etc.) and this API helps you figure out the best way to visit them all. It's like having a super smart travel planner that tells you the shortest route between these quirky, fun places.
+Basically, we have a bunch of cool tourist spots and roadside attractions across California (National Parks, the World's Largest Redwood Tree Gas Station, the Hollywood Sign, etc.) and this API helps you figure out the best way to visit them all. It's like having a super smart travel planner that tells you the shortest route between these great stops in the Golden State!
 
 ## Getting Started (Super Easy) 🚀
 
@@ -56,17 +56,17 @@ This is like a playground where you can test all the features without writing an
 ## Cool Places You Can Visit 🗺️
 
 We have these awesome USA roadside attractions:
-1. **Teapot Dome gas station** (Zillah, Washington)
-2. **Hat n' Boots gas station** (Seattle, Washington)
+1. **Oceanfront Walk** (Venice, California)
+2. **Palisade Garden Roller Skating** (San Diego, California)
 3. **World's Largest Redwood Tree Service Station** (Ukiah, California)
-4. **Mickey's Diner** (St. Paul, Minnesota)
+4. **Motel Crystal Pier** (Pacific Beach, California)
 5. **The Donut Hole** (La Puente, California)
-6. **Bob's Java Jive** (Tacoma, Washington)
-7. **Dog Bark Park** (Cottonwood, Idaho)
-8. **The Barrel** (Devils Lake, North Dakota)
-9. **Wigwam Village #6** (Holbrook, Arizona)
+6. **Giant Artichoke** (Castroville, California)
+7. **The Deli Station** (Modesto, California)
+8. **Crest Theater** (Fresno, California)
+9. **Green Pines Mini Golf** (Redding, California)
 
-These are all real roadside attractions from our massive dataset of over 11,000 USA roadside attractions!
+These are all real roadside attractions from our dataset of nearly 1000 points of interest dotted around California!
 
 ## How to Use It in Your Code 💻
 
@@ -109,7 +109,7 @@ print('Best route:', best_route)
 ```
 
 ## What the Responses Look Like 📝
-
+**Will need to update this with our CA locations instead of locations from all around the country**
 When you ask for the best route, you get something like:
 ```json
 {
@@ -154,9 +154,9 @@ This means:
 - Works with any programming language
 - Has interactive docs for testing
 
-### Real USA Data
+### Real Data from Real California Locations
 - Uses actual roadside attractions from our dataset
-- Over 11,000 attractions available
+- Nearly 1000 attractions available to start
 - Real coordinates and locations
 
 ## Common Questions 🤔
@@ -175,7 +175,7 @@ If it says "healthy", everything is working fine.
 Absolutely! That's what it's for. Just make HTTP requests from whatever programming language you're using.
 
 ### "Where does this data come from?"
-We have a huge dataset of over 11,000 roadside attractions across the USA, including gas stations, diners, motels, and other quirky places. The API uses a curated selection of the most interesting ones.
+We have a dataset of about 1000 roadside attractions and points of interest across California, including historical monuments, National Parks, gas stations, diners, motels, and other quirky places. The API uses a curated selection of the most interesting ones.
 
 ## Troubleshooting 🔧
 
