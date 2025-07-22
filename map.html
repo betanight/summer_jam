@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Route Map</title>
+    <style>
+        body { margin: 0; padding: 0; }
+        #map { width: 100%; height: 100vh; }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <script>
+        // Get URL parameters
+        const urlParams = new URLSearchParams(window.location.search);
+        const startCity = urlParams.get('start');
+        const endCity = urlParams.get('end');
+        
+        if (startCity && endCity) {
+            // Create map using Leaflet (free alternative to Google Maps)
+            const map = L.map('map').setView([37.7749, -122.4194], 8);
+            
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '© OpenStreetMap contributors'
+            }).addTo(map);
+            
+            // Get route data and create markers
+            fetch(`http://localhost:8000/route-points?fromCity=${encodeURIComponent(startCity)}&toCity=${encodeURIComponent(endCity)}`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        const start = data.data.start;
+                        const end = data.data.end;
+                        
+                        // Add markers
+                        L.marker([start.lat, start.lng], {color: 'blue'})
+                            .addTo(map)
+                            .bindPopup(`<b>Start: ${start.city}</b>`);
+                            
+                        L.marker([end.lat, end.lng], {color: 'red'})
+                            .addTo(map)
+                            .bindPopup(`<b>End: ${end.city}</b>`);
+                            
+                        // Add route line
+                        L.polyline([[start.lat, start.lng], [end.lat, end.lng]], {
+                            color: 'blue',
+                            weight: 3,
+                            opacity: 0.8
+                        }).addTo(map);
+                        
+                        // Fit map to show both points
+                        map.fitBounds([[start.lat, start.lng], [end.lat, end.lng]]);
+                    }
+                });
+        }
+    </script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+</body>
+</html>
+        
