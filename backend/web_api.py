@@ -148,7 +148,7 @@ async def optimize_route(request: List[LocationDataRequest]):
         
         return APIResponse(
             success=True,
-            data=result,
+            data={"optimized_route": result},
             message="Route optimized successfully"
         )
     except Exception as e:
