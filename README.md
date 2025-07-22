@@ -24,13 +24,25 @@ summer_jam/
 │   │   ├── baseline_model.py  # Random route generation
 │   │   ├── optimization_model.py   # Genetic algorithm TSP solver
 │   │   └── visualization.py   # Visualization utilities
+│   ├── analysis/            # Data analysis and visualization
+│   │   ├── california_attractions_map.html  # Interactive CA map with 2-mile radius
+│   │   ├── enhanced_attractions.csv         # Clean dataset with coordinates (66 locations)
+│   │   ├── maximize_location.ipynb          # Jupyter notebook for data enhancement
+│   │   ├── serve_map.py                     # Python server for local map hosting
+│   │   ├── attractions_analysis.html        # USA attractions heatmap
+│   │   ├── usa_attractions_heatmap.html     # Enhanced USA visualization
+│   │   ├── create_usa_heatmap.py           # USA heatmap generation script
+│   │   ├── processed_roadside_attractions.csv # Original roadside attractions data
+│   │   └── README.md                        # Analysis documentation
 │   ├── data/                # Location datasets
 │   │   └── locations.csv    # European landmarks with coordinates
 │   ├── api_interface.py     # Core API for integration
-│   ├── web_api.py          # FastAPI web server (NEW)
-│   ├── start_api.py        # Easy startup script (NEW)
-│   ├── test_api.py         # API testing script (NEW)
-│   ├── API_DOCUMENTATION.md # Complete API docs (NEW)
+│   ├── web_api.py          # FastAPI web server
+│   ├── start_api.py        # Easy startup script
+│   ├── test_api.py         # API testing script
+│   ├── create_usa_locations.py  # USA location creation script
+│   ├── reset_data.py       # Data reset utility
+│   ├── API_DOCUMENTATION.md # Complete API docs
 │   ├── main.py             # Core entry point
 │   └── requirements.txt    # Python dependencies
 ├── SOFTWARE_ENGINEERS_GUIDE.md  # Integration guide for React team
@@ -57,6 +69,41 @@ python start_api.py
 ```
 
 The API will be available at `http://localhost:8000`
+
+### For California Attractions Analysis
+
+```bash
+cd backend/analysis
+python serve_map.py
+```
+
+Then open `http://localhost:8000/california_attractions_map.html` in your browser.
+
+## California Attractions Map
+
+### Interactive Visualization
+- **66 California locations** with precise coordinates
+- **2-mile radius circles** around each attraction
+- **Interactive markers** with attraction details
+- **Categories**: National Parks, Landmarks, Museums, Beaches, etc.
+- **Real-time data loading** from enhanced_attractions.csv
+
+### Features
+- 🗺️ **Interactive Map**: Leaflet.js-based visualization
+- 📍 **Location Markers**: Click for attraction details
+- 🔴 **Radius Circles**: 2-mile coverage areas
+- 📊 **Data Summary**: Total locations and categories
+- 🎯 **California Focus**: All major attractions and landmarks
+- 📱 **Responsive Design**: Works on any device
+
+### Data Categories
+- **National Parks**: Yosemite, Death Valley, Joshua Tree, etc.
+- **Landmarks**: Golden Gate Bridge, Hollywood Sign, Alcatraz
+- **Amusement Parks**: Disneyland, Universal Studios, Six Flags
+- **Beaches**: Venice Beach, Santa Monica Pier, Malibu
+- **Museums**: Getty Center, LACMA, California Science Center
+- **Wine Regions**: Napa Valley, Sonoma Valley, Paso Robles
+- **Historical Sites**: Missions, Sutter's Fort, Bodie Ghost Town
 
 ## Web API for Software Engineers
 
@@ -111,9 +158,18 @@ For complete API documentation, see `backend/API_DOCUMENTATION.md`.
 ## Data Science Components
 
 ### 1. Data Preparation
-- Dataset: 9 European landmarks with accurate GPS coordinates
-- Preprocessing: Coordinate validation, distance matrix calculation
-- Features: Location name, latitude, longitude, city
+- **European Dataset**: 9 European landmarks with accurate GPS coordinates
+- **California Dataset**: 66 California attractions with precise coordinates
+- **USA Dataset**: Comprehensive roadside attractions analysis
+- **Preprocessing**: Coordinate validation, distance matrix calculation
+- **Features**: Location name, latitude, longitude, city, category
+
+### 2. Data Analysis & Visualization
+- **California Map**: Interactive visualization with 2-mile radius circles
+- **USA Heatmap**: Comprehensive roadside attractions analysis
+- **Data Enhancement**: Jupyter notebook for location optimization
+- **Coordinate Validation**: Clean datasets with verified coordinates
+- **Category Analysis**: National Parks, Landmarks, Museums, etc.
 
 ### 2. Baseline Model
 - Random Route Generator: Creates random routes for comparison
@@ -134,19 +190,27 @@ For complete API documentation, see `backend/API_DOCUMENTATION.md`.
 
 ## Results & Performance
 
-### Sample Optimization Results
+### European Route Optimization
 - Baseline (Random): ~4,100 km
 - Optimized Route: ~2,847 km
 - Improvement: 30.9% distance reduction
 - Execution Time: ~0.045 seconds
 
+### California Attractions Analysis
+- **66 Locations**: All with verified coordinates
+- **Categories**: 20 different attraction types
+- **Coverage**: Major cities, national parks, landmarks
+- **Data Quality**: 100% coordinate validation
+- **Visualization**: Interactive map with 2-mile radius circles
+
 ### Key Features
-- Fast Optimization: Sub-second execution for 9 locations
-- Accurate Distances: Haversine formula for real-world distances
-- Flexible API: Easy integration with any frontend
-- Extensible: Add custom locations dynamically
-- Production Ready: Error handling, logging, validation
+- **Fast Optimization**: Sub-second execution for 9 locations
+- **Accurate Distances**: Haversine formula for real-world distances
+- **Flexible API**: Easy integration with any frontend
+- **Extensible**: Add custom locations dynamically
+- **Production Ready**: Error handling, logging, validation
 - **Web API**: RESTful endpoints for software engineering team
+- **Interactive Maps**: California attractions with radius visualization
 
 ## Task Requirements Met
 
