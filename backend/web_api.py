@@ -4,12 +4,13 @@ FastAPI web server for the Route Optimization API.
 Provides REST endpoints for the software engineering team to access data science functionality.
 """
 
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import FastAPI, HTTPException, Query, Body
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 from typing import List, Dict, Any, Optional
 import uvicorn
 import logging
+import pandas as pd
 
 from api_interface import RouteOptimizationAPI
 
@@ -224,31 +225,31 @@ async def get_street_routing_data(request: RouteVisualizationRequest):
         raise HTTPException(status_code=500, detail=str(e))
 
 # Quick optimization endpoint with query parameters
-@app.get("/quick-optimize", response_model=APIResponse)
+@app.post("/quick-optimize")
 async def quick_optimize(
-    location_ids: str = Query(..., description="Comma-separated list of location IDs")
+    location_ids: List[str] = Body(..., embed=True, description="List of location IDs to optimize")
 ):
     """Quick route optimization using query parameters"""
+    print("location_ids:", location_ids)
     try:
         if not api:
             raise HTTPException(status_code=503, detail="API not initialized")
         
         # Parse location IDs from query string
         try:
-            ids = [int(x.strip()) for x in location_ids.split(",")]
+            result = []
+            df = pd.read_csv("analysis/california_attractions_data.csv")
+            for location in location_ids:
+                record = df[df["name"] == location]
+                if record.empty:
+                    pass
+                loc = {"key": record["name"].values[0]
+                        , "location": {"lat": record["latitude"].values[0], "lng": record["longitude"].values[0]}}
+                result.append(loc)
         except ValueError:
             raise HTTPException(status_code=400, detail="Invalid location IDs format")
         
-        if len(ids) < 2:
-            raise HTTPException(status_code=400, detail="Need at least 2 locations")
-        
-        result = api.optimize_route(ids)
-        
-        return APIResponse(
-            success=True,
-            data=result,
-            message="Route optimized successfully"
-        )
+        return result
     except Exception as e:
         logger.error(f"Error in quick optimize: {e}")
         raise HTTPException(status_code=500, detail=str(e))
