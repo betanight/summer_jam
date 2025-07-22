@@ -128,7 +128,7 @@ async def optimize_route(request: List[LocationDataRequest]):
         
         # Convert location data to coordinates for optimization
         coordinates = []
-        location_names = []
+        location_data_for_frontend = []
         
         for location_data in request:
             lat = location_data.location.get('lat')
@@ -137,17 +137,14 @@ async def optimize_route(request: List[LocationDataRequest]):
                 raise HTTPException(status_code=400, detail=f"Invalid coordinates for location {location_data.key}")
             
             coordinates.append([lat, lng])
-            location_names.append(location_data.key)
+            # Keep the original location data for the frontend
+            location_data_for_frontend.append({
+                "key": location_data.key,
+                "location": location_data.location
+            })
         
-        # Simple route optimization (just return the order as received for now)
-        result = {
-            "optimized_route": {
-                "location_keys": location_names,
-                "location_names": location_names,
-                "total_distance": 0.0,
-                "execution_time": 0.1
-            }
-        }
+        # Return the location data in the format the frontend expects
+        result = location_data_for_frontend
         
         return APIResponse(
             success=True,
