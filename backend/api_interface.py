@@ -228,7 +228,7 @@ class RouteOptimizationAPI:
             logger.error(f"Error getting street routing data: {e}")
             raise
 
-    def get_attractions_along_route(self, from_city: str, to_city: str, max_attractions: int = 9, max_distance_miles: float = 10.0) -> List[Dict[str, Any]]:
+    def get_attractions_along_route(self, from_city: str, to_city: str, max_attractions: int = 9, max_distance_miles: float = 25.0) -> List[Dict[str, Any]]:
         """
         Get attractions along route between two cities.
         Returns attractions formatted for the frontend team's Google Maps integration.
@@ -337,8 +337,8 @@ class RouteOptimizationAPI:
             # In production, you'd use Google Maps Directions API
             import numpy as np
             
-            # Create intermediate points along the route
-            num_points = 20
+            # Create more intermediate points along the route for better attraction finding
+            num_points = 50  # Increased from 20 to 50 for better coverage
             lat_points = np.linspace(start_coords[0], end_coords[0], num_points)
             lng_points = np.linspace(start_coords[1], end_coords[1], num_points)
             
@@ -395,15 +395,8 @@ class RouteOptimizationAPI:
                     if distance < min_distance:
                         min_distance = distance
                 
-                category = attraction.get('category', '').lower()
-                
-                # Different distance rules based on category
-                if category == 'other':
-                    # "Other" category must be very close to the road (within 1 mile)
-                    max_allowed_distance = 1.0
-                else:
-                    # All other categories can be up to max_distance_miles from the path
-                    max_allowed_distance = max_distance_miles
+                # All attractions can be up to max_distance_miles from the path
+                max_allowed_distance = max_distance_miles
                 
                 # Include attraction if within the appropriate distance
                 if min_distance <= max_allowed_distance:
@@ -413,21 +406,26 @@ class RouteOptimizationAPI:
             # Sort by distance from route
             nearby_attractions.sort(key=lambda x: x['distance_from_route'])
             
-            # Remove duplicates based on name similarity
+            # Remove duplicates based on name similarity and ensure varied coordinates
             unique_attractions = []
             seen_names = set()
+            seen_coordinates = set()
             
             for attraction in nearby_attractions:
                 name = attraction['name'].lower()
-                # Check if this is a duplicate (similar name)
-                is_duplicate = any(
+                coords = (attraction['latitude'], attraction['longitude'])
+                
+                # Check if this is a duplicate (similar name or same coordinates)
+                is_duplicate_name = any(
                     name in seen_name or seen_name in name 
                     for seen_name in seen_names
                 )
+                is_duplicate_coords = coords in seen_coordinates
                 
-                if not is_duplicate:
+                if not is_duplicate_name and not is_duplicate_coords:
                     unique_attractions.append(attraction)
                     seen_names.add(name)
+                    seen_coordinates.add(coords)
                 
                 if len(unique_attractions) >= max_attractions:
                     break
