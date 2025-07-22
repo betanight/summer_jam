@@ -263,7 +263,6 @@ class RouteOptimizationAPI:
             for i, attraction in enumerate(nearby_attractions):
                 formatted_attraction = {
                     'key': f"attraction_{i}",
-                    'id': attraction['id'],  # Preserve the original ID for optimization
                     'name': attraction['name'],
                     'town': attraction['city'],
                     'rating': 4.5,  # Default rating since we don't have ratings in our data

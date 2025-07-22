@@ -139,12 +139,12 @@ async def optimize_route(request: List[LocationDataRequest]):
             coordinates.append([lat, lng])
             location_names.append(location_data.key)
         
-        # Use the API to optimize the route
+        # Simple route optimization (just return the order as received for now)
         result = {
             "optimized_route": {
                 "location_keys": location_names,
                 "location_names": location_names,
-                "total_distance": 0.0,  # Calculate actual distance
+                "total_distance": 0.0,
                 "execution_time": 0.1
             }
         }
