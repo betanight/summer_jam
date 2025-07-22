@@ -143,12 +143,23 @@ async def optimize_route(request: List[LocationDataRequest]):
                 "location": location_data.location
             })
         
-        # Return the location data in the format the frontend expects
-        result = location_data_for_frontend
+        # Perform actual route optimization using the API
+        # Convert coordinates to location IDs for the optimization algorithm
+        # For now, we'll create temporary IDs and optimize the route
+        temp_location_ids = list(range(len(coordinates)))
+        
+        # Use the API's optimization method
+        optimized_result = api.optimize_route(temp_location_ids)
+        
+        # Map the optimized route back to the original location data
+        optimized_route = []
+        for optimized_id in optimized_result['optimized_route']['location_ids']:
+            if optimized_id < len(location_data_for_frontend):
+                optimized_route.append(location_data_for_frontend[optimized_id])
         
         return APIResponse(
             success=True,
-            data={"optimized_route": result},
+            data={"optimized_route": optimized_route},
             message="Route optimized successfully"
         )
     except Exception as e:
@@ -320,6 +331,117 @@ async def get_route_points(
         )
     except Exception as e:
         logger.error(f"Error getting route points: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+# Get optimized route with street directions
+@app.post("/optimize-with-directions", response_model=APIResponse)
+async def optimize_with_directions(request: List[LocationDataRequest]):
+    """Optimize route and get street directions for the optimized route"""
+    try:
+        if not api:
+            raise HTTPException(status_code=503, detail="API not initialized")
+        
+        if len(request) < 2:
+            raise HTTPException(status_code=400, detail="Need at least 2 locations to optimize")
+        
+        # Convert location data to coordinates for optimization
+        coordinates = []
+        location_data_for_frontend = []
+        
+        for location_data in request:
+            lat = location_data.location.get('lat')
+            lng = location_data.location.get('lng')
+            if lat is None or lng is None:
+                raise HTTPException(status_code=400, detail=f"Invalid coordinates for location {location_data.key}")
+            
+            coordinates.append([lat, lng])
+            # Keep the original location data for the frontend
+            location_data_for_frontend.append({
+                "key": location_data.key,
+                "location": location_data.location
+            })
+        
+        # Perform actual route optimization using the API
+        temp_location_ids = list(range(len(coordinates)))
+        optimized_result = api.optimize_route(temp_location_ids)
+        
+        # Map the optimized route back to the original location data
+        optimized_route = []
+        for optimized_id in optimized_result['optimized_route']['location_ids']:
+            if optimized_id < len(location_data_for_frontend):
+                optimized_route.append(location_data_for_frontend[optimized_id])
+        
+        # Get street directions for the optimized route
+        directions_data = api.get_street_directions(optimized_route)
+        
+        return APIResponse(
+            success=True,
+            data={
+                "optimized_route": optimized_route,
+                "directions": directions_data
+            },
+            message="Route optimized with street directions"
+        )
+    except Exception as e:
+        logger.error(f"Error optimizing route with directions: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+# Get optimized route with street routing data
+@app.post("/optimize-with-routing", response_model=APIResponse)
+async def optimize_route_with_routing(request: List[LocationDataRequest]):
+    """Optimize route and return with street routing data"""
+    try:
+        if not api:
+            raise HTTPException(status_code=503, detail="API not initialized")
+        
+        if len(request) < 2:
+            raise HTTPException(status_code=400, detail="Need at least 2 locations to optimize")
+        
+        # Convert location data to coordinates for optimization
+        coordinates = []
+        location_data_for_frontend = []
+        
+        for location_data in request:
+            lat = location_data.location.get('lat')
+            lng = location_data.location.get('lng')
+            if lat is None or lng is None:
+                raise HTTPException(status_code=400, detail=f"Invalid coordinates for location {location_data.key}")
+            
+            coordinates.append([lat, lng])
+            # Keep the original location data for the frontend
+            location_data_for_frontend.append({
+                "key": location_data.key,
+                "location": location_data.location
+            })
+        
+        # Perform actual route optimization using the API
+        temp_location_ids = list(range(len(coordinates)))
+        optimized_result = api.optimize_route(temp_location_ids)
+        
+        # Map the optimized route back to the original location data
+        optimized_route = []
+        for optimized_id in optimized_result['optimized_route']['location_ids']:
+            if optimized_id < len(location_data_for_frontend):
+                optimized_route.append(location_data_for_frontend[optimized_id])
+        
+        # Get street routing data for the optimized route
+        optimized_ids = optimized_result['optimized_route']['location_ids']
+        routing_data = api.get_street_routing_data(optimized_ids)
+        
+        # Combine optimized route with routing data
+        result = {
+            "optimized_route": optimized_route,
+            "routing_data": routing_data,
+            "total_distance": optimized_result['optimized_route']['total_distance']
+        }
+        
+        return APIResponse(
+            success=True,
+            data=result,
+            message="Route optimized with street routing data"
+        )
+    except Exception as e:
+        logger.error(f"Error optimizing route with routing: {e}")
         raise HTTPException(status_code=500, detail=str(e))
 
 if __name__ == "__main__":

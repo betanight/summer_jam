@@ -228,6 +228,44 @@ class RouteOptimizationAPI:
             logger.error(f"Error getting street routing data: {e}")
             raise
 
+    def get_street_directions(self, optimized_route: List[Dict[str, Any]]) -> Dict[str, Any]:
+        """Get street directions for an optimized route"""
+        try:
+            if len(optimized_route) < 2:
+                return {"error": "Need at least 2 locations for directions"}
+            
+            # Extract coordinates from the optimized route
+            coordinates = []
+            for location in optimized_route:
+                if 'location' in location and 'lat' in location['location'] and 'lng' in location['location']:
+                    coordinates.append({
+                        'lat': location['location']['lat'],
+                        'lng': location['location']['lng'],
+                        'name': location.get('key', 'Unknown')
+                    })
+            
+            if len(coordinates) < 2:
+                return {"error": "Invalid coordinates in route"}
+            
+            # Create waypoints for the route
+            waypoints = []
+            if len(coordinates) > 2:
+                waypoints = coordinates[1:-1]
+            
+            directions_data = {
+                'origin': coordinates[0],
+                'destination': coordinates[-1],
+                'waypoints': waypoints,
+                'total_locations': len(coordinates),
+                'route_coordinates': coordinates
+            }
+            
+            return directions_data
+            
+        except Exception as e:
+            logger.error(f"Error getting street directions: {e}")
+            raise
+
     def get_attractions_along_route(self, from_city: str, to_city: str, max_attractions: int = 9, max_distance_miles: float = 25.0) -> List[Dict[str, Any]]:
         """
         Get attractions along route between two cities.
@@ -250,6 +288,8 @@ class RouteOptimizationAPI:
             start_coords = (start_location.latitude, start_location.longitude)
             end_coords = (end_location.latitude, end_location.longitude)
             
+            logger.info(f"Route from {from_city} ({start_coords}) to {to_city} ({end_coords})")
+            
             # Get route using Google Maps Directions API
             route_points = self._get_route_points(start_coords, end_coords)
             
@@ -257,6 +297,8 @@ class RouteOptimizationAPI:
             nearby_attractions = self._find_attractions_near_route(
                 self.attractions, route_points, max_distance_miles, max_attractions
             )
+            
+            logger.info(f"Found {len(nearby_attractions)} attractions near route")
             
             # Format for frontend (matching their expected structure)
             formatted_attractions = []
@@ -276,6 +318,7 @@ class RouteOptimizationAPI:
                 }
                 formatted_attractions.append(formatted_attraction)
             
+            logger.info(f"Formatted {len(formatted_attractions)} attractions for frontend")
             return formatted_attractions
             
         except Exception as e:
@@ -383,6 +426,9 @@ class RouteOptimizationAPI:
         try:
             from geopy.distance import geodesic
             
+            logger.info(f"Searching {len(attractions)} attractions near {len(route_points)} route points")
+            logger.info(f"Max distance: {max_distance_miles} miles, max attractions: {max_attractions}")
+            
             nearby_attractions = []
             
             for attraction in attractions:
@@ -402,6 +448,8 @@ class RouteOptimizationAPI:
                 if min_distance <= max_allowed_distance:
                     attraction['distance_from_route'] = min_distance
                     nearby_attractions.append(attraction)
+            
+            logger.info(f"Found {len(nearby_attractions)} attractions within {max_distance_miles} miles")
             
             # Sort by distance from route
             nearby_attractions.sort(key=lambda x: x['distance_from_route'])
@@ -430,6 +478,7 @@ class RouteOptimizationAPI:
                 if len(unique_attractions) >= max_attractions:
                     break
             
+            logger.info(f"Returning {len(unique_attractions)} unique attractions")
             return unique_attractions[:max_attractions]
             
         except Exception as e:
