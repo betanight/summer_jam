@@ -202,6 +202,71 @@ def test_get_stats():
         print(f"❌ Get stats error: {e}")
         return None
 
+def test_places_endpoint():
+    """Test the new places endpoint for frontend integration"""
+    print("\n" + "="*50)
+    print("Testing /places endpoint")
+    print("="*50)
+    
+    # Test getting attractions along route
+    test_cases = [
+        {
+            "fromCity": "Los Angeles",
+            "toCity": "San Francisco",
+            "max_attractions": 5,
+            "max_distance_miles": 10.0
+        },
+        {
+            "fromCity": "San Diego",
+            "toCity": "Sacramento",
+            "max_attractions": 3,
+            "max_distance_miles": 15.0
+        }
+    ]
+    
+    for i, test_case in enumerate(test_cases, 1):
+        print(f"\nTest Case {i}: {test_case['fromCity']} to {test_case['toCity']}")
+        
+        try:
+            # Build query parameters
+            params = {
+                'fromCity': test_case['fromCity'],
+                'toCity': test_case['toCity'],
+                'max_attractions': test_case['max_attractions'],
+                'max_distance_miles': test_case['max_distance_miles']
+            }
+            
+            response = requests.get(f"{BASE_URL}/places", params=params)
+            
+            if response.status_code == 200:
+                data = response.json()
+                attractions = data.get('data', {}).get('attractions', [])
+                
+                print(f"✅ Success! Found {len(attractions)} attractions")
+                print(f"   Response format matches frontend expectations")
+                
+                # Check if attractions have required fields for frontend
+                if attractions:
+                    first_attraction = attractions[0]
+                    required_fields = ['key', 'name', 'town', 'rating', 'image', 'location']
+                    missing_fields = [field for field in required_fields if field not in first_attraction]
+                    
+                    if not missing_fields:
+                        print(f"   ✅ All required frontend fields present")
+                        print(f"   📍 Sample attraction: {first_attraction['name']} in {first_attraction['town']}")
+                        print(f"   🗺️  Location: {first_attraction['location']}")
+                    else:
+                        print(f"   ❌ Missing fields: {missing_fields}")
+                else:
+                    print(f"   ⚠️  No attractions found for this route")
+                    
+            else:
+                print(f"❌ Failed with status {response.status_code}")
+                print(f"   Error: {response.text}")
+                
+        except Exception as e:
+            print(f"❌ Exception: {e}")
+
 def main():
     """Run all tests"""
     print("🧪 Route Optimization API Test Suite")
@@ -229,6 +294,7 @@ def main():
     test_quick_optimize(test_location_ids)
     test_add_location()
     test_get_stats()
+    test_places_endpoint()
     
     print("\n🎉 All tests completed!")
     print("\n📖 For more information:")

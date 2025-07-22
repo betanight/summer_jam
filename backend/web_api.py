@@ -244,6 +244,59 @@ async def get_api_stats():
         logger.error(f"Error getting stats: {e}")
         raise HTTPException(status_code=500, detail=str(e))
 
+# Get attractions along route between two cities
+@app.get("/places", response_model=APIResponse)
+async def get_places_along_route(
+    fromCity: str = Query(..., description="Starting city"),
+    toCity: str = Query(..., description="Destination city"),
+    max_attractions: int = Query(9, ge=1, le=9, description="Maximum number of attractions to suggest"),
+    max_distance_miles: float = Query(10.0, ge=1.0, le=50.0, description="Maximum distance from route in miles")
+):
+    """Get attractions along route between two cities"""
+    try:
+        if not api:
+            raise HTTPException(status_code=503, detail="API not initialized")
+        
+        # Get route between cities and find attractions along the way
+        attractions = api.get_attractions_along_route(
+            from_city=fromCity,
+            to_city=toCity,
+            max_attractions=max_attractions,
+            max_distance_miles=max_distance_miles
+        )
+        
+        return APIResponse(
+            success=True,
+            data={"attractions": attractions},
+            message=f"Found {len(attractions)} attractions along route"
+        )
+    except Exception as e:
+        logger.error(f"Error getting attractions along route: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+# Get route points (start and end coordinates) for map display
+@app.get("/route-points", response_model=APIResponse)
+async def get_route_points(
+    fromCity: str = Query(..., description="Starting city name"),
+    toCity: str = Query(..., description="Destination city name")
+):
+    """Get latitude and longitude coordinates for two cities to display on map"""
+    try:
+        if not api:
+            raise HTTPException(status_code=503, detail="API not initialized")
+        
+        # Get coordinates for both cities
+        route_points = api.get_route_points_coordinates(from_city=fromCity, to_city=toCity)
+        
+        return APIResponse(
+            success=True,
+            data=route_points,
+            message=f"Found coordinates for route from {fromCity} to {toCity}"
+        )
+    except Exception as e:
+        logger.error(f"Error getting route points: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
 if __name__ == "__main__":
     uvicorn.run(
         "web_api:app",

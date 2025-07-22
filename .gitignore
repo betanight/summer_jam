@@ -78,4 +78,4 @@ htmlcov/
 coverage.xml
 *.cover
 .hypothesis/
-.pytest_cache/ 
+.pytest_cache/ route_optimizer_fe/
