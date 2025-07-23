@@ -133,3 +133,5 @@ For technical issues:
 ---
 
 **Ready to use!** 🚀 The software engineers can now integrate their frontend with your data science backend for route optimization with attractions.
+
+📄 [View Project Report](report.md)
