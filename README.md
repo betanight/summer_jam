@@ -137,6 +137,6 @@ For backend contributions:
 
 ---
 
-**Data Analysis Team**: Focus on expanding the dataset and improving categorization
-**Backend Team**: Focus on optimization algorithms and API performance
+**Data Analysis Team**: Focus on expanding the dataset and improving categorization and focus on optimization algorithms and API performance
+
 **Integration Team**: See SOFTWARE_ENGINEERS_GUIDE.md for frontend integration
