@@ -65,889 +65,495 @@ Ontario Mills,NO_IMAGE_AVAILABLE,CA,Shopping Center,34.0633,-117.6509,Ontario
 Lancaster Museum of Art and History,NO_IMAGE_AVAILABLE,CA,Museum,34.6868,-118.1542,Lancaster
 Elk Grove Regional Park,NO_IMAGE_AVAILABLE,CA,Park,38.4088,-121.3716,Elk Grove
 Palmdale Aerospace Walk of Honor,NO_IMAGE_AVAILABLE,CA,Landmark,34.5794,-118.1165,Palmdale
-"World's Largest Redwood Tree Service Station (1936), angle, Route 101, Ukiah, California",https://cdn.loc.gov/service/pnp/mrg/00000/00007v.jpg,CA,Gas Station,39.1501662,-123.2077861,Ukiah
-"Gordon Spencer gas station, 4691 Huntington Drive, South Pasadena, California",https://cdn.loc.gov/service/pnp/mrg/00000/00022v.jpg,CA,Gas Station,34.1133062,-118.1478291,South Pasadena
-"Mattoon Service Station (pre-fabricated), angle view, National & Washington Boulevards, Culver City, California",https://cdn.loc.gov/service/pnp/mrg/00000/00037v.jpg,CA,Gas Station,34.0211224,-118.396466,Culver City
-"Richfield Gas, Route 66, Cucamonga, California",https://cdn.loc.gov/service/pnp/mrg/00000/00038v.jpg,CA,Gas Station,34.0991995,-117.6022102,Cucamonga
-"Far-Go gas pumps, Main Street, Barstow, California",https://cdn.loc.gov/service/pnp/mrg/00000/00053v.jpg,CA,Gas Station,34.8986215,-117.0244313,Barstow
-"Earl Schieb Auto Painting sign, upper detail, Olympic Boulevard, Beverly Hills, California",https://cdn.loc.gov/service/pnp/mrg/00000/00063v.jpg,CA,Sign,34.0696501,-118.3963062,Beverly Hills
-"Compton Car Wash, Rosecrans Avenue, Compton, California",https://cdn.loc.gov/service/pnp/mrg/00000/00068v.jpg,CA,Other,33.894927,-118.226624,Compton
-"Delta Queen Car Wash, side view, Hamilton Avenue near Bascom, Campbell, California",https://cdn.loc.gov/service/pnp/mrg/00000/00069v.jpg,CA,Other,37.2870626,-121.944881,Campbell
-"Delta Queen Car Wash, front view, Hamilton Avenue near Bascom, Campbell, California",https://cdn.loc.gov/service/pnp/mrg/00000/00070v.jpg,CA,Other,37.2870626,-121.944881,Campbell
-"Hillborn Top Shop formerly Gates Tires, tower view, Washington Place 7 Grandview, Mar Vista, California",https://cdn.loc.gov/service/pnp/mrg/00000/00071v.jpg,CA,Historical Building,34.0037605,-118.4391641,Mar Vista
-"The Donut Hole, straight-on view, no cars, Amar Road, La Puente, California",https://cdn.loc.gov/service/pnp/mrg/00000/00081v.jpg,CA,Other,34.0280619,-117.953097,La Puente
-"The Donut Hole, angle view, Amar Road, La Puente, California",https://cdn.loc.gov/service/pnp/mrg/00000/00082v.jpg,CA,Other,34.0280619,-117.953097,La Puente
-"Hoot Owl Cafe, horizontal view, 8711 Long Beach Boulevard, Southgate, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/00000/00084v.jpg,CA,Restaurant,34.0536909,-118.242766,Los Angeles
-"Hoot Owl Cafe, side view, 8711 Long Beach Boulevard, Southgate, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/00000/00085v.jpg,CA,Restaurant,34.0536909,-118.242766,Los Angeles
-"The Mad Greek (formerly Sam's Roast Beef), 6th Street, Corona, California",https://cdn.loc.gov/service/pnp/mrg/00000/00097v.jpg,CA,Other,33.8752945,-117.566444,Corona
-"McDonald's, Foothill Boulevard, Azusa, California",https://cdn.loc.gov/service/pnp/mrg/00100/00137v.jpg,CA,Other,34.1338751,-117.9056046,Azusa
-"Tower Restaurant, angle 1, University Avenue and Reno Drive, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/00100/00144v.jpg,CA,Historical Building,32.7174202,-117.162772,San Diego
-"Tower Restaurant, angle 2, University Avenue and Rene Drive, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/00100/00145v.jpg,CA,Historical Building,32.7174202,-117.162772,San Diego
-"George Joe Restaurant, horizontal view, Murray Drive & Grossmont Boulevard, La Mesa, California",https://cdn.loc.gov/service/pnp/mrg/00100/00152v.jpg,CA,Restaurant,32.7678288,-117.0230839,La Mesa
-"Motel Inn (1925) (""first motel""), horizontal view, Route 101, San Luis Obispo, California",https://cdn.loc.gov/service/pnp/mrg/00100/00178v.jpg,CA,Hotel,35.3540209,-120.375716,San Luis Obispo
-"Motel Inn (""first motel""), vertical view, Route 101, San Luis Obispo, California",https://cdn.loc.gov/service/pnp/mrg/00100/00179v.jpg,CA,Hotel,35.3540209,-120.375716,San Luis Obispo
-"Log Cabin Motel Office, San Leandro, California",https://cdn.loc.gov/service/pnp/mrg/00100/00190v.jpg,CA,Hotel,37.7249296,-122.1560768,San Leandro
-"Motel Crystal Pier, entrance, Pacific Beach, California",https://cdn.loc.gov/service/pnp/mrg/00200/00202v.jpg,CA,Hotel,32.7978268,-117.2403183,Pacific Beach
-"Motel Crystal Pier, side view, Pacific Beach, California",https://cdn.loc.gov/service/pnp/mrg/00200/00203v.jpg,CA,Hotel,32.7978268,-117.2403183,Pacific Beach
-"Log Cabin Motel, closer front view, 830 Market Street, Morro Bay, California",https://cdn.loc.gov/service/pnp/mrg/00200/00231v.jpg,CA,Hotel,35.3658075,-120.849901,Morro Bay
-"Log Cabin Motel, diagonal view, 830 Market Street, Morro Bay, California",https://cdn.loc.gov/service/pnp/mrg/00200/00232v.jpg,CA,Hotel,35.3658075,-120.849901,Morro Bay
-"Mission Motel, overall view, Mt. Vernon Avenue & Orange Street, San Bernardino, California",https://cdn.loc.gov/service/pnp/mrg/00200/00235v.jpg,CA,Hotel,34.8253019,-116.0833144,San Bernardino
-"Mission Motel, diagonal view 1, Mt. Vernon Avenue & Orange Street, San Bernardino, California",https://cdn.loc.gov/service/pnp/mrg/00200/00236v.jpg,CA,Hotel,34.8253019,-116.0833144,San Bernardino
-"El Monte Drive-In Theater, Lower Azusa Road, El Monte, California",https://cdn.loc.gov/service/pnp/mrg/00200/00299v.jpg,CA,Theater,34.0751571,-118.036849,El Monte
-"Lakewood Drive-In Theater, Carson Street, Lakewood, California",https://cdn.loc.gov/service/pnp/mrg/00300/00300v.jpg,CA,Theater,33.8503463,-118.117191,Lakewood
-"Tri City Drive-In Theater, straight-on view, Redlands Boulevard, Loma Linda, California",https://cdn.loc.gov/service/pnp/mrg/00300/00301v.jpg,CA,Theater,34.0537971,-117.2610925,Loma Linda
-"San Pedro Drive-In Theater, angle from right, gray sky, Gaffey Street, San Pedro, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/00300/00303v.jpg,CA,Theater,34.0536909,-118.242766,Los Angeles
-"San Pedro Drive-In Theater, angle from right, blue sky, Gaffey Street, San Pedro, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/00300/00304v.jpg,CA,Theater,34.0536909,-118.242766,Los Angeles
-"San Pedro Drive-In Theater, wide-angle straight-on view of mural itself, Gaffey Street, San Pedro, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/00300/00305v.jpg,CA,Theater,34.0536909,-118.242766,Los Angeles
-"San Pedro Drive-In Theater, angle from left, Gaffey Street, San Pedro, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/00300/00306v.jpg,CA,Theater,34.0536909,-118.242766,Los Angeles
-"San Pedro Drive-In Theater, closer view of angle from left Gaffey Street, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/00300/00307v.jpg,CA,Theater,34.0536909,-118.242766,Los Angeles
-"Van Nuys Drive-In Theater, Roscoe Boulevard, Van Nuys, California",https://cdn.loc.gov/service/pnp/mrg/00300/00308v.jpg,CA,Theater,34.1866193,-118.4486675,Van Nuys
-"Terrace Drive-In Theater, Terrace Way, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/00300/00322v.jpg,CA,Theater,35.3738712,-119.019463,Bakersfield
-"The Tower Bowl, left side of tower detail, Broadway near Kettner, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/00300/00340v.jpg,CA,Historical Building,32.7174202,-117.162772,San Diego
-"The Tower Bowl, straight-on tower view 2, Broadway near Kettner, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/00300/00341v.jpg,CA,Historical Building,32.7174202,-117.162772,San Diego
-"City Hall, Mission Boulevard near D Street, Hayward, California",https://cdn.loc.gov/service/pnp/mrg/00400/00412v.jpg,CA,Religious Site,37.6688205,-122.080796,Hayward
-"Arcata Theater, G Street, Arcata, California",https://cdn.loc.gov/service/pnp/mrg/00400/00447v.jpg,CA,Theater,40.866517,-124.08284,Arcata
-"Reel Joy Theater, King City, California",https://cdn.loc.gov/service/pnp/mrg/00400/00449v.jpg,CA,Theater,36.2135291,-121.1247365,King City
-"Tower Theater Box Office, Olive Street, Fresno, California",https://cdn.loc.gov/service/pnp/mrg/00400/00450v.jpg,CA,Theater,36.7394421,-119.78483,Fresno
-"Merced Theater, Main Street, Merced, California",https://cdn.loc.gov/service/pnp/mrg/00400/00451v.jpg,CA,Theater,37.1641544,-120.7678602,Merced
-"Merced Theater, marquee neon detail, Main Street, Merced, California",https://cdn.loc.gov/service/pnp/mrg/00400/00452v.jpg,CA,Theater,37.1641544,-120.7678602,Merced
-"Loyola Theater, Manchester & Sepulveda Boulevards, Westchester, California",https://cdn.loc.gov/service/pnp/mrg/00400/00453v.jpg,CA,Theater,33.9597349,-118.400632,Westchester
-"Loyola Theater, tower detail, Manchester & Sepulveda Boulevard, Westchester, California",https://cdn.loc.gov/service/pnp/mrg/00400/00454v.jpg,CA,Theater,33.9597349,-118.400632,Westchester
-"Loyola Theater, defaced, Manchester & Sepulveda Boulevard, Westchester, California",https://cdn.loc.gov/service/pnp/mrg/00400/00455v.jpg,CA,Theater,33.9597349,-118.400632,Westchester
-"Loyola Theater, forecourt, Manchester & Sepulveda Boulevard, Westchester, California",https://cdn.loc.gov/service/pnp/mrg/00400/00456v.jpg,CA,Theater,33.9597349,-118.400632,Westchester
-"Loyola Theater, ticket booth, Manchester & Sepulveda Boulevard, Westchester, California",https://cdn.loc.gov/service/pnp/mrg/00400/00457v.jpg,CA,Theater,33.9597349,-118.400632,Westchester
-"McDougal Building (1898), overall vertical, Main & Gabilan, Salinas, California",https://cdn.loc.gov/service/pnp/mrg/00500/00523v.jpg,CA,Historical Building,36.6744117,-121.655037,Salinas
-"McDougal Building (1898), corner detail, Main & Gabilan, Salinas, California",https://cdn.loc.gov/service/pnp/mrg/00500/00524v.jpg,CA,Historical Building,36.6744117,-121.655037,Salinas
-"McDougal Building, entrance multi-columns, Main & Gabilan, Salinas, California",https://cdn.loc.gov/service/pnp/mrg/00500/00525v.jpg,CA,Historical Building,36.6744117,-121.655037,Salinas
-"McDougal Building, entrance multi-columns detail, Main & Gabilan, Salinas, California",https://cdn.loc.gov/service/pnp/mrg/00500/00526v.jpg,CA,Historical Building,36.6744117,-121.655037,Salinas
-"McDougal Building (1898), entrance detail, Main & Gabilan, Salinas, California",https://cdn.loc.gov/service/pnp/mrg/00500/00527v.jpg,CA,Historical Building,36.6744117,-121.655037,Salinas
-"B.P.O.E. Elks Lodge, Main Street, Alturas, California",https://cdn.loc.gov/service/pnp/mrg/00500/00533v.jpg,CA,Other,41.487123,-120.542327,Alturas
-"Moose Lodge, Chester Avenue, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/00500/00534v.jpg,CA,Other,35.3738712,-119.019463,Bakersfield
-"Masonic Temple, angle view, Mineral King Avenue, Visalia, California",https://cdn.loc.gov/service/pnp/mrg/00500/00535v.jpg,CA,Other,36.3302284,-119.292058,Visalia
-"Masonic Temple, straight-on view, Mineral King Avenue, Visalia, California",https://cdn.loc.gov/service/pnp/mrg/00500/00536v.jpg,CA,Other,36.3302284,-119.292058,Visalia
-"I.O.O.F. Building (now an antique store), Oak Street, Red Bluff, California",https://cdn.loc.gov/service/pnp/mrg/00500/00542v.jpg,CA,Historical Building,40.1784279,-122.235923,Red Bluff
-"Orchid Beauty Shop, 3586 Adams Avenue, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/00500/00594v.jpg,CA,Retail,32.7174202,-117.162772,San Diego
-"Nolo's Barber Shop, Sepulveda Boulevard, Van Nuys, California",https://cdn.loc.gov/service/pnp/mrg/00600/00605v.jpg,CA,Retail,34.1866193,-118.4486675,Van Nuys
-"Santa Fe Railroad Station, 7th Street, Riverside, California",https://cdn.loc.gov/service/pnp/mrg/00600/00629v.jpg,CA,Gas Station,33.9824949,-117.374238,Riverside
-"Union Pacific Railroad Station, near 7th Street and Vine, Riverside, California",https://cdn.loc.gov/service/pnp/mrg/00600/00630v.jpg,CA,Gas Station,33.9824949,-117.374238,Riverside
-"Coca Cola Bottling Company, overall diagonal view from left, 14th & Central Avenue, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/00600/00641v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
-"Coca Cola Bottling Company, overall diagonal view from right, 14th & Central Avenue, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/00600/00642v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
-"Coca Cola Bottling Company, closer diagonal view from right, 14th & Central Avenue, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/00600/00643v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
-"Coca Cola Bottling Company, two-door detail, 14th & Central Avenue, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/00600/00644v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
-"Coca Cola Bottling Company, single door detail, 14th & Central Avenue, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/00600/00645v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
-"Coca Cola Bottling Company, 14th & Central Avenue, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/00600/00646v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
-"Coca Cola Bottling Company, giant Coke bottle corner detail, 14th & Central Avenue, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/00600/00647v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
-"Coca Cola Bottling Company, giant Coke bottle closer view, 14th & Central Avenue, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/00600/00648v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
-"The Hogan, Main Street, San Jacinto, California",https://cdn.loc.gov/service/pnp/mrg/00600/00659v.jpg,CA,Other,33.7839664,-116.9589086,San Jacinto
-"Deschwanden's Shoe Repair (""The Big Shoe""), angle view, 10th & Chester, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/00600/00660v.jpg,CA,Other,35.3738712,-119.019463,Bakersfield
-"Deschwanden's Shoe Repair (""The Big Shoe""), straight-on view, 10th & Chester, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/00600/00661v.jpg,CA,Other,35.3738712,-119.019463,Bakersfield
-"The Big Shoe, angle view, 10th & Chester, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/00600/00662v.jpg,CA,Other,35.3738712,-119.019463,Bakersfield
-"The Big Shoe, straight-on view, 10th & Chester, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/00600/00663v.jpg,CA,Other,35.3738712,-119.019463,Bakersfield
-"Main Street stores, angle view, Red Bluff, California",https://cdn.loc.gov/service/pnp/mrg/00600/00684v.jpg,CA,Retail,40.1784279,-122.235923,Red Bluff
-"Bitter End, 5th Avenue, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/00700/00745v.jpg,CA,Other,32.7174202,-117.162772,San Diego
-"Thrift store, Mission Street, San Miguel, California",https://cdn.loc.gov/service/pnp/mrg/00700/00746v.jpg,CA,Retail,35.754959,-120.6932271,San Miguel
-"Mendota Block, front, Main Street, Ocean Park, Santa Monica, California",https://cdn.loc.gov/service/pnp/mrg/00700/00747v.jpg,CA,Park,34.0194704,-118.491227,Santa Monica
-"Live Oak Realty, angle 1, S. Sagunto Street, Santa Ynez, California",https://cdn.loc.gov/service/pnp/mrg/00700/00748v.jpg,CA,Other,34.6161143,-120.0933753,Santa Ynez
-"Live Oak Realty, angle 2, S. Sagunto Street, Santa Ynez, California",https://cdn.loc.gov/service/pnp/mrg/00700/00749v.jpg,CA,Other,34.6161143,-120.0933753,Santa Ynez
-"Commercial building, Alisal Street, Salinas, California",https://cdn.loc.gov/service/pnp/mrg/00700/00750v.jpg,CA,Historical Building,36.6744117,-121.655037,Salinas
-"Law offices, column detail, Gabilan Street, Salinas, California",https://cdn.loc.gov/service/pnp/mrg/00700/00751v.jpg,CA,Other,36.6744117,-121.655037,Salinas
-"Medico-Dental Building, entrance, Sutter Street, Stockton, California",https://cdn.loc.gov/service/pnp/mrg/00700/00752v.jpg,CA,Historical Building,37.9577016,-121.290779,Stockton
-"Commercial building, Weber Street, Stockton, California",https://cdn.loc.gov/service/pnp/mrg/00700/00753v.jpg,CA,Historical Building,37.9577016,-121.290779,Stockton
-"Shirley's Beauty Salon, 1421 Washington Boulevard, Venice, California",https://cdn.loc.gov/service/pnp/mrg/00700/00754v.jpg,CA,Other,33.995044,-118.4668875,Venice
-"Beauty salon, Stockton Boulevard, Sacramento, California",https://cdn.loc.gov/service/pnp/mrg/00700/00755v.jpg,CA,Other,38.5810606,-121.493895,Sacramento
-"Courthouse, angle 1, Court Street, Visalia, California",https://cdn.loc.gov/service/pnp/mrg/00800/00833v.jpg,CA,Historical Building,36.3302284,-119.292058,Visalia
-"San Luis Obispo County Courthouse, angle 1, Osos Street, San Luis Obispo, California",https://cdn.loc.gov/service/pnp/mrg/00800/00834v.jpg,CA,Historical Building,35.3540209,-120.375716,San Luis Obispo
-"San Luis Obispo County Courthouse, angle 2, Osos Street, San Luis Obispo, California",https://cdn.loc.gov/service/pnp/mrg/00800/00835v.jpg,CA,Historical Building,35.3540209,-120.375716,San Luis Obispo
-"Modoc County Courthouse, Court Avenue, Alturas, California",https://cdn.loc.gov/service/pnp/mrg/00800/00836v.jpg,CA,Historical Building,41.487123,-120.542327,Alturas
-"Moose Lodge #2171, angle 1, El Camino Real Street, Santa Margarita, California",https://cdn.loc.gov/service/pnp/mrg/00800/00862v.jpg,CA,Other,35.3899734,-120.609057,Santa Margarita
-"Moose Lodge #2171, angle 2, El Camino Real Street, Santa Margarita, California",https://cdn.loc.gov/service/pnp/mrg/00800/00863v.jpg,CA,Other,35.3899734,-120.609057,Santa Margarita
-"Masonic Hall, Petaluma Boulevard & Western Avenue, Petaluma, California",https://cdn.loc.gov/service/pnp/mrg/00800/00864v.jpg,CA,Other,38.2325829,-122.636465,Petaluma
-"American Legion Post, Spring Street & 4th, Paso Robles, California",https://cdn.loc.gov/service/pnp/mrg/00800/00865v.jpg,CA,Other,35.6262618,-120.6901319,Paso Robles
-"Holiday Inn, Hollywood, California",https://cdn.loc.gov/service/pnp/mrg/00900/00922v.jpg,CA,Hotel,34.0980031,-118.329523,Hollywood
-"Hotel Stockton, Stockton, California",https://cdn.loc.gov/service/pnp/mrg/00900/00923v.jpg,CA,Hotel,37.9577016,-121.290779,Stockton
-"Mission Inn, angle 1, Orange Street, Riverside, California",https://cdn.loc.gov/service/pnp/mrg/00900/00924v.jpg,CA,Hotel,33.9824949,-117.374238,Riverside
-"Mission Inn, angle 2, Orange Street, Riverside, California",https://cdn.loc.gov/service/pnp/mrg/00900/00925v.jpg,CA,Hotel,33.9824949,-117.374238,Riverside
-"Palace Hotel (1891), State Street, Ukiah, California",https://cdn.loc.gov/service/pnp/mrg/00900/00926v.jpg,CA,Hotel,39.1501662,-123.2077861,Ukiah
-"Solvang Castle Inn, angle 1, Route 246, Solvang, California",https://cdn.loc.gov/service/pnp/mrg/00900/00927v.jpg,CA,Hotel,34.5960774,-120.1381144,Solvang
-"Solvang Castle Inn, angle 2, Route 246, Solvang, California",https://cdn.loc.gov/service/pnp/mrg/00900/00928v.jpg,CA,Hotel,34.5960774,-120.1381144,Solvang
-"The Hopland Inn, Route 101, Hopland, California",https://cdn.loc.gov/service/pnp/mrg/00900/00929v.jpg,CA,Hotel,38.9729542,-123.1163918,Hopland
-"Corner Building, State & Pearl Streets, Ukiah, California",https://cdn.loc.gov/service/pnp/mrg/00900/00934v.jpg,CA,Historical Building,39.1501662,-123.2077861,Ukiah
-"Cole Block (1891), angle 2, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/00900/00936v.jpg,CA,Other,32.7174202,-117.162772,San Diego
-"George J. Keating Building (1890), 5th & F Streets, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/00900/00937v.jpg,CA,Historical Building,32.7174202,-117.162772,San Diego
-"Corner Building detail, angle 1, 12th & Park, Paso Robles, California",https://cdn.loc.gov/service/pnp/mrg/00900/00938v.jpg,CA,Park,35.6262618,-120.6901319,Paso Robles
-"Corner Building detail, angle 2 (closer), 12th & Park, Paso Robles, California",https://cdn.loc.gov/service/pnp/mrg/00900/00939v.jpg,CA,Park,35.6262618,-120.6901319,Paso Robles
-"Old McKinleyville Store (1897), Route 101B, McKinleyville, California",https://cdn.loc.gov/service/pnp/mrg/00900/00941v.jpg,CA,Retail,40.966005,-124.1027898,McKinleyville
-"Old City Hall, angle 1, 7th & Orange Streets, Riverside, California",https://cdn.loc.gov/service/pnp/mrg/00900/00975v.jpg,CA,Other,33.9824949,-117.374238,Riverside
-"Old City Hall, angle 2, 7th & Orange Streets, Riverside, California",https://cdn.loc.gov/service/pnp/mrg/00900/00976v.jpg,CA,Other,33.9824949,-117.374238,Riverside
-"Maywood City Hall, Slauson & NE Fishburn, Maywood, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/00900/00977v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
-"Auditorium, Bakersfield City School District, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/00900/00978v.jpg,CA,Other,35.3738712,-119.019463,Bakersfield
-"Central Fire Station, 21st & H, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/00900/00979v.jpg,CA,Gas Station,35.3738712,-119.019463,Bakersfield
-"Post Office, Sycamore Street, Willows, California",https://cdn.loc.gov/service/pnp/mrg/01000/01001v.jpg,CA,Other,39.5233276,-122.193531,Willows
-"Memorial Park Building, Main Street, Visalia, California",https://cdn.loc.gov/service/pnp/mrg/01000/01003v.jpg,CA,Park,36.3302284,-119.292058,Visalia
-"Veteran's Memorial Building, angle 1, Route 56, Susanville, California",https://cdn.loc.gov/service/pnp/mrg/01000/01004v.jpg,CA,Historical Building,40.4162842,-120.653006,Susanville
-"Veteran's Memorial Building, angle 2, Route 56, Susanville, California",https://cdn.loc.gov/service/pnp/mrg/01000/01005v.jpg,CA,Historical Building,40.4162842,-120.653006,Susanville
-"City Hall, angle 1, Lindsay Street, Stockton, California",https://cdn.loc.gov/service/pnp/mrg/01000/01006v.jpg,CA,Other,37.9577016,-121.290779,Stockton
-"City Hall, entrance, angle 2, Lindsay Street, Stockton, California",https://cdn.loc.gov/service/pnp/mrg/01000/01007v.jpg,CA,Other,37.9577016,-121.290779,Stockton
-"City Hall, angle 1, Broadway & Cook Street, Santa Maria, California",https://cdn.loc.gov/service/pnp/mrg/01000/01008v.jpg,CA,Other,34.9531295,-120.435857,Santa Maria
-"City Hall, angle 2, Broadway & Cook Street, Santa Maria, California",https://cdn.loc.gov/service/pnp/mrg/01000/01009v.jpg,CA,Other,34.9531295,-120.435857,Santa Maria
-"City Hall, angle 3, Broadway & Cook Street, Santa Maria, California",https://cdn.loc.gov/service/pnp/mrg/01000/01010v.jpg,CA,Other,34.9531295,-120.435857,Santa Maria
-"City Hall, Main Street, Santa Monica, California",https://cdn.loc.gov/service/pnp/mrg/01000/01011v.jpg,CA,Other,34.0194704,-118.491227,Santa Monica
-"Post Office (then an antiques mall), Petaluma Boulevard, Petaluma, California",https://cdn.loc.gov/service/pnp/mrg/01000/01012v.jpg,CA,Other,38.2325829,-122.636465,Petaluma
-"City of Novato Community Development Building, Sherman Avenue, Novato, California",https://cdn.loc.gov/service/pnp/mrg/01000/01013v.jpg,CA,Historical Building,38.1061979,-122.5681191,Novato
-"Street view, Solvang, California",https://cdn.loc.gov/service/pnp/mrg/01000/01066v.jpg,CA,Other,34.5960774,-120.1381144,Solvang
-"Street view 2, Solvang, California",https://cdn.loc.gov/service/pnp/mrg/01000/01067v.jpg,CA,Other,34.5960774,-120.1381144,Solvang
-"Soft Water Wash, Main Street, Ocean Park, California",https://cdn.loc.gov/service/pnp/mrg/01000/01069v.jpg,CA,Park,34.0022327,-118.4836879,Ocean Park
-"Harris Department Store, angle 2, E Street, San Bernardino, California",https://cdn.loc.gov/service/pnp/mrg/01000/01070v.jpg,CA,Retail,34.8253019,-116.0833144,San Bernardino
-"Thrift Store, Baseline [i.e. Base Line] Street, San Bernardino, California",https://cdn.loc.gov/service/pnp/mrg/01000/01071v.jpg,CA,Retail,34.8253019,-116.0833144,San Bernardino
-"Lanmart [i.e. Lan Mart] Building (1911), Petaluma Boulevard, Petaluma, California",https://cdn.loc.gov/service/pnp/mrg/01000/01072v.jpg,CA,Historical Building,38.2325829,-122.636465,Petaluma
-"Gift Shop (redwood), Route 101, Orick, California",https://cdn.loc.gov/service/pnp/mrg/01000/01073v.jpg,CA,Retail,41.2867896,-124.0597937,Orick
-"Retro deco building, Route 41, Morro Bay, California",https://cdn.loc.gov/service/pnp/mrg/01000/01074v.jpg,CA,Historical Building,35.3658075,-120.849901,Morro Bay
-"Pacific Boats, 1927 [i.e. 1427] Long Beach Boulevard, Long Beach, California",https://cdn.loc.gov/service/pnp/mrg/01000/01075v.jpg,CA,Other,33.7690164,-118.191604,Long Beach
-"Model Drive In Cleaner, angle 1, 25th & Long Beach Boulevard, Long Beach, California",https://cdn.loc.gov/service/pnp/mrg/01000/01076v.jpg,CA,Theater,33.7690164,-118.191604,Long Beach
-"Model Drive In Cleaner, angle, 25th & Long Beach Boulevard, Long Beach, California",https://cdn.loc.gov/service/pnp/mrg/01000/01077v.jpg,CA,Theater,33.7690164,-118.191604,Long Beach
-"Repp & Mott Auction House, angle 1, 2501 E. Anaheim Street, Long Beach, California",https://cdn.loc.gov/service/pnp/mrg/01000/01078v.jpg,CA,Historical Building,33.7690164,-118.191604,Long Beach
-"Repp & Mott Auction House, angle 2, further away, 201 E. Anaheim Street, Long Beach, California",https://cdn.loc.gov/service/pnp/mrg/01000/01079v.jpg,CA,Historical Building,33.7690164,-118.191604,Long Beach
-"Boulevard Furniture, El Cajon Boulevard, El Cajon, California",https://cdn.loc.gov/service/pnp/mrg/01000/01080v.jpg,CA,Other,32.7947731,-116.962526,El Cajon
-"Ruth [i.e. Roth] Draperies, Beverly Boulevard, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/01000/01081v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
-"R & R Blue Print Company, 1227 Avalon Boulevard, Wilmington, California",https://cdn.loc.gov/service/pnp/mrg/01000/01082v.jpg,CA,Other,33.7800164,-118.262509,Wilmington
-"Foodman Market, Pacific Coast Highway, Wilmington, California",https://cdn.loc.gov/service/pnp/mrg/01000/01083v.jpg,CA,Other,33.7800164,-118.262509,Wilmington
-"Gilbert 5 10 25, 1st [i.e. I Street] & Avalon Boulevard, Wilmington, California",https://cdn.loc.gov/service/pnp/mrg/01000/01084v.jpg,CA,Other,33.7800164,-118.262509,Wilmington
-"Storefront, Rose Avenue, Venice, California",https://cdn.loc.gov/service/pnp/mrg/01000/01085v.jpg,CA,Retail,33.995044,-118.4668875,Venice
-"Windecor, Ventura, California",https://cdn.loc.gov/service/pnp/mrg/01000/01086v.jpg,CA,Other,34.4458248,-119.0779359,Ventura
-"Ritz Building (1940), Eureka, California",https://cdn.loc.gov/service/pnp/mrg/01000/01098v.jpg,CA,Historical Building,40.8018746,-124.1707558,Eureka
-"Kofopilau, 2nd Street, Eureka, California",https://cdn.loc.gov/service/pnp/mrg/01000/01099v.jpg,CA,Other,40.8018746,-124.1707558,Eureka
-"Commercial building, 123 F Street, Eureka, California",https://cdn.loc.gov/service/pnp/mrg/01100/01100v.jpg,CA,Historical Building,40.8018746,-124.1707558,Eureka
-"Commercial building, angle 1, 123 F Street, Eureka, California",https://cdn.loc.gov/service/pnp/mrg/01100/01101v.jpg,CA,Historical Building,40.8018746,-124.1707558,Eureka
-"Commercial building, detail 1, 123 F Street, Eureka, California",https://cdn.loc.gov/service/pnp/mrg/01100/01102v.jpg,CA,Historical Building,40.8018746,-124.1707558,Eureka
-"Carson Block (1892), Eureka, California",https://cdn.loc.gov/service/pnp/mrg/01100/01103v.jpg,CA,Other,40.8018746,-124.1707558,Eureka
-"Harris Department Store, stair detail, E Street, San Bernardino, California",https://cdn.loc.gov/service/pnp/mrg/01100/01104v.jpg,CA,Retail,34.8253019,-116.0833144,San Bernardino
-"Commercial building, straight on, Fifth Street, Eureka, California",https://cdn.loc.gov/service/pnp/mrg/01100/01105v.jpg,CA,Historical Building,40.8018746,-124.1707558,Eureka
-"Commercial building, 2nd & F Streets, Eureka, California",https://cdn.loc.gov/service/pnp/mrg/01100/01106v.jpg,CA,Historical Building,40.8018746,-124.1707558,Eureka
-"Graystone Distinctive Jewelry, 2nd & F Street, Eureka, California",https://cdn.loc.gov/service/pnp/mrg/01100/01107v.jpg,CA,Other,40.8018746,-124.1707558,Eureka
-"Gavett Studios, 5512 Adams Avenue, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/01100/01108v.jpg,CA,Other,32.7174202,-117.162772,San Diego
-"Ralph Kuettel Pianos, Olive Avenue, Fresno, California",https://cdn.loc.gov/service/pnp/mrg/01100/01109v.jpg,CA,Other,36.7394421,-119.78483,Fresno
-"Chuck's Billiards, 1601 Manchester, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/01100/01110v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
-"Big Town Food Center, Pico & La Cienega, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/01100/01111v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
-"Heard's Market, Route 395, Litchfield, California",https://cdn.loc.gov/service/pnp/mrg/01100/01112v.jpg,CA,Other,40.3826772,-120.387163,Litchfield
-"The Flower Shop (reused gas station), horizontal, Vanderhurst Street, King City, California",https://cdn.loc.gov/service/pnp/mrg/01100/01113v.jpg,CA,Gas Station,36.2135291,-121.1247365,King City
-"The Flower Shop (reused gas station), vertical, Vanderhurst Street, King City, California",https://cdn.loc.gov/service/pnp/mrg/01100/01114v.jpg,CA,Gas Station,36.2135291,-121.1247365,King City
-"Woolworths, 3200 Lankershim Boulevard, North Hollywood, California",https://cdn.loc.gov/service/pnp/mrg/01100/01115v.jpg,CA,Other,34.1649502,-118.374752,North Hollywood
-"American Kleaner, E. 21st Street, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/01100/01116v.jpg,CA,Other,35.3738712,-119.019463,Bakersfield
-"Easton's Gym, Beverly Boulevard, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/01100/01118v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
-"Liquor store, Orange Avenue, Coronado, California",https://cdn.loc.gov/service/pnp/mrg/01100/01119v.jpg,CA,Retail,32.6915199,-117.1766947,Coronado
-"Woolworth's Antique Mall, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/01100/01120v.jpg,CA,Other,35.3738712,-119.019463,Bakersfield
-"Bahn's Jewelers, horizontal, Ventura, California",https://cdn.loc.gov/service/pnp/mrg/01100/01121v.jpg,CA,Other,34.4458248,-119.0779359,Ventura
-"Bahn's Jewelers, vertical, Ventura, California",https://cdn.loc.gov/service/pnp/mrg/01100/01122v.jpg,CA,Other,34.4458248,-119.0779359,Ventura
-"Disabled Vets Thrift Shop, 649 San Fernando Road, Burbank, California",https://cdn.loc.gov/service/pnp/mrg/01100/01123v.jpg,CA,Retail,34.1812089,-118.307201,Burbank
-"Snyder Surplus, 725 San Fernando Road, Burbank, California",https://cdn.loc.gov/service/pnp/mrg/01100/01124v.jpg,CA,Other,34.1812089,-118.307201,Burbank
-"Henne's Homemade Candy, Ice Cream, State Street, Ukiah, California",https://cdn.loc.gov/service/pnp/mrg/01200/01250v.jpg,CA,Other,39.1501662,-123.2077861,Ukiah
-"Milt's Iron Horse Restaurant, Oak Street, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/01200/01264v.jpg,CA,Restaurant,35.3738712,-119.019463,Bakersfield
-"Carney's Diner, angle 1, Sunset Boulevard, Hollywood, California",https://cdn.loc.gov/service/pnp/mrg/01200/01265v.jpg,CA,Restaurant,34.0980031,-118.329523,Hollywood
-"Carney's Diner, closer, Sunset Boulevard, Hollywood, California",https://cdn.loc.gov/service/pnp/mrg/01200/01266v.jpg,CA,Restaurant,34.0980031,-118.329523,Hollywood
-"Carney's Express, same place, angle 2, Sunset Boulevard, Hollywood, California",https://cdn.loc.gov/service/pnp/mrg/01200/01267v.jpg,CA,Other,34.0980031,-118.329523,Hollywood
-"Bob's Big Boy statue sign, closer view, La Cienega Boulevard, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/01500/01582v.jpg,CA,Sign,34.0536909,-118.242766,Los Angeles
-"Old Klamath Smoke House & Market sign, Route 101, Klamath, California",https://cdn.loc.gov/service/pnp/mrg/02300/02394v.jpg,CA,Sign,41.5265092,-124.038406,Klamath
-"Legend of Big Foot Gift Shop sign, Route 101, Garberville, California",https://cdn.loc.gov/service/pnp/mrg/02300/02395v.jpg,CA,Sign,40.100569,-123.796139,Garberville
-"Grandfather Tree billboard, Route 101, Garberville, California",https://cdn.loc.gov/service/pnp/mrg/02300/02396v.jpg,CA,Other,40.100569,-123.796139,Garberville
-"Wheel in mini Mart sign, 24 Hour Art Show, Cabazon, California",https://cdn.loc.gov/service/pnp/mrg/02300/02398v.jpg,CA,Sign,33.9090305,-116.7795345,Cabazon
-"Grandfather Tree entrance, Route 101, Garberville, California",https://cdn.loc.gov/service/pnp/mrg/02400/02400v.jpg,CA,Other,40.100569,-123.796139,Garberville
-"Candy House, Castle Amusement Park mini golf, Polk Street, Riverside, California",https://cdn.loc.gov/service/pnp/mrg/03100/03165v.jpg,CA,Sports,33.9824949,-117.374238,Riverside
-"Mission, Castle Amusement Park mini golf, Polk Street, Riverside, California",https://cdn.loc.gov/service/pnp/mrg/03100/03166v.jpg,CA,Sports,33.9824949,-117.374238,Riverside
-"Seating and landscape, vertical, Castle Amusement Park mini golf, Polk Street, Riverside, California",https://cdn.loc.gov/service/pnp/mrg/03100/03167v.jpg,CA,Sports,33.9824949,-117.374238,Riverside
-"Fountain and haunted house, Castle Amusement Park mini golf, Polk Street, Riverside, California",https://cdn.loc.gov/service/pnp/mrg/03100/03168v.jpg,CA,Sports,33.9824949,-117.374238,Riverside
-"Seating and landscape, Castle Amusement Park mini golf, Polk Street, Riverside, California",https://cdn.loc.gov/service/pnp/mrg/03100/03169v.jpg,CA,Sports,33.9824949,-117.374238,Riverside
-"Mosque, Castle Park Golf, Redondo Beach, California",https://cdn.loc.gov/service/pnp/mrg/03100/03170v.jpg,CA,Sports,33.8398289,-118.3845942,Redondo Beach
-"Castle overall, Castle Park Golf, Sherman Oaks, California",https://cdn.loc.gov/service/pnp/mrg/03100/03175v.jpg,CA,Sports,34.1508718,-118.448986,Sherman Oaks
-"Castle overall 2, Castle Park Golf, Sherman Oaks, California",https://cdn.loc.gov/service/pnp/mrg/03100/03176v.jpg,CA,Sports,34.1508718,-118.448986,Sherman Oaks
-"Castle overall 3, Castle Park Golf, Sherman Oaks, California",https://cdn.loc.gov/service/pnp/mrg/03100/03177v.jpg,CA,Sports,34.1508718,-118.448986,Sherman Oaks
-"Watch tower, Castle Park Golf, Sherman Oaks, California",https://cdn.loc.gov/service/pnp/mrg/03100/03178v.jpg,CA,Sports,34.1508718,-118.448986,Sherman Oaks
-"Haunted house, Castle Park Golf, Sherman Oaks, California",https://cdn.loc.gov/service/pnp/mrg/03100/03179v.jpg,CA,Sports,34.1508718,-118.448986,Sherman Oaks
-"Entrance, Castle Park Golf, Sherman Oaks, California",https://cdn.loc.gov/service/pnp/mrg/03100/03180v.jpg,CA,Sports,34.1508718,-118.448986,Sherman Oaks
-"Skeet ball hole, Castle Park Golf, Sherman Oaks, California",https://cdn.loc.gov/service/pnp/mrg/03100/03181v.jpg,CA,Sports,34.1508718,-118.448986,Sherman Oaks
-"Castle overall 4, Castle Park Golf, Sherman Oaks, California",https://cdn.loc.gov/service/pnp/mrg/03100/03182v.jpg,CA,Sports,34.1508718,-118.448986,Sherman Oaks
-"Straight lane hole, Castle Park Golf, Sherman Oaks, California",https://cdn.loc.gov/service/pnp/mrg/03100/03183v.jpg,CA,Sports,34.1508718,-118.448986,Sherman Oaks
-"Square lane hole, Castle Park Golf, Sherman Oaks, California",https://cdn.loc.gov/service/pnp/mrg/03100/03184v.jpg,CA,Sports,34.1508718,-118.448986,Sherman Oaks
-"Two holes view, Castle Park Golf, Sherman Oaks, California",https://cdn.loc.gov/service/pnp/mrg/03100/03185v.jpg,CA,Sports,34.1508718,-118.448986,Sherman Oaks
-"Two holes view 2, Castle Park Golf, Sherman Oaks, California",https://cdn.loc.gov/service/pnp/mrg/03100/03186v.jpg,CA,Sports,34.1508718,-118.448986,Sherman Oaks
-"Stars and moon hole view 1, Castle Park Golf, Sherman Oaks, California",https://cdn.loc.gov/service/pnp/mrg/03100/03187v.jpg,CA,Sports,34.1508718,-118.448986,Sherman Oaks
-"Stars and moon hole view 2, Castle Park Golf, Sherman Oaks, California",https://cdn.loc.gov/service/pnp/mrg/03100/03188v.jpg,CA,Sports,34.1508718,-118.448986,Sherman Oaks
-"Two holes view 3, Castle Park Golf, Sherman Oaks, California",https://cdn.loc.gov/service/pnp/mrg/03100/03189v.jpg,CA,Sports,34.1508718,-118.448986,Sherman Oaks
-"Water, ship and castle overall, Castle Park Golf, Sherman Oaks, California",https://cdn.loc.gov/service/pnp/mrg/03100/03190v.jpg,CA,Sports,34.1508718,-118.448986,Sherman Oaks
-"Stars and moon hole view 3, Castle Park Golf, Sherman Oaks, California",https://cdn.loc.gov/service/pnp/mrg/03100/03191v.jpg,CA,Sports,34.1508718,-118.448986,Sherman Oaks
-"Haunted house, Castle Park Golf, Polk Street, Riverside, California",https://cdn.loc.gov/service/pnp/mrg/03100/03192v.jpg,CA,Sports,33.9824949,-117.374238,Riverside
-"Overall view, Castle Park Golf, Redondo Beach, California",https://cdn.loc.gov/service/pnp/mrg/03100/03193v.jpg,CA,Sports,33.8398289,-118.3845942,Redondo Beach
-"16th hole with spire, Castle Park Golf, Redondo Beach, California",https://cdn.loc.gov/service/pnp/mrg/03100/03194v.jpg,CA,Sports,33.8398289,-118.3845942,Redondo Beach
-"Entrance, Storybook Land Golf, Clairmont Mesa Boulevard, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/03100/03195v.jpg,CA,Sports,32.7174202,-117.162772,San Diego
-"Eiffel Tower, Storybook Land Golf, Clairmont Mesa Boulevard, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/03100/03196v.jpg,CA,Sports,32.7174202,-117.162772,San Diego
-"Castle hole, Storybook Land Golf, Clairmont Mesa Boulevard, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/03100/03197v.jpg,CA,Sports,32.7174202,-117.162772,San Diego
-"House, Storybook Land Golf, Clairmont Mesa Boulevard, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/03100/03199v.jpg,CA,Sports,32.7174202,-117.162772,San Diego
-"Obelisk, Storybook Land Golf, Clairmont Mesa Boulevard, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/03200/03200v.jpg,CA,Sports,32.7174202,-117.162772,San Diego
-"Castle hole, view 2, Storybook Land Golf, Clairmont Mesa Boulevard, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/03200/03201v.jpg,CA,Sports,32.7174202,-117.162772,San Diego
-"Trading post, Storybook Land Golf, Clairmont Mesa Boulevard, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/03200/03202v.jpg,CA,Sports,32.7174202,-117.162772,San Diego
-"Windmill, Green Pines mini golf, Redding, California",https://cdn.loc.gov/service/pnp/mrg/03200/03203v.jpg,CA,Sports,40.5863563,-122.391675,Redding
-"Lighthouse, Green Pines mini golf, Redding, California",https://cdn.loc.gov/service/pnp/mrg/03200/03204v.jpg,CA,Sports,40.5863563,-122.391675,Redding
-"Castle, Green Pines mini golf, Redding, California",https://cdn.loc.gov/service/pnp/mrg/03200/03205v.jpg,CA,Sports,40.5863563,-122.391675,Redding
-"Two level green, Green Pines mini golf, Redding, California",https://cdn.loc.gov/service/pnp/mrg/03200/03206v.jpg,CA,Sports,40.5863563,-122.391675,Redding
-"Sign, front, Green Pines mini golf, Redding, California",https://cdn.loc.gov/service/pnp/mrg/03200/03207v.jpg,CA,Sports,40.5863563,-122.391675,Redding
-"Sign, back, Green Pines mini golf, Redding, California",https://cdn.loc.gov/service/pnp/mrg/03200/03208v.jpg,CA,Sports,40.5863563,-122.391675,Redding
-"Pine hole marker #16, Green Pines mini golf, Redding, California",https://cdn.loc.gov/service/pnp/mrg/03200/03209v.jpg,CA,Sports,40.5863563,-122.391675,Redding
-"Windmill, Golf N' Stuff, Ventura, California",https://cdn.loc.gov/service/pnp/mrg/03200/03296v.jpg,CA,Sports,34.4458248,-119.0779359,Ventura
-"Overall 1, Golf N' Stuff, Ventura, California",https://cdn.loc.gov/service/pnp/mrg/03200/03297v.jpg,CA,Sports,34.4458248,-119.0779359,Ventura
-"Overall 2, Golf N' Stuff, Ventura, California",https://cdn.loc.gov/service/pnp/mrg/03200/03298v.jpg,CA,Sports,34.4458248,-119.0779359,Ventura
-"Castle, Golf N' Stuff, Ventura, California",https://cdn.loc.gov/service/pnp/mrg/03200/03299v.jpg,CA,Sports,34.4458248,-119.0779359,Ventura
-"Pueblo house, Golf N' Stuff, Ventura, California",https://cdn.loc.gov/service/pnp/mrg/03300/03300v.jpg,CA,Sports,34.4458248,-119.0779359,Ventura
-"Three podium hole, Golf N' Stuff, Ventura, California",https://cdn.loc.gov/service/pnp/mrg/03300/03301v.jpg,CA,Sports,34.4458248,-119.0779359,Ventura
-"Pump house hole, Fountain Valley mini golf, Fountain Valley, California",https://cdn.loc.gov/service/pnp/mrg/03300/03302v.jpg,CA,Sports,33.7038145,-117.9627349,Fountain Valley
-"Windmill 1, Fountain Valley mini golf, Fountain Valley, California",https://cdn.loc.gov/service/pnp/mrg/03300/03303v.jpg,CA,Sports,33.7038145,-117.9627349,Fountain Valley
-"Windmill 2, Fountain Valley mini golf, Fountain Valley, California",https://cdn.loc.gov/service/pnp/mrg/03300/03304v.jpg,CA,Sports,33.7038145,-117.9627349,Fountain Valley
-"Castle, Fountain Valley mini golf, Fountain Valley, California",https://cdn.loc.gov/service/pnp/mrg/03300/03305v.jpg,CA,Sports,33.7038145,-117.9627349,Fountain Valley
-"USA Shuttle, Fountain Valley mini golf, Fountain Valley, California",https://cdn.loc.gov/service/pnp/mrg/03300/03306v.jpg,CA,Sports,33.7038145,-117.9627349,Fountain Valley
-"Tiger hole, Fountain Valley mini golf, Fountain Valley, California",https://cdn.loc.gov/service/pnp/mrg/03300/03307v.jpg,CA,Sports,33.7038145,-117.9627349,Fountain Valley
-"Overall, Fountain Valley mini golf, Fountain Valley, California",https://cdn.loc.gov/service/pnp/mrg/03300/03308v.jpg,CA,Sports,33.7038145,-117.9627349,Fountain Valley
-"Overall, Fountain Valley mini golf, Fountain Valley, California",https://cdn.loc.gov/service/pnp/mrg/03300/03309v.jpg,CA,Sports,33.7038145,-117.9627349,Fountain Valley
-"Clock tower, Fountain Valley mini golf, Fountain Valley, California",https://cdn.loc.gov/service/pnp/mrg/03300/03310v.jpg,CA,Sports,33.7038145,-117.9627349,Fountain Valley
-"Mission San Juan view 1, Fountain Valley mini golf, Fountain Valley, California",https://cdn.loc.gov/service/pnp/mrg/03300/03311v.jpg,CA,Sports,33.7038145,-117.9627349,Fountain Valley
-"Mission San Juan view 2, Fountain Valley mini golf, Fountain Valley, California",https://cdn.loc.gov/service/pnp/mrg/03300/03312v.jpg,CA,Sports,33.7038145,-117.9627349,Fountain Valley
-"Circular hole with stone wall, Fountain Valley mini golf, Fountain Valley, California",https://cdn.loc.gov/service/pnp/mrg/03300/03313v.jpg,CA,Sports,33.7038145,-117.9627349,Fountain Valley
-"Circular hole detail, Fountain Valley mini golf, Fountain Valley, California",https://cdn.loc.gov/service/pnp/mrg/03300/03314v.jpg,CA,Sports,33.7038145,-117.9627349,Fountain Valley
-"Castle Far Away, Blackbeard's mini golf, Fresno, California",https://cdn.loc.gov/service/pnp/mrg/03300/03334v.jpg,CA,Sports,36.7394421,-119.78483,Fresno
-"Castle, Blackbeard's mini golf, Fresno, California",https://cdn.loc.gov/service/pnp/mrg/03300/03335v.jpg,CA,Sports,36.7394421,-119.78483,Fresno
-"Windmill, Blackbeard's mini golf, Fresno, California",https://cdn.loc.gov/service/pnp/mrg/03300/03336v.jpg,CA,Sports,36.7394421,-119.78483,Fresno
-"U.S. Telegraph, Blackbeard's mini golf, Fresno, California",https://cdn.loc.gov/service/pnp/mrg/03300/03337v.jpg,CA,Sports,36.7394421,-119.78483,Fresno
-"Big Ben, Blackbeard's mini golf, Fresno, California",https://cdn.loc.gov/service/pnp/mrg/03300/03338v.jpg,CA,Sports,36.7394421,-119.78483,Fresno
-"Star and two patches, Blackbeard's mini golf, Fresno, California",https://cdn.loc.gov/service/pnp/mrg/03300/03339v.jpg,CA,Sports,36.7394421,-119.78483,Fresno
-"Star hole, Blackbeard's mini golf, Fresno, California",https://cdn.loc.gov/service/pnp/mrg/03300/03340v.jpg,CA,Sports,36.7394421,-119.78483,Fresno
-"Overall view, Blackbeard's mini golf, Fresno, California",https://cdn.loc.gov/service/pnp/mrg/03300/03341v.jpg,CA,Sports,36.7394421,-119.78483,Fresno
-"Crazy House, vertical, Blackbeard's mini golf, Fresno, California",https://cdn.loc.gov/service/pnp/mrg/03300/03342v.jpg,CA,Sports,36.7394421,-119.78483,Fresno
-"Crazy House, horizontal, Blackbeard's mini golf, Fresno, California",https://cdn.loc.gov/service/pnp/mrg/03300/03343v.jpg,CA,Sports,36.7394421,-119.78483,Fresno
-"Concrete decor, Blackbeard's mini golf, Fresno, California",https://cdn.loc.gov/service/pnp/mrg/03300/03344v.jpg,CA,Sports,36.7394421,-119.78483,Fresno
-"Six bumpers, Blackbeard's mini golf, Fresno, California",https://cdn.loc.gov/service/pnp/mrg/03300/03345v.jpg,CA,Sports,36.7394421,-119.78483,Fresno
-"Lighthouse, Blackbeard's mini golf, Fresno, California",https://cdn.loc.gov/service/pnp/mrg/03300/03346v.jpg,CA,Sports,36.7394421,-119.78483,Fresno
-"Lighthouse view 2, Blackbeard's mini golf, Fresno, California",https://cdn.loc.gov/service/pnp/mrg/03300/03347v.jpg,CA,Sports,36.7394421,-119.78483,Fresno
-"Chicks, Blackbeard's mini golf, Fresno, California",https://cdn.loc.gov/service/pnp/mrg/03300/03348v.jpg,CA,Sports,36.7394421,-119.78483,Fresno
-"Carpet detail, Blackbeard's mini golf, Fresno, California",https://cdn.loc.gov/service/pnp/mrg/03300/03349v.jpg,CA,Sports,36.7394421,-119.78483,Fresno
-"Entrance, Castle Park Golf, Sherman Oaks, California",https://cdn.loc.gov/service/pnp/mrg/03300/03379v.jpg,CA,Sports,34.1508718,-118.448986,Sherman Oaks
-"Castle, Pomona Valley Golf, 7th Street, Upland, California",https://cdn.loc.gov/service/pnp/mrg/03300/03383v.jpg,CA,Sports,34.09751,-117.6483876,Upland
-"Boulder, Castle Amusement Park mini golf, Riverside, California",https://cdn.loc.gov/service/pnp/mrg/03400/03481v.jpg,CA,Sports,33.9824949,-117.374238,Riverside
-"Old Klamath Smoke House and Market, Route 101, Klamath, California",https://cdn.loc.gov/service/pnp/mrg/03500/03532v.jpg,CA,Historical Building,41.5265092,-124.038406,Klamath
-"Brontosaurus, Prehistoric Museum, Cabazon, California",https://cdn.loc.gov/service/pnp/mrg/03500/03562v.jpg,CA,Museum,33.9090305,-116.7795345,Cabazon
-"Legend of Big Foot Gift Shop, Route 101, Garberville, California",https://cdn.loc.gov/service/pnp/mrg/03500/03575v.jpg,CA,Retail,40.100569,-123.796139,Garberville
-"Pumpkin sign, Route 99, Dairyville, California",https://cdn.loc.gov/service/pnp/mrg/03500/03579v.jpg,CA,Sign,40.1298788,-122.1211032,Dairyville
-"Brontosaurus back view, Prehistoric Museum, Cabazon, California",https://cdn.loc.gov/service/pnp/mrg/03600/03608v.jpg,CA,Museum,33.9090305,-116.7795345,Cabazon
-"Paul Bunyan and Babe angle 1, Trees of Mystery, Route 101, Klamath, California",https://cdn.loc.gov/service/pnp/mrg/03600/03626v.jpg,CA,Other,41.5265092,-124.038406,Klamath
-"Three cabins, Wigwam Village #7, Route 66, Rialto, California",https://cdn.loc.gov/service/pnp/mrg/03700/03722v.jpg,CA,Historical Building,34.1064001,-117.3703235,Rialto
-"Giant artichoke, Horizontal, Route 183., Castroville, California",https://cdn.loc.gov/service/pnp/mrg/03700/03757v.jpg,CA,Other,36.7657904,-121.758005,Castroville
-"Lighthouse at Neighborhood Church, Route 101, Orick, California",https://cdn.loc.gov/service/pnp/mrg/03700/03787v.jpg,CA,Historical Building,41.2867896,-124.0597937,Orick
-"Municipal Building, Santa Barbara, California",https://cdn.loc.gov/service/pnp/mrg/03800/03861v.jpg,CA,Historical Building,34.4221319,-119.702667,Santa Barbara
-"Municipal Building, Santa Barbara, California",https://cdn.loc.gov/service/pnp/mrg/03800/03862v.jpg,CA,Historical Building,34.4221319,-119.702667,Santa Barbara
-"Municipal Building, Santa Barbara, California",https://cdn.loc.gov/service/pnp/mrg/03800/03863v.jpg,CA,Historical Building,34.4221319,-119.702667,Santa Barbara
-"Municipal Building, Santa Barbara, California",https://cdn.loc.gov/service/pnp/mrg/03800/03864v.jpg,CA,Historical Building,34.4221319,-119.702667,Santa Barbara
-"Municipal Building, Santa Barbara, California",https://cdn.loc.gov/service/pnp/mrg/03800/03865v.jpg,CA,Historical Building,34.4221319,-119.702667,Santa Barbara
-"Municipal Building, Santa Barbara, California",https://cdn.loc.gov/service/pnp/mrg/03800/03866v.jpg,CA,Historical Building,34.4221319,-119.702667,Santa Barbara
-"Municipal Building, Santa Barbara, California",https://cdn.loc.gov/service/pnp/mrg/03800/03867v.jpg,CA,Historical Building,34.4221319,-119.702667,Santa Barbara
-"Courthouse, Court Street, Visalia, California",https://cdn.loc.gov/service/pnp/mrg/03900/03902v.jpg,CA,Historical Building,36.3302284,-119.292058,Visalia
-"Public parking structure, Sutter Street, Stockton, California",https://cdn.loc.gov/service/pnp/mrg/03900/03960v.jpg,CA,Park,37.9577016,-121.290779,Stockton
-"Public parking structure, Sutter Street, Stockton, California",https://cdn.loc.gov/service/pnp/mrg/03900/03961v.jpg,CA,Park,37.9577016,-121.290779,Stockton
-"California Bridge Center, 945 North Fairfax, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/03900/03985v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
-"Center Fire Station, H Street, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/03900/03988v.jpg,CA,Gas Station,35.3738712,-119.019463,Bakersfield
-"Carnegie Library (museum), F Street, Eureka, California",https://cdn.loc.gov/service/pnp/mrg/04000/04001v.jpg,CA,Museum,40.8018746,-124.1707558,Eureka
-"Bank, Mountain Mike's Pizza, Broadway, King City, California",https://cdn.loc.gov/service/pnp/mrg/04000/04016v.jpg,CA,Other,36.2135291,-121.1247365,King City
-"Wells Fargo Bank, Alta Street, Gonzales, California",https://cdn.loc.gov/service/pnp/mrg/04000/04017v.jpg,CA,Other,36.5080741,-121.4447041,Gonzales
-"American Trust Co. credit union, column detail, Petaluma Boulevard and Western Avenue, Petaluma, California",https://cdn.loc.gov/service/pnp/mrg/04000/04029v.jpg,CA,Other,38.2325829,-122.636465,Petaluma
-"American Trust Co. credit union, Petaluma Boulevard and Western Avenue, Petaluma, California",https://cdn.loc.gov/service/pnp/mrg/04000/04030v.jpg,CA,Other,38.2325829,-122.636465,Petaluma
-"Old bank, Petaluma Boulevard and Western Avenue, Petaluma, California",https://cdn.loc.gov/service/pnp/mrg/04000/04038v.jpg,CA,Other,38.2325829,-122.636465,Petaluma
-"Bank of Eureka and Savings Bank of Humboldt County, Third and I Streets, Eureka, California",https://cdn.loc.gov/service/pnp/mrg/04000/04041v.jpg,CA,Other,40.8018746,-124.1707558,Eureka
-"Bank of Eureka and Savings Bank of Humboldt County, Third and I Streets, Eureka, California",https://cdn.loc.gov/service/pnp/mrg/04000/04042v.jpg,CA,Other,40.8018746,-124.1707558,Eureka
-"Bank of Eureka and Savings Bank of Humboldt County, detail, Third and I Streets, Eureka, California",https://cdn.loc.gov/service/pnp/mrg/04000/04043v.jpg,CA,Other,40.8018746,-124.1707558,Eureka
-"Bank of America,Westwood Boulevard and Kinross, Westwood, California",https://cdn.loc.gov/service/pnp/mrg/04000/04080v.jpg,CA,Other,34.0668947,-118.439944,Westwood
-"Masonic Temple (1920), door detail, Lassen Street, Susanville, California",https://cdn.loc.gov/service/pnp/mrg/04100/04136v.jpg,CA,Other,40.4162842,-120.653006,Susanville
-"Masonic Temple (1924), pediment detail, Lassen Street, Susanville, California",https://cdn.loc.gov/service/pnp/mrg/04100/04137v.jpg,CA,Other,40.4162842,-120.653006,Susanville
-"Masonic Temple (1924), pediment detail, Lassen Street, Susanville, California",https://cdn.loc.gov/service/pnp/mrg/04100/04138v.jpg,CA,Other,40.4162842,-120.653006,Susanville
-"Masonic Temple, Petaluma Boulevard and Western Avenue, Petaluma, California",https://cdn.loc.gov/service/pnp/mrg/04100/04147v.jpg,CA,Other,38.2325829,-122.636465,Petaluma
-"Tom's Auto Body, 7229 West Melrose, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/04200/04204v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
-"Elmore Pharmacy sign, Walnut Street, Red Bluff, California",https://cdn.loc.gov/service/pnp/mrg/04200/04212v.jpg,CA,Sign,40.1784279,-122.235923,Red Bluff
-"Greyhound Bus sign, Gabilan Street, Salinas, California",https://cdn.loc.gov/service/pnp/mrg/04200/04231v.jpg,CA,Sign,36.6744117,-121.655037,Salinas
-"Korea Times Building, Vermont Avenue, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/04200/04272v.jpg,CA,Historical Building,34.0536909,-118.242766,Los Angeles
-"Crossroads of the World, Vine Street, Hollywood, California",https://cdn.loc.gov/service/pnp/mrg/04300/04319v.jpg,CA,Other,34.0980031,-118.329523,Hollywood
-"Crossroads of the World, Hollywood Boulevard, side porthole, Hollywood, California",https://cdn.loc.gov/service/pnp/mrg/04300/04320v.jpg,CA,Other,34.0980031,-118.329523,Hollywood
-"Crossroads of the World, Hollywood Boulevard, Hollywood, California",https://cdn.loc.gov/service/pnp/mrg/04300/04321v.jpg,CA,Other,34.0980031,-118.329523,Hollywood
-"Crossroads of the World, Sunset Boulevard, Hollywood, California",https://cdn.loc.gov/service/pnp/mrg/04300/04322v.jpg,CA,Other,34.0980031,-118.329523,Hollywood
-"Barber-Levy Shop, El Cajon Road, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/04300/04324v.jpg,CA,Retail,32.7174202,-117.162772,San Diego
-"Dellard Furniture Imports, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/04300/04357v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
-"Dellard Furniture Imports, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/04300/04358v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
-"The Craft Company, Red Bluff, California",https://cdn.loc.gov/service/pnp/mrg/04300/04364v.jpg,CA,Other,40.1784279,-122.235923,Red Bluff
-"The Craft Company, Red Bluff, California",https://cdn.loc.gov/service/pnp/mrg/04300/04366v.jpg,CA,Other,40.1784279,-122.235923,Red Bluff
-"Beverly Upholstery, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/04300/04378v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
-"Roth Draperies, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/04300/04379v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
-"Cafe Waterfront, Eureka, California",https://cdn.loc.gov/service/pnp/mrg/04300/04393v.jpg,CA,Restaurant,40.8018746,-124.1707558,Eureka
-"Blue Fox Lounge, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/04400/04403v.jpg,CA,Other,35.3738712,-119.019463,Bakersfield
-"Strip mall, San Bernardino, California",https://cdn.loc.gov/service/pnp/mrg/04400/04411v.jpg,CA,Other,34.8253019,-116.0833144,San Bernardino
-"Strip mall, La Mesa, California",https://cdn.loc.gov/service/pnp/mrg/04400/04412v.jpg,CA,Other,32.7678288,-117.0230839,La Mesa
-"Carousel Mall, San Bernardino, California",https://cdn.loc.gov/service/pnp/mrg/04400/04413v.jpg,CA,Other,34.8253019,-116.0833144,San Bernardino
-"Carousel Mall, San Bernardino, California",https://cdn.loc.gov/service/pnp/mrg/04400/04414v.jpg,CA,Other,34.8253019,-116.0833144,San Bernardino
-"Carousel Mall, San Bernardino, California",https://cdn.loc.gov/service/pnp/mrg/04400/04415v.jpg,CA,Other,34.8253019,-116.0833144,San Bernardino
-"Jeffrey Anderson Jewelry, Eureka, California",https://cdn.loc.gov/service/pnp/mrg/04400/04438v.jpg,CA,Other,40.8018746,-124.1707558,Eureka
-"Jeffrey Anderson Jewelry, Eureka, California",https://cdn.loc.gov/service/pnp/mrg/04400/04439v.jpg,CA,Other,40.8018746,-124.1707558,Eureka
-"Vintage Bank Antiques, Petaluma, California",https://cdn.loc.gov/service/pnp/mrg/04400/04488v.jpg,CA,Other,38.2325829,-122.636465,Petaluma
-"Law office, Stockton, California",https://cdn.loc.gov/service/pnp/mrg/04500/04510v.jpg,CA,Other,37.9577016,-121.290779,Stockton
-"Bed Bath & Beyond, San Luis Obispo, California",https://cdn.loc.gov/service/pnp/mrg/04500/04536v.jpg,CA,Other,35.3540209,-120.375716,San Luis Obispo
-"Bed Bath & Beyond, San Luis Obispo, California",https://cdn.loc.gov/service/pnp/mrg/04500/04537v.jpg,CA,Other,35.3540209,-120.375716,San Luis Obispo
-"Harris Department Store, San Bernardino, California",https://cdn.loc.gov/service/pnp/mrg/04500/04571v.jpg,CA,Retail,34.8253019,-116.0833144,San Bernardino
-"Kelli Clothing, Merced, California",https://cdn.loc.gov/service/pnp/mrg/04500/04572v.jpg,CA,Other,37.1641544,-120.7678602,Merced
-"Palisade Garden Roller Skating, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/04600/04604v.jpg,CA,Other,32.7174202,-117.162772,San Diego
-"Palisade Garden Roller Skating, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/04600/04605v.jpg,CA,Other,32.7174202,-117.162772,San Diego
-"Palisade Garden Roller Skating, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/04600/04606v.jpg,CA,Other,32.7174202,-117.162772,San Diego
-"Palisade Garden Roller Skating, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/04600/04607v.jpg,CA,Other,32.7174202,-117.162772,San Diego
-"Palisade Garden Roller Skating, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/04600/04608v.jpg,CA,Other,32.7174202,-117.162772,San Diego
-"Beacon Liquors, West Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/04600/04620v.jpg,CA,Other,34.0468546,-118.430254,West Los Angeles
-"Helms Bakery, Culver City, California",https://cdn.loc.gov/service/pnp/mrg/04600/04632v.jpg,CA,Other,34.0211224,-118.396466,Culver City
-"Helms Bakery, Culver City, California",https://cdn.loc.gov/service/pnp/mrg/04600/04633v.jpg,CA,Other,34.0211224,-118.396466,Culver City
-"Helms Bakery, Culver City, California",https://cdn.loc.gov/service/pnp/mrg/04600/04634v.jpg,CA,Other,34.0211224,-118.396466,Culver City
-"American Fruit Growers, Inc., Riverside, California",https://cdn.loc.gov/service/pnp/mrg/04600/04638v.jpg,CA,Other,33.9824949,-117.374238,Riverside
-"Dutch Ice, Manteca, California",https://cdn.loc.gov/service/pnp/mrg/04600/04642v.jpg,CA,Other,37.7986184,-121.2117148,Manteca
-"Palm Market, Oxnard, California",https://cdn.loc.gov/service/pnp/mrg/04600/04671v.jpg,CA,Other,34.1976308,-119.180381,Oxnard
-"Baer's Market, Santa Monica, California",https://cdn.loc.gov/service/pnp/mrg/04600/04693v.jpg,CA,Other,34.0194704,-118.491227,Santa Monica
-"Foxy's Hair Studio, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/04700/04703v.jpg,CA,Other,35.3738712,-119.019463,Bakersfield
-"Foxy's Hair Studio, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/04700/04704v.jpg,CA,Other,35.3738712,-119.019463,Bakersfield
-"Easton's Gym, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/04700/04725v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
-"Rock Stram Baths, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/04700/04726v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
-"Barber pole, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/04700/04755v.jpg,CA,Other,32.7174202,-117.162772,San Diego
-"Razor's Edge Barber Shop, Williams, California",https://cdn.loc.gov/service/pnp/mrg/04700/04767v.jpg,CA,Retail,39.1546844,-122.1498204,Williams
-"Ber Neice's Barber Shop, San Bernardino, California",https://cdn.loc.gov/service/pnp/mrg/04700/04772v.jpg,CA,Retail,34.8253019,-116.0833144,San Bernardino
-"Barber-Levy Shop, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/04700/04796v.jpg,CA,Retail,32.7174202,-117.162772,San Diego
-"Tire Man, Venice, California",https://cdn.loc.gov/service/pnp/mrg/04800/04810v.jpg,CA,Other,33.995044,-118.4668875,Venice
-"Citizen's Bank of Paso Robles sign, Paso Robles, California",https://cdn.loc.gov/service/pnp/mrg/04800/04827v.jpg,CA,Sign,35.6262618,-120.6901319,Paso Robles
-"Tower Bowl, San Luis Obispo, California",https://cdn.loc.gov/service/pnp/mrg/04800/04837v.jpg,CA,Historical Building,35.3540209,-120.375716,San Luis Obispo
-"Orange Bowl sign, Rialto, California",https://cdn.loc.gov/service/pnp/mrg/04800/04883v.jpg,CA,Sign,34.1064001,-117.3703235,Rialto
-"The Tower Bowl, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/04800/04897v.jpg,CA,Historical Building,32.7174202,-117.162772,San Diego
-"The Tower Bowl, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/04800/04898v.jpg,CA,Historical Building,32.7174202,-117.162772,San Diego
-"Mendes Park Western Wear sign, Fresno, California",https://cdn.loc.gov/service/pnp/mrg/04900/04911v.jpg,CA,Sign,36.7394421,-119.78483,Fresno
-"Commercial building, Stockton, California",https://cdn.loc.gov/service/pnp/mrg/04900/04960v.jpg,CA,Historical Building,37.9577016,-121.290779,Stockton
-"Commercial building, Eureka, California",https://cdn.loc.gov/service/pnp/mrg/04900/04966v.jpg,CA,Historical Building,40.8018746,-124.1707558,Eureka
-"Commercial building, Eureka, California",https://cdn.loc.gov/service/pnp/mrg/04900/04967v.jpg,CA,Historical Building,40.8018746,-124.1707558,Eureka
-"100F Building, Gonzales, California",https://cdn.loc.gov/service/pnp/mrg/04900/04975v.jpg,CA,Historical Building,36.5080741,-121.4447041,Gonzales
-"Parkhurst Building, Ocean Park, Santa Monica, California",https://cdn.loc.gov/service/pnp/mrg/04900/04997v.jpg,CA,Park,34.0194704,-118.491227,Santa Monica
-"Storefront, Santa Monica, California",https://cdn.loc.gov/service/pnp/mrg/04900/04998v.jpg,CA,Retail,34.0194704,-118.491227,Santa Monica
-"Shine Parlor, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/05000/05000v.jpg,CA,Other,35.3738712,-119.019463,Bakersfield
-"Parkhurst Building, Ocean Park, Santa Monica, California",https://cdn.loc.gov/service/pnp/mrg/05000/05025v.jpg,CA,Park,34.0194704,-118.491227,Santa Monica
-"Parkhurst Building, Ocean Park, Santa Monica, California",https://cdn.loc.gov/service/pnp/mrg/05000/05026v.jpg,CA,Park,34.0194704,-118.491227,Santa Monica
-"Shops, Venice, California",https://cdn.loc.gov/service/pnp/mrg/05000/05050v.jpg,CA,Retail,33.995044,-118.4668875,Venice
-"Three stores, La Mesa, California",https://cdn.loc.gov/service/pnp/mrg/05100/05118v.jpg,CA,Retail,32.7678288,-117.0230839,La Mesa
-"Hillcrest Arch, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/05100/05122v.jpg,CA,Other,32.7174202,-117.162772,San Diego
-"United Equipment, Turlock, California",https://cdn.loc.gov/service/pnp/mrg/05100/05143v.jpg,CA,Other,37.4946568,-120.8465941,Turlock
-"United Equipment, Turlock, California",https://cdn.loc.gov/service/pnp/mrg/05100/05144v.jpg,CA,Other,37.4946568,-120.8465941,Turlock
-"United Equipment, Turlock, California",https://cdn.loc.gov/service/pnp/mrg/05100/05145v.jpg,CA,Other,37.4946568,-120.8465941,Turlock
-"Windmire Building, Solvang, California",https://cdn.loc.gov/service/pnp/mrg/05100/05152v.jpg,CA,Historical Building,34.5960774,-120.1381144,Solvang
-"Sodaro's Furniture, Joshua Tree, California",https://cdn.loc.gov/service/pnp/mrg/05100/05167v.jpg,CA,Other,34.1233803,-116.3128792,Joshua Tree
-"Atwater Signal-Merced Daily Sun Star, Atwater, California",https://cdn.loc.gov/service/pnp/mrg/05100/05186v.jpg,CA,Sign,37.3477174,-120.609084,Atwater
-"Atwater Signal-Merced Daily Sun Star, Atwater, California",https://cdn.loc.gov/service/pnp/mrg/05100/05187v.jpg,CA,Sign,37.3477174,-120.609084,Atwater
-"Union Oil, West Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/05200/05209v.jpg,CA,Other,34.0468546,-118.430254,West Los Angeles
-"Union 76, Cucamonga, California",https://cdn.loc.gov/service/pnp/mrg/05200/05212v.jpg,CA,Other,34.0991995,-117.6022102,Cucamonga
-"Union 76, Cucamonga, California",https://cdn.loc.gov/service/pnp/mrg/05200/05213v.jpg,CA,Other,34.0991995,-117.6022102,Cucamonga
-"Old gas station, Beaumont, California",https://cdn.loc.gov/service/pnp/mrg/05200/05228v.jpg,CA,Gas Station,33.9299925,-116.9763092,Beaumont
-"Old gas station, Beaumont, California",https://cdn.loc.gov/service/pnp/mrg/05200/05229v.jpg,CA,Gas Station,33.9299925,-116.9763092,Beaumont
-"Old gas station, Beaumont, California",https://cdn.loc.gov/service/pnp/mrg/05200/05230v.jpg,CA,Gas Station,33.9299925,-116.9763092,Beaumont
-"Old gas station, Beaumont, California",https://cdn.loc.gov/service/pnp/mrg/05200/05231v.jpg,CA,Gas Station,33.9299925,-116.9763092,Beaumont
-"Chevron station, Brentwood, California",https://cdn.loc.gov/service/pnp/mrg/05200/05232v.jpg,CA,Gas Station,37.9317766,-121.696026,Brentwood
-"Chevron station, Brentwood, California",https://cdn.loc.gov/service/pnp/mrg/05200/05233v.jpg,CA,Gas Station,37.9317766,-121.696026,Brentwood
-"Chevron station, Brentwood, California",https://cdn.loc.gov/service/pnp/mrg/05200/05234v.jpg,CA,Gas Station,37.9317766,-121.696026,Brentwood
-"Chevron station, Brentwood, California",https://cdn.loc.gov/service/pnp/mrg/05200/05235v.jpg,CA,Gas Station,37.9317766,-121.696026,Brentwood
-"Chevron station, Brentwood, California",https://cdn.loc.gov/service/pnp/mrg/05200/05236v.jpg,CA,Gas Station,37.9317766,-121.696026,Brentwood
-"Chevron station, Brentwood, California",https://cdn.loc.gov/service/pnp/mrg/05200/05237v.jpg,CA,Gas Station,37.9317766,-121.696026,Brentwood
-"Span Colon Gas, Goleta, California",https://cdn.loc.gov/service/pnp/mrg/05200/05238v.jpg,CA,Gas Station,34.4358295,-119.8276389,Goleta
-"Span Colon Gas, Goleta, California",https://cdn.loc.gov/service/pnp/mrg/05200/05239v.jpg,CA,Gas Station,34.4358295,-119.8276389,Goleta
-"Span Colon Gas, Goleta, California",https://cdn.loc.gov/service/pnp/mrg/05200/05240v.jpg,CA,Gas Station,34.4358295,-119.8276389,Goleta
-"Seaside Gas, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/05200/05241v.jpg,CA,Gas Station,34.0536909,-118.242766,Los Angeles
-"Seaside Gas, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/05200/05242v.jpg,CA,Gas Station,34.0536909,-118.242766,Los Angeles
-"Seaside Gas, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/05200/05243v.jpg,CA,Gas Station,34.0536909,-118.242766,Los Angeles
-"Seaside Gas, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/05200/05244v.jpg,CA,Gas Station,34.0536909,-118.242766,Los Angeles
-"Seaside Gas, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/05200/05245v.jpg,CA,Gas Station,34.0536909,-118.242766,Los Angeles
-"Seaside Gas, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/05200/05246v.jpg,CA,Gas Station,34.0536909,-118.242766,Los Angeles
-"Cattoir Texaco, Arroyo Grande, California",https://cdn.loc.gov/service/pnp/mrg/05200/05249v.jpg,CA,Other,35.1235374,-120.5785796,Arroyo Grande
-"Cattoir Texaco, Arroyo Grande, California",https://cdn.loc.gov/service/pnp/mrg/05200/05250v.jpg,CA,Other,35.1235374,-120.5785796,Arroyo Grande
-"Cattoir Texaco, Arroyo Grande, California",https://cdn.loc.gov/service/pnp/mrg/05200/05251v.jpg,CA,Other,35.1235374,-120.5785796,Arroyo Grande
-"Ang's Service Mobil, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/05200/05265v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
-"Ang's Service Mobil, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/05200/05266v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
-"Gas station, Culver City, California",https://cdn.loc.gov/service/pnp/mrg/05200/05271v.jpg,CA,Gas Station,34.0211224,-118.396466,Culver City
-"Richfield Station, Cucamonga, California",https://cdn.loc.gov/service/pnp/mrg/05300/05310v.jpg,CA,Gas Station,34.0991995,-117.6022102,Cucamonga
-"Richfield Station, Cucamonga, California",https://cdn.loc.gov/service/pnp/mrg/05300/05311v.jpg,CA,Gas Station,34.0991995,-117.6022102,Cucamonga
-"Richfield Station, Cucamonga, California",https://cdn.loc.gov/service/pnp/mrg/05300/05312v.jpg,CA,Gas Station,34.0991995,-117.6022102,Cucamonga
-"Richfield Station, Cucamonga, California",https://cdn.loc.gov/service/pnp/mrg/05300/05313v.jpg,CA,Gas Station,34.0991995,-117.6022102,Cucamonga
-"Realty Staton, Templeton, California",https://cdn.loc.gov/service/pnp/mrg/05300/05314v.jpg,CA,Other,35.5605315,-120.7007616,Templeton
-"Gas station, Monterey Park, California",https://cdn.loc.gov/service/pnp/mrg/05300/05322v.jpg,CA,Gas Station,34.051522,-118.129807,Monterey Park
-"World's Largest Redwood Tree Service Station, Ukiah, California",https://cdn.loc.gov/service/pnp/mrg/05300/05343v.jpg,CA,Gas Station,39.1501662,-123.2077861,Ukiah
-"World's Largest Redwood Tree Service Station, Ukiah, California",https://cdn.loc.gov/service/pnp/mrg/05300/05344v.jpg,CA,Gas Station,39.1501662,-123.2077861,Ukiah
-"Gas station Church, Pacoima, California",https://cdn.loc.gov/service/pnp/mrg/05300/05372v.jpg,CA,Gas Station,34.2625025,-118.427027,Pacoima
-"Gas station Church, Pacoima, California",https://cdn.loc.gov/service/pnp/mrg/05300/05373v.jpg,CA,Gas Station,34.2625025,-118.427027,Pacoima
-"Gas station Church, Pacoima, California",https://cdn.loc.gov/service/pnp/mrg/05300/05374v.jpg,CA,Gas Station,34.2625025,-118.427027,Pacoima
-"Barnsdahl-Rio Gas, Goleta, California",https://cdn.loc.gov/service/pnp/mrg/05400/05401v.jpg,CA,Gas Station,34.4358295,-119.8276389,Goleta
-"Barnsdahl-Rio Gas, Goleta, California",https://cdn.loc.gov/service/pnp/mrg/05400/05402v.jpg,CA,Gas Station,34.4358295,-119.8276389,Goleta
-"Barnsdahl-Rio Gas, Goleta, California",https://cdn.loc.gov/service/pnp/mrg/05400/05403v.jpg,CA,Gas Station,34.4358295,-119.8276389,Goleta
-"Barnsdahl-Rio Gas, Goleta, California",https://cdn.loc.gov/service/pnp/mrg/05400/05404v.jpg,CA,Gas Station,34.4358295,-119.8276389,Goleta
-"Barnsdahl-Rio Gas, Goleta, California",https://cdn.loc.gov/service/pnp/mrg/05400/05405v.jpg,CA,Gas Station,34.4358295,-119.8276389,Goleta
-"Union 76 Gas, Santa Ana, California",https://cdn.loc.gov/service/pnp/mrg/05400/05408v.jpg,CA,Gas Station,33.7494951,-117.873221,Santa Ana
-"Gas station at Dining Cars Cafe, Buellton, California",https://cdn.loc.gov/service/pnp/mrg/05400/05409v.jpg,CA,Gas Station,34.6134727,-120.193669,Buellton
-"Gas station Richfield, Goleta, California",https://cdn.loc.gov/service/pnp/mrg/05400/05433v.jpg,CA,Gas Station,34.4358295,-119.8276389,Goleta
-"Union 76 Gas, San Luis Obispo, California",https://cdn.loc.gov/service/pnp/mrg/05400/05464v.jpg,CA,Gas Station,35.3540209,-120.375716,San Luis Obispo
-"Union 76 Gas, San Luis Obispo, California",https://cdn.loc.gov/service/pnp/mrg/05400/05465v.jpg,CA,Gas Station,35.3540209,-120.375716,San Luis Obispo
-"Union 76 Gas, San Luis Obispo, California",https://cdn.loc.gov/service/pnp/mrg/05400/05466v.jpg,CA,Gas Station,35.3540209,-120.375716,San Luis Obispo
-"Union 76 Gas, San Luis Obispo, California",https://cdn.loc.gov/service/pnp/mrg/05400/05467v.jpg,CA,Gas Station,35.3540209,-120.375716,San Luis Obispo
-"Brother's Mobil, Santa Monica, California",https://cdn.loc.gov/service/pnp/mrg/05400/05497v.jpg,CA,Other,34.0194704,-118.491227,Santa Monica
-"Mattoon Service Gulf, Culver City, California",https://cdn.loc.gov/service/pnp/mrg/05500/05501v.jpg,CA,Other,34.0211224,-118.396466,Culver City
-"Union Oil, West Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/05500/05506v.jpg,CA,Other,34.0468546,-118.430254,West Los Angeles
-"Giant Felix Used Cars, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/05500/05525v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
-"Golden Eagle Gas, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/05500/05526v.jpg,CA,Gas Station,32.7174202,-117.162772,San Diego
-"Delta Queen Car Wash, Campbell, California",https://cdn.loc.gov/service/pnp/mrg/05500/05538v.jpg,CA,Other,37.2870626,-121.944881,Campbell
-"Egyptian Garage, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/05500/05543v.jpg,CA,Other,32.7174202,-117.162772,San Diego
-"Egyptian Garage, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/05500/05544v.jpg,CA,Other,32.7174202,-117.162772,San Diego
-"Egyptian Garage, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/05500/05545v.jpg,CA,Other,32.7174202,-117.162772,San Diego
-"Egyptian Garage, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/05500/05546v.jpg,CA,Other,32.7174202,-117.162772,San Diego
-"Egyptian Garage, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/05500/05547v.jpg,CA,Other,32.7174202,-117.162772,San Diego
-"Egyptian Garage, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/05500/05548v.jpg,CA,Other,32.7174202,-117.162772,San Diego
-"Egyptian Garage, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/05500/05549v.jpg,CA,Other,32.7174202,-117.162772,San Diego
-"Egyptian Garage, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/05500/05550v.jpg,CA,Other,32.7174202,-117.162772,San Diego
-"Egyptian Garage, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/05500/05551v.jpg,CA,Other,32.7174202,-117.162772,San Diego
-"Egyptian Garage, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/05500/05552v.jpg,CA,Other,32.7174202,-117.162772,San Diego
-"Egyptian Garage, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/05500/05553v.jpg,CA,Other,32.7174202,-117.162772,San Diego
-"Egyptian Garage, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/05500/05554v.jpg,CA,Other,32.7174202,-117.162772,San Diego
-"Egyptian Garage, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/05500/05555v.jpg,CA,Other,32.7174202,-117.162772,San Diego
-"Egyptian Garage, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/05500/05556v.jpg,CA,Other,32.7174202,-117.162772,San Diego
-"Felix Chevrolet, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/05500/05557v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
-"Bell Point Motors, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/05500/05564v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
-"Firestone Factory, Southgate, California",https://cdn.loc.gov/service/pnp/mrg/05500/05565v.jpg,CA,Other,37.4333295,-122.1512119,Southgate
-"Gates Tires, Mar Vista, California",https://cdn.loc.gov/service/pnp/mrg/05500/05566v.jpg,CA,Other,34.0037605,-118.4391641,Mar Vista
-"Gates Tires, Mar Vista, California",https://cdn.loc.gov/service/pnp/mrg/05500/05567v.jpg,CA,Other,34.0037605,-118.4391641,Mar Vista
-"Gates Tires, Mar Vista, California",https://cdn.loc.gov/service/pnp/mrg/05500/05568v.jpg,CA,Other,34.0037605,-118.4391641,Mar Vista
-"Felix Body Shop, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/05500/05575v.jpg,CA,Retail,34.0536909,-118.242766,Los Angeles
-"Orange Blossom Grocery and Gas, Fontana, California",https://cdn.loc.gov/service/pnp/mrg/05500/05584v.jpg,CA,Gas Station,34.0922947,-117.43433,Fontana
-"Union Oil Gas, Sawtelle, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/05600/05601v.jpg,CA,Gas Station,34.0536909,-118.242766,Los Angeles
-"Delta Queen Car Wash, Campbell, California",https://cdn.loc.gov/service/pnp/mrg/05600/05627v.jpg,CA,Other,37.2870626,-121.944881,Campbell
-"Wheel align sign, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/05600/05630v.jpg,CA,Sign,32.7174202,-117.162772,San Diego
-"OK Used Car sign, Arcata, California",https://cdn.loc.gov/service/pnp/mrg/05600/05634v.jpg,CA,Sign,40.866517,-124.08284,Arcata
-"Tire Man Big Brand tire statue, Van Nuys, California",https://cdn.loc.gov/service/pnp/mrg/05600/05643v.jpg,CA,Statue,34.1866193,-118.4486675,Van Nuys
-"Tire Man Big Brand tire statue, Van Nuys, California",https://cdn.loc.gov/service/pnp/mrg/05600/05644v.jpg,CA,Statue,34.1866193,-118.4486675,Van Nuys
-"Earl Scheib sign, Beverly Hills, California",https://cdn.loc.gov/service/pnp/mrg/05600/05649v.jpg,CA,Sign,34.0696501,-118.3963062,Beverly Hills
-"Far-go gas pump, Main Street, Barstow, California",https://cdn.loc.gov/service/pnp/mrg/05600/05695v.jpg,CA,Gas Station,34.8986215,-117.0244313,Barstow
-"Olympic gas pumps, El Cajon, California",https://cdn.loc.gov/service/pnp/mrg/05700/05704v.jpg,CA,Gas Station,32.7947731,-116.962526,El Cajon
-"Visible pump, Loma Linda, California",https://cdn.loc.gov/service/pnp/mrg/05700/05708v.jpg,CA,Other,34.0537971,-117.2610925,Loma Linda
-"Far-go gas pumps, Main Street, Barstow, California",https://cdn.loc.gov/service/pnp/mrg/05700/05716v.jpg,CA,Gas Station,34.8986215,-117.0244313,Barstow
-"Fox Theater, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/05700/05720v.jpg,CA,Theater,35.3738712,-119.019463,Bakersfield
-"Fox Theater, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/05700/05721v.jpg,CA,Theater,35.3738712,-119.019463,Bakersfield
-"Fox Theater, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/05700/05722v.jpg,CA,Theater,35.3738712,-119.019463,Bakersfield
-"Fox Theater, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/05700/05723v.jpg,CA,Theater,35.3738712,-119.019463,Bakersfield
-"Fox Theater, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/05700/05724v.jpg,CA,Theater,35.3738712,-119.019463,Bakersfield
-"Fox Theater, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/05700/05725v.jpg,CA,Theater,35.3738712,-119.019463,Bakersfield
-"Fox Theater, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/05700/05726v.jpg,CA,Theater,35.3738712,-119.019463,Bakersfield
-"Fox Theater, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/05700/05727v.jpg,CA,Theater,35.3738712,-119.019463,Bakersfield
-"Fox Theater, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/05700/05728v.jpg,CA,Theater,35.3738712,-119.019463,Bakersfield
-"Fox Theater, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/05700/05729v.jpg,CA,Theater,35.3738712,-119.019463,Bakersfield
-"Fox Theater, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/05700/05730v.jpg,CA,Theater,35.3738712,-119.019463,Bakersfield
-"Fox Theater, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/05700/05731v.jpg,CA,Theater,35.3738712,-119.019463,Bakersfield
-"Fox Theater, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/05700/05732v.jpg,CA,Theater,35.3738712,-119.019463,Bakersfield
-"Fox Theater, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/05700/05733v.jpg,CA,Theater,35.3738712,-119.019463,Bakersfield
-"Fox Theater, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/05700/05734v.jpg,CA,Theater,35.3738712,-119.019463,Bakersfield
-"Fox Theater, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/05700/05735v.jpg,CA,Theater,35.3738712,-119.019463,Bakersfield
-"Fox Theater, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/05700/05736v.jpg,CA,Theater,35.3738712,-119.019463,Bakersfield
-"Fox Theater, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/05700/05737v.jpg,CA,Theater,35.3738712,-119.019463,Bakersfield
-"Fox Theater, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/05700/05738v.jpg,CA,Theater,35.3738712,-119.019463,Bakersfield
-"Fox Theater, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/05700/05739v.jpg,CA,Theater,35.3738712,-119.019463,Bakersfield
-"Fox Theater, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/05700/05740v.jpg,CA,Theater,35.3738712,-119.019463,Bakersfield
-"Fox Theater, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/05700/05742v.jpg,CA,Theater,34.0536909,-118.242766,Los Angeles
-"Fox Theater, Visalia, California",https://cdn.loc.gov/service/pnp/mrg/05700/05743v.jpg,CA,Theater,36.3302284,-119.292058,Visalia
-"Fox Theater, Visalia, California",https://cdn.loc.gov/service/pnp/mrg/05700/05744v.jpg,CA,Theater,36.3302284,-119.292058,Visalia
-"Fox Theater, Visalia, California",https://cdn.loc.gov/service/pnp/mrg/05700/05745v.jpg,CA,Theater,36.3302284,-119.292058,Visalia
-"Fox Theater, Visalia, California",https://cdn.loc.gov/service/pnp/mrg/05700/05746v.jpg,CA,Theater,36.3302284,-119.292058,Visalia
-"Hollywood Palladium, Hollywood, California",https://cdn.loc.gov/service/pnp/mrg/05700/05747v.jpg,CA,Other,34.0980031,-118.329523,Hollywood
-"Hollywood Palladium, Hollywood, California",https://cdn.loc.gov/service/pnp/mrg/05700/05748v.jpg,CA,Other,34.0980031,-118.329523,Hollywood
-"Cinema, Merced, California",https://cdn.loc.gov/service/pnp/mrg/05700/05749v.jpg,CA,Other,37.1641544,-120.7678602,Merced
-"Mayfair Music Hall, Santa Monica, California",https://cdn.loc.gov/service/pnp/mrg/05700/05750v.jpg,CA,Other,34.0194704,-118.491227,Santa Monica
-"Grauman's Chinese Theater, Hollywood, California",https://cdn.loc.gov/service/pnp/mrg/05700/05753v.jpg,CA,Theater,34.0980031,-118.329523,Hollywood
-"Grauman's Chinese Theater, Hollywood, California",https://cdn.loc.gov/service/pnp/mrg/05700/05754v.jpg,CA,Theater,34.0980031,-118.329523,Hollywood
-"Grauman's Chinese Theater, Hollywood, California",https://cdn.loc.gov/service/pnp/mrg/05700/05755v.jpg,CA,Theater,34.0980031,-118.329523,Hollywood
-"Minor Theater, Arcata, California",https://cdn.loc.gov/service/pnp/mrg/05700/05757v.jpg,CA,Theater,40.866517,-124.08284,Arcata
-"Atwater signal-Merced Daily Sun Star, Atwater, California",https://cdn.loc.gov/service/pnp/mrg/05700/05758v.jpg,CA,Sign,37.3477174,-120.609084,Atwater
-"Chinese Theater, Hollywood, California",https://cdn.loc.gov/service/pnp/mrg/05700/05759v.jpg,CA,Theater,34.0980031,-118.329523,Hollywood
-"Culver Theater, Culver City, California",https://cdn.loc.gov/service/pnp/mrg/05700/05760v.jpg,CA,Theater,34.0211224,-118.396466,Culver City
-"Balboa Theater, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/05700/05762v.jpg,CA,Theater,32.7174202,-117.162772,San Diego
-"Crest Theater, Fresno, California",https://cdn.loc.gov/service/pnp/mrg/05700/05763v.jpg,CA,Theater,36.7394421,-119.78483,Fresno
-"Crest Theater, Fresno, California",https://cdn.loc.gov/service/pnp/mrg/05700/05764v.jpg,CA,Theater,36.7394421,-119.78483,Fresno
-"Crest Theater, Fresno, California",https://cdn.loc.gov/service/pnp/mrg/05700/05765v.jpg,CA,Theater,36.7394421,-119.78483,Fresno
-"Crest Theater, Fresno, California",https://cdn.loc.gov/service/pnp/mrg/05700/05766v.jpg,CA,Theater,36.7394421,-119.78483,Fresno
-"Crest Theater, Fresno, California",https://cdn.loc.gov/service/pnp/mrg/05700/05767v.jpg,CA,Theater,36.7394421,-119.78483,Fresno
-"Crest Theater, Fresno, California",https://cdn.loc.gov/service/pnp/mrg/05700/05768v.jpg,CA,Theater,36.7394421,-119.78483,Fresno
-"Crest Theater, Fresno, California",https://cdn.loc.gov/service/pnp/mrg/05700/05769v.jpg,CA,Theater,36.7394421,-119.78483,Fresno
-"Crest Theater, Fresno, California",https://cdn.loc.gov/service/pnp/mrg/05700/05770v.jpg,CA,Theater,36.7394421,-119.78483,Fresno
-"Tower Theater, Sacramento, California",https://cdn.loc.gov/service/pnp/mrg/05700/05771v.jpg,CA,Theater,38.5810606,-121.493895,Sacramento
-"Tower Theater, Sacramento, California",https://cdn.loc.gov/service/pnp/mrg/05700/05772v.jpg,CA,Theater,38.5810606,-121.493895,Sacramento
-"Tower Theater, Sacramento, California",https://cdn.loc.gov/service/pnp/mrg/05700/05773v.jpg,CA,Theater,38.5810606,-121.493895,Sacramento
-"Fox Theater, Riverside, California",https://cdn.loc.gov/service/pnp/mrg/05700/05774v.jpg,CA,Theater,33.9824949,-117.374238,Riverside
-"Fox Theater, Riverside, California",https://cdn.loc.gov/service/pnp/mrg/05700/05775v.jpg,CA,Theater,33.9824949,-117.374238,Riverside
-"Fox Theater, Riverside, California",https://cdn.loc.gov/service/pnp/mrg/05700/05776v.jpg,CA,Theater,33.9824949,-117.374238,Riverside
-"Fox Theater, Riverside, California",https://cdn.loc.gov/service/pnp/mrg/05700/05777v.jpg,CA,Theater,33.9824949,-117.374238,Riverside
-"Tower Theater, Fresno, California",https://cdn.loc.gov/service/pnp/mrg/05700/05778v.jpg,CA,Theater,36.7394421,-119.78483,Fresno
-"Tower Theater, Fresno, California",https://cdn.loc.gov/service/pnp/mrg/05700/05779v.jpg,CA,Theater,36.7394421,-119.78483,Fresno
-"Tower Theater, Fresno, California",https://cdn.loc.gov/service/pnp/mrg/05700/05780v.jpg,CA,Theater,36.7394421,-119.78483,Fresno
-"Star Theater, Sacramento, California",https://cdn.loc.gov/service/pnp/mrg/05700/05781v.jpg,CA,Theater,38.5810606,-121.493895,Sacramento
-"Esquire Theater, Sacramento, California",https://cdn.loc.gov/service/pnp/mrg/05700/05782v.jpg,CA,Theater,38.5810606,-121.493895,Sacramento
-"Esquire Theater, Sacramento, California",https://cdn.loc.gov/service/pnp/mrg/05700/05783v.jpg,CA,Theater,38.5810606,-121.493895,Sacramento
-"Esquire Theater, Sacramento, California",https://cdn.loc.gov/service/pnp/mrg/05700/05784v.jpg,CA,Theater,38.5810606,-121.493895,Sacramento
-"Esquire Theater, Sacramento, California",https://cdn.loc.gov/service/pnp/mrg/05700/05785v.jpg,CA,Theater,38.5810606,-121.493895,Sacramento
-"Esquire Theater, Sacramento, California",https://cdn.loc.gov/service/pnp/mrg/05700/05786v.jpg,CA,Theater,38.5810606,-121.493895,Sacramento
-"Fox Theater, Oakland, California",https://cdn.loc.gov/service/pnp/mrg/05700/05787v.jpg,CA,Theater,37.8044557,-122.271356,Oakland
-"Fox Theater, Oakland, California",https://cdn.loc.gov/service/pnp/mrg/05700/05788v.jpg,CA,Theater,37.8044557,-122.271356,Oakland
-"Fox Theater, Oakland, California",https://cdn.loc.gov/service/pnp/mrg/05700/05789v.jpg,CA,Theater,37.8044557,-122.271356,Oakland
-"Fox Theater, Oakland, California",https://cdn.loc.gov/service/pnp/mrg/05700/05790v.jpg,CA,Theater,37.8044557,-122.271356,Oakland
-"Fox Theater, Oakland, California",https://cdn.loc.gov/service/pnp/mrg/05700/05791v.jpg,CA,Theater,37.8044557,-122.271356,Oakland
-"Fox Theater, Oakland, California",https://cdn.loc.gov/service/pnp/mrg/05700/05792v.jpg,CA,Theater,37.8044557,-122.271356,Oakland
-"Fox Theater, Oakland, California",https://cdn.loc.gov/service/pnp/mrg/05700/05793v.jpg,CA,Theater,37.8044557,-122.271356,Oakland
-"Fox Theater, Oakland, California",https://cdn.loc.gov/service/pnp/mrg/05700/05794v.jpg,CA,Theater,37.8044557,-122.271356,Oakland
-"Colonial Theater, Sacramento, California",https://cdn.loc.gov/service/pnp/mrg/05700/05795v.jpg,CA,Theater,38.5810606,-121.493895,Sacramento
-"Old City Hall, Riverside, California",https://cdn.loc.gov/service/pnp/mrg/05700/05796v.jpg,CA,Other,33.9824949,-117.374238,Riverside
-"Tejon Theater, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/05700/05797v.jpg,CA,Theater,35.3738712,-119.019463,Bakersfield
-"Brenden Theater, Modesto, California",https://cdn.loc.gov/service/pnp/mrg/05700/05798v.jpg,CA,Theater,37.6393419,-120.9968892,Modesto
-"Fox Westwood Village Theater, Westwood, California",https://cdn.loc.gov/service/pnp/mrg/05700/05799v.jpg,CA,Theater,34.0668947,-118.439944,Westwood
-"Fox Westwood Village Theater, Westwood, California",https://cdn.loc.gov/service/pnp/mrg/05800/05800v.jpg,CA,Theater,34.0668947,-118.439944,Westwood
-"Merced Theater, Main Street, Merced, California",https://cdn.loc.gov/service/pnp/mrg/05800/05801v.jpg,CA,Theater,37.1641544,-120.7678602,Merced
-"Merced Theater, Main Street, Merced, California",https://cdn.loc.gov/service/pnp/mrg/05800/05802v.jpg,CA,Theater,37.1641544,-120.7678602,Merced
-"Fox Theater, Visalia, California",https://cdn.loc.gov/service/pnp/mrg/05800/05803v.jpg,CA,Theater,36.3302284,-119.292058,Visalia
-"Fox Theater, Visalia, California",https://cdn.loc.gov/service/pnp/mrg/05800/05804v.jpg,CA,Theater,36.3302284,-119.292058,Visalia
-"Crest Theater, Sacramento, California",https://cdn.loc.gov/service/pnp/mrg/05800/05806v.jpg,CA,Theater,38.5810606,-121.493895,Sacramento
-"Crest Theater, Sacramento, California",https://cdn.loc.gov/service/pnp/mrg/05800/05807v.jpg,CA,Theater,38.5810606,-121.493895,Sacramento
-"Crest Theater, Sacramento, California",https://cdn.loc.gov/service/pnp/mrg/05800/05808v.jpg,CA,Theater,38.5810606,-121.493895,Sacramento
-"Paramount Theater, Oakland, California",https://cdn.loc.gov/service/pnp/mrg/05800/05809v.jpg,CA,Theater,37.8044557,-122.271356,Oakland
-"Paramount Theater, Oakland, California",https://cdn.loc.gov/service/pnp/mrg/05800/05810v.jpg,CA,Theater,37.8044557,-122.271356,Oakland
-"Paramount Theater, Oakland, California",https://cdn.loc.gov/service/pnp/mrg/05800/05811v.jpg,CA,Theater,37.8044557,-122.271356,Oakland
-"Paramount Theater, Oakland, California",https://cdn.loc.gov/service/pnp/mrg/05800/05812v.jpg,CA,Theater,37.8044557,-122.271356,Oakland
-"Paramount Theater, Oakland, California",https://cdn.loc.gov/service/pnp/mrg/05800/05813v.jpg,CA,Theater,37.8044557,-122.271356,Oakland
-"Paramount Theater, Oakland, California",https://cdn.loc.gov/service/pnp/mrg/05800/05814v.jpg,CA,Theater,37.8044557,-122.271356,Oakland
-"Paramount Theater, Oakland, California",https://cdn.loc.gov/service/pnp/mrg/05800/05815v.jpg,CA,Theater,37.8044557,-122.271356,Oakland
-"Paramount Theater, Oakland, California",https://cdn.loc.gov/service/pnp/mrg/05800/05816v.jpg,CA,Theater,37.8044557,-122.271356,Oakland
-"Loyola Theater, Manchester & Sepulveda Boulevard, Westchester, California",https://cdn.loc.gov/service/pnp/mrg/05800/05817v.jpg,CA,Theater,33.9597349,-118.400632,Westchester
-"Loyola Theater, Manchester & Sepulveda Boulevard, Westchester, California",https://cdn.loc.gov/service/pnp/mrg/05800/05818v.jpg,CA,Theater,33.9597349,-118.400632,Westchester
-"Loyola Theater, Manchester & Sepulveda Boulevard, Westchester, California",https://cdn.loc.gov/service/pnp/mrg/05800/05819v.jpg,CA,Theater,33.9597349,-118.400632,Westchester
-"Loyola Theater, Manchester & Sepulveda Boulevard, Westchester, California",https://cdn.loc.gov/service/pnp/mrg/05800/05820v.jpg,CA,Theater,33.9597349,-118.400632,Westchester
-"Loyola Theater, Manchester & Sepulveda Boulevard, Westchester, California",https://cdn.loc.gov/service/pnp/mrg/05800/05821v.jpg,CA,Theater,33.9597349,-118.400632,Westchester
-"XPO Adult Theater, Wilmington, California",https://cdn.loc.gov/service/pnp/mrg/05800/05852v.jpg,CA,Theater,33.7800164,-118.262509,Wilmington
-"5th Avenue Theater, Inglewood, California",https://cdn.loc.gov/service/pnp/mrg/06000/06012v.jpg,CA,Theater,33.9562003,-118.353132,Inglewood
-"Opera house, Petaluma, California",https://cdn.loc.gov/service/pnp/mrg/06000/06053v.jpg,CA,Historical Building,38.2325829,-122.636465,Petaluma
-"Opera house, Petaluma, California",https://cdn.loc.gov/service/pnp/mrg/06000/06054v.jpg,CA,Historical Building,38.2325829,-122.636465,Petaluma
-"Reused neon from Campus Drive-In, Lemon Grove, California",https://cdn.loc.gov/service/pnp/mrg/06000/06073v.jpg,CA,Theater,32.7425516,-117.0314172,Lemon Grove
-"Mt. Baldy Drive-In, La Verne, California",https://cdn.loc.gov/service/pnp/mrg/06000/06088v.jpg,CA,Theater,34.1008426,-117.7678355,La Verne
-"Olympic Drive-In, West Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/06000/06089v.jpg,CA,Theater,34.0468546,-118.430254,West Los Angeles
-"Rubidoux Drive-In, Rubidoux, California",https://cdn.loc.gov/service/pnp/mrg/06000/06090v.jpg,CA,Theater,33.9943119,-117.4237761,Rubidoux
-"Studio Drive-In, Culver City, California",https://cdn.loc.gov/service/pnp/mrg/06000/06092v.jpg,CA,Theater,34.0211224,-118.396466,Culver City
-"Studio Drive-In, Culver City, California",https://cdn.loc.gov/service/pnp/mrg/06000/06093v.jpg,CA,Theater,34.0211224,-118.396466,Culver City
-"Van Nuys Drive-In, Van Nuys, California",https://cdn.loc.gov/service/pnp/mrg/06000/06097v.jpg,CA,Theater,34.1866193,-118.4486675,Van Nuys
-"Campus Drive-In, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/06000/06099v.jpg,CA,Theater,32.7174202,-117.162772,San Diego
-"Campus Drive-In, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/06100/06100v.jpg,CA,Theater,32.7174202,-117.162772,San Diego
-"Lakewood Drive-In, Carson Street, Lakewood, California",https://cdn.loc.gov/service/pnp/mrg/06100/06101v.jpg,CA,Theater,33.8503463,-118.117191,Lakewood
-"Tri City Drive-In, Redlands Boulevard, Loma Linda, California",https://cdn.loc.gov/service/pnp/mrg/06100/06102v.jpg,CA,Theater,34.0537971,-117.2610925,Loma Linda
-"Tri City Drive-In, Redlands Boulevard, Loma Linda, California",https://cdn.loc.gov/service/pnp/mrg/06100/06103v.jpg,CA,Theater,34.0537971,-117.2610925,Loma Linda
-"Green Pines mini golf, raised lip hole, Redding, California",https://cdn.loc.gov/service/pnp/mrg/06100/06134v.jpg,CA,Sports,40.5863563,-122.391675,Redding
-"Blackbeard's mini golf, six bumpers, Fresno, California",https://cdn.loc.gov/service/pnp/mrg/06100/06188v.jpg,CA,Sports,36.7394421,-119.78483,Fresno
-"Blackbeard's mini golf, star and two bumpers, Fresno, California",https://cdn.loc.gov/service/pnp/mrg/06100/06189v.jpg,CA,Sports,36.7394421,-119.78483,Fresno
-"Castle Amusement, candy house, Riverside, California",https://cdn.loc.gov/service/pnp/mrg/06200/06239v.jpg,CA,Historical Building,33.9824949,-117.374238,Riverside
-"Twin Pines mini golf, Readings, California",https://cdn.loc.gov/service/pnp/mrg/06200/06247v.jpg,CA,Sports,34.2642987,-118.5398653,Readings
-"Gold mine Castle Amusement Park golf, Riverside, California",https://cdn.loc.gov/service/pnp/mrg/06200/06269v.jpg,CA,Sports,33.9824949,-117.374238,Riverside
-"Fountain Valley mini golf, windmill, Fountain Valley, California",https://cdn.loc.gov/service/pnp/mrg/06200/06273v.jpg,CA,Sports,33.7038145,-117.9627349,Fountain Valley
-"Fountain Valley mini golf, Mission San Juan, Fountain Valley, California",https://cdn.loc.gov/service/pnp/mrg/06200/06274v.jpg,CA,Sports,33.7038145,-117.9627349,Fountain Valley
-"Fountain Valley mini golf, Fountain Valley, California",https://cdn.loc.gov/service/pnp/mrg/06200/06275v.jpg,CA,Sports,33.7038145,-117.9627349,Fountain Valley
-"Fountain Valley mini golf, schoolhouse, Fountain Valley, California",https://cdn.loc.gov/service/pnp/mrg/06200/06276v.jpg,CA,Sports,33.7038145,-117.9627349,Fountain Valley
-"Prehistoric Museum, Cabazon, California",https://cdn.loc.gov/service/pnp/mrg/06300/06386v.jpg,CA,Museum,33.9090305,-116.7795345,Cabazon
-"Prehistoric Museum, Cabazon, California",https://cdn.loc.gov/service/pnp/mrg/06300/06387v.jpg,CA,Museum,33.9090305,-116.7795345,Cabazon
-"Prehistoric Museum, Cabazon, California",https://cdn.loc.gov/service/pnp/mrg/06300/06388v.jpg,CA,Museum,33.9090305,-116.7795345,Cabazon
-"Prehistoric Museum, Cabazon, California",https://cdn.loc.gov/service/pnp/mrg/06300/06389v.jpg,CA,Museum,33.9090305,-116.7795345,Cabazon
-"Paul Bunyan & Babe, Trees of Mystery, Route 101, Klamath, California",https://cdn.loc.gov/service/pnp/mrg/06500/06548v.jpg,CA,Other,41.5265092,-124.038406,Klamath
-"Paul Bunyan & Babe, Trees of Mystery, Route 101, Klamath, California",https://cdn.loc.gov/service/pnp/mrg/06500/06549v.jpg,CA,Other,41.5265092,-124.038406,Klamath
-"Paul Bunyan & Babe, Trees of Mystery, Route 101, Klamath, California",https://cdn.loc.gov/service/pnp/mrg/06500/06550v.jpg,CA,Other,41.5265092,-124.038406,Klamath
-"Montana De Oro State Park, Los Osos, California",https://cdn.loc.gov/service/pnp/mrg/06600/06608v.jpg,CA,Park,35.3107214,-120.832348,Los Osos
-"Montana De Oro State Park, Los Osos, California",https://cdn.loc.gov/service/pnp/mrg/06600/06609v.jpg,CA,Park,35.3107214,-120.832348,Los Osos
-"Montana De Oro State Park, Los Osos, California",https://cdn.loc.gov/service/pnp/mrg/06600/06610v.jpg,CA,Park,35.3107214,-120.832348,Los Osos
-"Green Pines mini golf, Redding, California",https://cdn.loc.gov/service/pnp/mrg/06600/06660v.jpg,CA,Sports,40.5863563,-122.391675,Redding
-"Green Pines mini golf, Redding, California",https://cdn.loc.gov/service/pnp/mrg/06600/06661v.jpg,CA,Sports,40.5863563,-122.391675,Redding
-"Wheel-In Mini Mart, Cabazon, California",https://cdn.loc.gov/service/pnp/mrg/06700/06741v.jpg,CA,Other,33.9090305,-116.7795345,Cabazon
-"Giant artichoke, Castroville, California",https://cdn.loc.gov/service/pnp/mrg/06700/06744v.jpg,CA,Other,36.7657904,-121.758005,Castroville
-"Giant artichoke, Castroville, California",https://cdn.loc.gov/service/pnp/mrg/06700/06745v.jpg,CA,Other,36.7657904,-121.758005,Castroville
-"Fire Chief Hat Dog, Barstow, California",https://cdn.loc.gov/service/pnp/mrg/06900/06943v.jpg,CA,Other,34.8986215,-117.0244313,Barstow
-"McDonald's, Azusa, California",https://cdn.loc.gov/service/pnp/mrg/06900/06979v.jpg,CA,Other,34.1338751,-117.9056046,Azusa
-"McDonald's, Azusa, California",https://cdn.loc.gov/service/pnp/mrg/06900/06980v.jpg,CA,Other,34.1338751,-117.9056046,Azusa
-"McDonald's, Azusa, California",https://cdn.loc.gov/service/pnp/mrg/06900/06981v.jpg,CA,Other,34.1338751,-117.9056046,Azusa
-"McDonald's, Azusa, California",https://cdn.loc.gov/service/pnp/mrg/06900/06982v.jpg,CA,Other,34.1338751,-117.9056046,Azusa
-"McDonald's, Downey, California",https://cdn.loc.gov/service/pnp/mrg/06900/06987v.jpg,CA,Other,33.9404441,-118.1292846,Downey
-"Col. Sanders, Daly City, California",https://cdn.loc.gov/service/pnp/mrg/06900/06989v.jpg,CA,Other,37.6904826,-122.47267,Daly City
-"Col. Sanders, Daly City, California",https://cdn.loc.gov/service/pnp/mrg/06900/06990v.jpg,CA,Other,37.6904826,-122.47267,Daly City
-"Bob-A-Q Restaurant, near Morro Bay, Morro Bay, California",https://cdn.loc.gov/service/pnp/mrg/06900/06997v.jpg,CA,Restaurant,35.3658075,-120.849901,Morro Bay
-"Bob-A-Q Restaurant, near Morro Bay, Morro Bay, California",https://cdn.loc.gov/service/pnp/mrg/06900/06998v.jpg,CA,Restaurant,35.3658075,-120.849901,Morro Bay
-"Sea Food Hut, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/07000/07006v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
-"Sea Food Hut, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/07000/07007v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
-"Bill's Hot Dog Stand, Burbank, California",https://cdn.loc.gov/service/pnp/mrg/07000/07068v.jpg,CA,Other,34.1812089,-118.307201,Burbank
-"Fire Chief Hat Dog, Barstow, California",https://cdn.loc.gov/service/pnp/mrg/07000/07082v.jpg,CA,Other,34.8986215,-117.0244313,Barstow
-"Variety Barrel, El Cajon, California",https://cdn.loc.gov/service/pnp/mrg/07000/07085v.jpg,CA,Other,32.7947731,-116.962526,El Cajon
-"Rice Bowl, Merced, California",https://cdn.loc.gov/service/pnp/mrg/07000/07086v.jpg,CA,Other,37.1641544,-120.7678602,Merced
-"Rice Bowl, Merced, California",https://cdn.loc.gov/service/pnp/mrg/07000/07087v.jpg,CA,Other,37.1641544,-120.7678602,Merced
-"Rice Bowl, Merced, California",https://cdn.loc.gov/service/pnp/mrg/07000/07088v.jpg,CA,Other,37.1641544,-120.7678602,Merced
-"King's Fried Chicken (Church), Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/07000/07089v.jpg,CA,Religious Site,34.0536909,-118.242766,Los Angeles
-"King's Fried Chicken (Church), Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/07000/07090v.jpg,CA,Religious Site,34.0536909,-118.242766,Los Angeles
-"Sombrero Taco Shop, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/07000/07094v.jpg,CA,Retail,32.7174202,-117.162772,San Diego
-"Sombrero Taco Shop, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/07000/07095v.jpg,CA,Retail,32.7174202,-117.162772,San Diego
-"Sombrero Taco Shop, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/07000/07096v.jpg,CA,Retail,32.7174202,-117.162772,San Diego
-"Sombrero Taco Shop, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/07000/07097v.jpg,CA,Retail,32.7174202,-117.162772,San Diego
-"Sombrero Taco Shop, San Diego, California",https://cdn.loc.gov/service/pnp/mrg/07000/07098v.jpg,CA,Retail,32.7174202,-117.162772,San Diego
-"Johnnies Fat Boy, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/07100/07102v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
-"Johnnies Fat Boy, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/07100/07103v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
-"The Bucket Burgers, Eagle Rock, California",https://cdn.loc.gov/service/pnp/mrg/07100/07109v.jpg,CA,Other,34.1390325,-118.2140958,Eagle Rock
-"Dining Cars Cafe, Buellton, California",https://cdn.loc.gov/service/pnp/mrg/07100/07111v.jpg,CA,Restaurant,34.6134727,-120.193669,Buellton
-"Dining Cars Cafe, Buellton, California",https://cdn.loc.gov/service/pnp/mrg/07100/07112v.jpg,CA,Restaurant,34.6134727,-120.193669,Buellton
-"Dining Cars Cafe, Buellton, California",https://cdn.loc.gov/service/pnp/mrg/07100/07113v.jpg,CA,Restaurant,34.6134727,-120.193669,Buellton
-"Dining Cars Cafe, Buellton, California",https://cdn.loc.gov/service/pnp/mrg/07100/07114v.jpg,CA,Restaurant,34.6134727,-120.193669,Buellton
-"Dining Cars Cafe, Buellton, California",https://cdn.loc.gov/service/pnp/mrg/07100/07115v.jpg,CA,Restaurant,34.6134727,-120.193669,Buellton
-"Dining Cars Cafe, Buellton, California",https://cdn.loc.gov/service/pnp/mrg/07100/07116v.jpg,CA,Restaurant,34.6134727,-120.193669,Buellton
-"Dining Cars Cafe, Buellton, California",https://cdn.loc.gov/service/pnp/mrg/07100/07117v.jpg,CA,Restaurant,34.6134727,-120.193669,Buellton
-"Dining Cars Cafe, Buellton, California",https://cdn.loc.gov/service/pnp/mrg/07100/07118v.jpg,CA,Restaurant,34.6134727,-120.193669,Buellton
-"Dining Cars Cafe, Buellton, California",https://cdn.loc.gov/service/pnp/mrg/07100/07119v.jpg,CA,Restaurant,34.6134727,-120.193669,Buellton
-"Dining Cars Cafe, Buellton, California",https://cdn.loc.gov/service/pnp/mrg/07100/07120v.jpg,CA,Restaurant,34.6134727,-120.193669,Buellton
-"The Deli Station, Modesto, California",https://cdn.loc.gov/service/pnp/mrg/07100/07124v.jpg,CA,Gas Station,37.6393419,-120.9968892,Modesto
-"The Deli Station, Modesto, California",https://cdn.loc.gov/service/pnp/mrg/07100/07125v.jpg,CA,Gas Station,37.6393419,-120.9968892,Modesto
-"La Cana Restaurant, North Hollywood, California",https://cdn.loc.gov/service/pnp/mrg/07100/07160v.jpg,CA,Restaurant,34.1649502,-118.374752,North Hollywood
-"Brown Derby Restaurant, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/07100/07161v.jpg,CA,Restaurant,34.0536909,-118.242766,Los Angeles
-"Crosswinds Restaurant, Arcata, California",https://cdn.loc.gov/service/pnp/mrg/07100/07162v.jpg,CA,Restaurant,40.866517,-124.08284,Arcata
-"Crosswinds Restaurant, Arcata, California",https://cdn.loc.gov/service/pnp/mrg/07100/07163v.jpg,CA,Restaurant,40.866517,-124.08284,Arcata
-"Far East Restaurant, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/07100/07179v.jpg,CA,Restaurant,35.3738712,-119.019463,Bakersfield
-"Far East Restaurant, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/07100/07180v.jpg,CA,Restaurant,35.3738712,-119.019463,Bakersfield
-"Cafe Waterfront, Eureka, California",https://cdn.loc.gov/service/pnp/mrg/07100/07198v.jpg,CA,Restaurant,40.8018746,-124.1707558,Eureka
-"Maharaja Club, Sacramento, California",https://cdn.loc.gov/service/pnp/mrg/07200/07259v.jpg,CA,Other,38.5810606,-121.493895,Sacramento
-"Maharaja Club, Sacramento, California",https://cdn.loc.gov/service/pnp/mrg/07200/07260v.jpg,CA,Other,38.5810606,-121.493895,Sacramento
-"Hot Cha Beer, Long Beach, California",https://cdn.loc.gov/service/pnp/mrg/07300/07303v.jpg,CA,Other,33.7690164,-118.191604,Long Beach
-"Henne's Homemade Candies & Ice Cream, Ukiah, California",https://cdn.loc.gov/service/pnp/mrg/07300/07338v.jpg,CA,Other,39.1501662,-123.2077861,Ukiah
-"Dutch Ice, Manteca, California",https://cdn.loc.gov/service/pnp/mrg/07300/07348v.jpg,CA,Other,37.7986184,-121.2117148,Manteca
-"Yum Yum Frosty Freeze, Upland, California",https://cdn.loc.gov/service/pnp/mrg/07300/07351v.jpg,CA,Other,34.09751,-117.6483876,Upland
-"Yoghurt Mill, El Cajon, California",https://cdn.loc.gov/service/pnp/mrg/07300/07378v.jpg,CA,Other,32.7947731,-116.962526,El Cajon
-"OJ Stand, Turlock, California",https://cdn.loc.gov/service/pnp/mrg/07300/07379v.jpg,CA,Other,37.4946568,-120.8465941,Turlock
-"OJ Stand, Turlock, California",https://cdn.loc.gov/service/pnp/mrg/07300/07380v.jpg,CA,Other,37.4946568,-120.8465941,Turlock
-"OJ Stand, Turlock, California",https://cdn.loc.gov/service/pnp/mrg/07300/07381v.jpg,CA,Other,37.4946568,-120.8465941,Turlock
-"OJ Stand, Turlock, California",https://cdn.loc.gov/service/pnp/mrg/07300/07382v.jpg,CA,Other,37.4946568,-120.8465941,Turlock
-"OJ Stand, Turlock, California",https://cdn.loc.gov/service/pnp/mrg/07300/07383v.jpg,CA,Other,37.4946568,-120.8465941,Turlock
-"OJ Stand, Turlock, California",https://cdn.loc.gov/service/pnp/mrg/07300/07384v.jpg,CA,Other,37.4946568,-120.8465941,Turlock
-"Giant orange, Banta, California",https://cdn.loc.gov/service/pnp/mrg/07300/07385v.jpg,CA,Other,37.7543731,-121.3707773,Banta
-"Giant orange, Banta, California",https://cdn.loc.gov/service/pnp/mrg/07300/07386v.jpg,CA,Other,37.7543731,-121.3707773,Banta
-"Vanderamps Coffee Shop, Marina Del Rey, California",https://cdn.loc.gov/service/pnp/mrg/07400/07403v.jpg,CA,Retail,33.9776848,-118.448647,Marina Del Rey
-"Tail O' the Pup, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/07400/07406v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
-"Tail O' the Pup, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/07400/07407v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
-"The Donut Hole, La Puente, California",https://cdn.loc.gov/service/pnp/mrg/07400/07410v.jpg,CA,Other,34.0280619,-117.953097,La Puente
-"The Donut Hole, La Puente, California",https://cdn.loc.gov/service/pnp/mrg/07400/07411v.jpg,CA,Other,34.0280619,-117.953097,La Puente
-"The Donut Hole, La Puente, California",https://cdn.loc.gov/service/pnp/mrg/07400/07412v.jpg,CA,Other,34.0280619,-117.953097,La Puente
-"Mr. Good's Donut House, Compton, California",https://cdn.loc.gov/service/pnp/mrg/07400/07425v.jpg,CA,Historical Building,33.894927,-118.226624,Compton
-"Hoot Owl Cafe, Southgate, California",https://cdn.loc.gov/service/pnp/mrg/07400/07426v.jpg,CA,Restaurant,37.4333295,-122.1512119,Southgate
-"Hoot Owl Cafe, Southgate, California",https://cdn.loc.gov/service/pnp/mrg/07400/07427v.jpg,CA,Restaurant,37.4333295,-122.1512119,Southgate
-"Randy's Donuts, Inglewood, California",https://cdn.loc.gov/service/pnp/mrg/07400/07435v.jpg,CA,Other,33.9562003,-118.353132,Inglewood
-"Randy's Donuts, Inglewood, California",https://cdn.loc.gov/service/pnp/mrg/07400/07436v.jpg,CA,Other,33.9562003,-118.353132,Inglewood
-"Randy's Donuts, Inglewood, California",https://cdn.loc.gov/service/pnp/mrg/07400/07437v.jpg,CA,Other,33.9562003,-118.353132,Inglewood
-"Randy's Donuts, Inglewood, California",https://cdn.loc.gov/service/pnp/mrg/07400/07438v.jpg,CA,Other,33.9562003,-118.353132,Inglewood
-"Big Do-Nut Drive-in, Inglewood, California",https://cdn.loc.gov/service/pnp/mrg/07400/07439v.jpg,CA,Theater,33.9562003,-118.353132,Inglewood
-"Big Do-Nut Drive-in, Inglewood, California",https://cdn.loc.gov/service/pnp/mrg/07400/07440v.jpg,CA,Theater,33.9562003,-118.353132,Inglewood
-"Pancho's Family Dinners, West Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/07400/07443v.jpg,CA,Hotel,34.0468546,-118.430254,West Los Angeles
-"Pancho's Family Dinners, West Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/07400/07444v.jpg,CA,Hotel,34.0468546,-118.430254,West Los Angeles
-"Jolly Kone Drive-in sign, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/07400/07498v.jpg,CA,Theater,35.3738712,-119.019463,Bakersfield
-"Foster's Freeze ice cream stand, Cloverdale, California",https://cdn.loc.gov/service/pnp/mrg/07400/07499v.jpg,CA,Other,38.8064632,-123.0178759,Cloverdale
-"Ray and Phil Bar sign, Stockton, California",https://cdn.loc.gov/service/pnp/mrg/07500/07560v.jpg,CA,Sign,37.9577016,-121.290779,Stockton
-"Ray and Phil Bar sign, Stockton, California",https://cdn.loc.gov/service/pnp/mrg/07500/07561v.jpg,CA,Sign,37.9577016,-121.290779,Stockton
-"Hunters Inn sign, Maxwell, California",https://cdn.loc.gov/service/pnp/mrg/07500/07583v.jpg,CA,Hotel,39.2770035,-122.192406,Maxwell
-"Far East Food sign, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/07500/07592v.jpg,CA,Sign,35.3738712,-119.019463,Bakersfield
-"Far East Food sign, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/07500/07593v.jpg,CA,Sign,35.3738712,-119.019463,Bakersfield
-"Far East Food sign, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/07500/07594v.jpg,CA,Sign,35.3738712,-119.019463,Bakersfield
-"A & W sign, Richmond, California",https://cdn.loc.gov/service/pnp/mrg/07600/07603v.jpg,CA,Sign,37.9357576,-122.347748,Richmond
-"El Rebozo Restaurant sign, Ukiah, California",https://cdn.loc.gov/service/pnp/mrg/07600/07606v.jpg,CA,Sign,39.1501662,-123.2077861,Ukiah
-"Jimmy Wong's Golden Dragon sign, La Mesa, California",https://cdn.loc.gov/service/pnp/mrg/07600/07621v.jpg,CA,Sign,32.7678288,-117.0230839,La Mesa
-"Pancho's Village Cocktails sign, Salinas, California",https://cdn.loc.gov/service/pnp/mrg/07600/07643v.jpg,CA,Sign,36.6744117,-121.655037,Salinas
-"Cafe Dining Cars sign, Buellton, California",https://cdn.loc.gov/service/pnp/mrg/07600/07697v.jpg,CA,Sign,34.6134727,-120.193669,Buellton
-"Campus Drive-in sign, Greenfield, California",https://cdn.loc.gov/service/pnp/mrg/07700/07719v.jpg,CA,Theater,36.3207998,-121.243813,Greenfield
-"Old Klamath Smoke House sign, Klamath, California",https://cdn.loc.gov/service/pnp/mrg/07700/07722v.jpg,CA,Sign,41.5265092,-124.038406,Klamath
-"Snappy Lunch sign, Guadalupe, California",https://cdn.loc.gov/service/pnp/mrg/07700/07741v.jpg,CA,Sign,34.971644,-120.571836,Guadalupe
-"Angelo's Drive-in Burger sign, Fresno, California",https://cdn.loc.gov/service/pnp/mrg/07700/07742v.jpg,CA,Theater,36.7394421,-119.78483,Fresno
-"Bob-A-Q sign near Morro Bay, Morro Bay, California",https://cdn.loc.gov/service/pnp/mrg/07700/07743v.jpg,CA,Sign,35.3658075,-120.849901,Morro Bay
-"Andre's Giant Burgers sign, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/07700/07753v.jpg,CA,Sign,35.3738712,-119.019463,Bakersfield
-"Andre's Giant Burgers sign, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/07700/07754v.jpg,CA,Sign,35.3738712,-119.019463,Bakersfield
-"Father's Also Tavern sign, Redlands, California",https://cdn.loc.gov/service/pnp/mrg/07700/07755v.jpg,CA,Sign,34.0550328,-117.1827445,Redlands
-"Eel River Cafe sign, Garberville, California",https://cdn.loc.gov/service/pnp/mrg/07700/07757v.jpg,CA,Sign,40.100569,-123.796139,Garberville
-"Burger King sign, Victorville, California",https://cdn.loc.gov/service/pnp/mrg/07700/07759v.jpg,CA,Sign,34.5361067,-117.2911565,Victorville
-"Restwell Court, Pismo Beach, California",https://cdn.loc.gov/service/pnp/mrg/07700/07797v.jpg,CA,Other,35.1427436,-120.641288,Pismo Beach
-"Restwell Court, Pismo Beach, California",https://cdn.loc.gov/service/pnp/mrg/07700/07798v.jpg,CA,Other,35.1427436,-120.641288,Pismo Beach
-"Restwell Court, Pismo Beach, California",https://cdn.loc.gov/service/pnp/mrg/07700/07799v.jpg,CA,Other,35.1427436,-120.641288,Pismo Beach
-"El Portal Motel, Santa Rosa, California",https://cdn.loc.gov/service/pnp/mrg/07800/07801v.jpg,CA,Hotel,38.4404925,-122.7141049,Santa Rosa
-"El Portal Motel, Santa Rosa, California",https://cdn.loc.gov/service/pnp/mrg/07800/07802v.jpg,CA,Hotel,38.4404925,-122.7141049,Santa Rosa
-"El Portal Motel, Santa Rosa, California",https://cdn.loc.gov/service/pnp/mrg/07800/07803v.jpg,CA,Hotel,38.4404925,-122.7141049,Santa Rosa
-"Wigwam Village #7, Rialto, California",https://cdn.loc.gov/service/pnp/mrg/07800/07865v.jpg,CA,Other,34.1064001,-117.3703235,Rialto
-"Wigwam Village #7, Rialto, California",https://cdn.loc.gov/service/pnp/mrg/07800/07866v.jpg,CA,Other,34.1064001,-117.3703235,Rialto
-"Wigwam Village #7, Rialto, California",https://cdn.loc.gov/service/pnp/mrg/07800/07867v.jpg,CA,Other,34.1064001,-117.3703235,Rialto
-"Wigwam Village #7, Rialto, California",https://cdn.loc.gov/service/pnp/mrg/07800/07868v.jpg,CA,Other,34.1064001,-117.3703235,Rialto
-"Wigwam Village #7, Rialto, California",https://cdn.loc.gov/service/pnp/mrg/07800/07869v.jpg,CA,Other,34.1064001,-117.3703235,Rialto
-"Wigwam Village #7, Rialto, California",https://cdn.loc.gov/service/pnp/mrg/07800/07870v.jpg,CA,Other,34.1064001,-117.3703235,Rialto
-"Wigwam Village #7, Rialto, California",https://cdn.loc.gov/service/pnp/mrg/07800/07871v.jpg,CA,Other,34.1064001,-117.3703235,Rialto
-"Wigwam Village #7, Rialto, California",https://cdn.loc.gov/service/pnp/mrg/07800/07872v.jpg,CA,Other,34.1064001,-117.3703235,Rialto
-"Wigwam Village #7, Rialto, California",https://cdn.loc.gov/service/pnp/mrg/07800/07873v.jpg,CA,Other,34.1064001,-117.3703235,Rialto
-"Wigwam Village #7, Rialto, California",https://cdn.loc.gov/service/pnp/mrg/07800/07874v.jpg,CA,Other,34.1064001,-117.3703235,Rialto
-"Wigwam Village #7, Rialto, California",https://cdn.loc.gov/service/pnp/mrg/07800/07875v.jpg,CA,Other,34.1064001,-117.3703235,Rialto
-"Wigwam Village Motel, Rialto, California",https://cdn.loc.gov/service/pnp/mrg/07800/07876v.jpg,CA,Hotel,34.1064001,-117.3703235,Rialto
-"Wigwam Village Motel, Rialto, California",https://cdn.loc.gov/service/pnp/mrg/07800/07877v.jpg,CA,Hotel,34.1064001,-117.3703235,Rialto
-"Wigwam Village Motel, Rialto, California",https://cdn.loc.gov/service/pnp/mrg/07800/07878v.jpg,CA,Hotel,34.1064001,-117.3703235,Rialto
-"Wigwam Village Motel, Rialto, California",https://cdn.loc.gov/service/pnp/mrg/07800/07879v.jpg,CA,Hotel,34.1064001,-117.3703235,Rialto
-"Wigwam Village Motel, Rialto, California",https://cdn.loc.gov/service/pnp/mrg/07800/07880v.jpg,CA,Hotel,34.1064001,-117.3703235,Rialto
-"Wigwam Village Motel, Rialto, California",https://cdn.loc.gov/service/pnp/mrg/07800/07881v.jpg,CA,Hotel,34.1064001,-117.3703235,Rialto
-"Wigwam Village Motel, Rialto, California",https://cdn.loc.gov/service/pnp/mrg/07800/07882v.jpg,CA,Hotel,34.1064001,-117.3703235,Rialto
-"Wigwam Village Motel, Rialto, California",https://cdn.loc.gov/service/pnp/mrg/07800/07883v.jpg,CA,Hotel,34.1064001,-117.3703235,Rialto
-"Wigwam Village Motel, Rialto, California",https://cdn.loc.gov/service/pnp/mrg/07800/07884v.jpg,CA,Hotel,34.1064001,-117.3703235,Rialto
-"Wigwam Village Motel, Rialto, California",https://cdn.loc.gov/service/pnp/mrg/07800/07885v.jpg,CA,Hotel,34.1064001,-117.3703235,Rialto
-"Wigwam Village Motel, Rialto, California",https://cdn.loc.gov/service/pnp/mrg/07800/07886v.jpg,CA,Hotel,34.1064001,-117.3703235,Rialto
-"Wigwam Village Motel, Rialto, California",https://cdn.loc.gov/service/pnp/mrg/07800/07887v.jpg,CA,Hotel,34.1064001,-117.3703235,Rialto
-"Wigwam Village Motel, Rialto, California",https://cdn.loc.gov/service/pnp/mrg/07800/07888v.jpg,CA,Hotel,34.1064001,-117.3703235,Rialto
-"Motel Inn, San Luis Obispo, California",https://cdn.loc.gov/service/pnp/mrg/07800/07889v.jpg,CA,Hotel,35.3540209,-120.375716,San Luis Obispo
-"Motel Inn, San Luis Obispo, California",https://cdn.loc.gov/service/pnp/mrg/07800/07890v.jpg,CA,Hotel,35.3540209,-120.375716,San Luis Obispo
-"Motel Inn, San Luis Obispo, California",https://cdn.loc.gov/service/pnp/mrg/07800/07891v.jpg,CA,Hotel,35.3540209,-120.375716,San Luis Obispo
-"Motel Inn, San Luis Obispo, California",https://cdn.loc.gov/service/pnp/mrg/07800/07892v.jpg,CA,Hotel,35.3540209,-120.375716,San Luis Obispo
-"Motel Inn, San Luis Obispo, California",https://cdn.loc.gov/service/pnp/mrg/07800/07893v.jpg,CA,Hotel,35.3540209,-120.375716,San Luis Obispo
-"Motel Inn, San Luis Obispo, California",https://cdn.loc.gov/service/pnp/mrg/07800/07894v.jpg,CA,Hotel,35.3540209,-120.375716,San Luis Obispo
-"Motel Inn, San Luis Obispo, California",https://cdn.loc.gov/service/pnp/mrg/07800/07895v.jpg,CA,Hotel,35.3540209,-120.375716,San Luis Obispo
-"Woodland Villa Motel, Klamath, California",https://cdn.loc.gov/service/pnp/mrg/07900/07901v.jpg,CA,Hotel,41.5265092,-124.038406,Klamath
-"Log Cabin Motel, San Leandro, California",https://cdn.loc.gov/service/pnp/mrg/07900/07907v.jpg,CA,Hotel,37.7249296,-122.1560768,San Leandro
-"Mission Motel, San Bernardino, California",https://cdn.loc.gov/service/pnp/mrg/07900/07908v.jpg,CA,Hotel,34.8253019,-116.0833144,San Bernardino
-"Mission Motel, San Bernardino, California",https://cdn.loc.gov/service/pnp/mrg/07900/07909v.jpg,CA,Hotel,34.8253019,-116.0833144,San Bernardino
-"Roy's Motel, Amboy, California",https://cdn.loc.gov/service/pnp/mrg/07900/07910v.jpg,CA,Hotel,34.5577721,-115.7444411,Amboy
-"Roy's Motel, Amboy, California",https://cdn.loc.gov/service/pnp/mrg/07900/07911v.jpg,CA,Hotel,34.5577721,-115.7444411,Amboy
-"Sea-Vue Motel, Cayucos, California",https://cdn.loc.gov/service/pnp/mrg/07900/07923v.jpg,CA,Hotel,35.4427512,-120.892125,Cayucos
-"Hilldale Court, El Cajon, California",https://cdn.loc.gov/service/pnp/mrg/07900/07927v.jpg,CA,Other,32.7947731,-116.962526,El Cajon
-"Madonna Inn, San Luis Obispo, California",https://cdn.loc.gov/service/pnp/mrg/07900/07928v.jpg,CA,Hotel,35.3540209,-120.375716,San Luis Obispo
-"Farm House Motel, Riverside, California",https://cdn.loc.gov/service/pnp/mrg/07900/07929v.jpg,CA,Hotel,33.9824949,-117.374238,Riverside
-"Farm House Motel, Riverside, California",https://cdn.loc.gov/service/pnp/mrg/07900/07930v.jpg,CA,Hotel,33.9824949,-117.374238,Riverside
-"Gateway Motel, Merced, California",https://cdn.loc.gov/service/pnp/mrg/07900/07931v.jpg,CA,Hotel,37.1641544,-120.7678602,Merced
-"Blue Bell Motel, San Luis Obispo, California",https://cdn.loc.gov/service/pnp/mrg/07900/07985v.jpg,CA,Hotel,35.3540209,-120.375716,San Luis Obispo
-"Blue Bell Motel, San Luis Obispo, California",https://cdn.loc.gov/service/pnp/mrg/07900/07986v.jpg,CA,Hotel,35.3540209,-120.375716,San Luis Obispo
-"Blue Bell Motel, San Luis Obispo, California",https://cdn.loc.gov/service/pnp/mrg/07900/07987v.jpg,CA,Hotel,35.3540209,-120.375716,San Luis Obispo
-"Blue Bell Motel, San Luis Obispo, California",https://cdn.loc.gov/service/pnp/mrg/07900/07988v.jpg,CA,Hotel,35.3540209,-120.375716,San Luis Obispo
-"Blue Bell Motel, San Luis Obispo, California",https://cdn.loc.gov/service/pnp/mrg/07900/07989v.jpg,CA,Hotel,35.3540209,-120.375716,San Luis Obispo
-"Blue Bell Motel, San Luis Obispo, California",https://cdn.loc.gov/service/pnp/mrg/07900/07990v.jpg,CA,Hotel,35.3540209,-120.375716,San Luis Obispo
-"Blue Bell Motel, San Luis Obispo, California",https://cdn.loc.gov/service/pnp/mrg/07900/07991v.jpg,CA,Hotel,35.3540209,-120.375716,San Luis Obispo
-"Blue Bell Motel, San Luis Obispo, California",https://cdn.loc.gov/service/pnp/mrg/07900/07992v.jpg,CA,Hotel,35.3540209,-120.375716,San Luis Obispo
-"Blue Bell Motel, San Luis Obispo, California",https://cdn.loc.gov/service/pnp/mrg/07900/07993v.jpg,CA,Hotel,35.3540209,-120.375716,San Luis Obispo
-"Blue Bell Motel, San Luis Obispo, California",https://cdn.loc.gov/service/pnp/mrg/07900/07994v.jpg,CA,Hotel,35.3540209,-120.375716,San Luis Obispo
-"Log Cabin Motel, San Leandro, California",https://cdn.loc.gov/service/pnp/mrg/08000/08095v.jpg,CA,Hotel,37.7249296,-122.1560768,San Leandro
-"Tower Motel sign, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/08300/08361v.jpg,CA,Hotel,35.3738712,-119.019463,Bakersfield
-"Tower Motel sign, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/08300/08362v.jpg,CA,Hotel,35.3738712,-119.019463,Bakersfield
-"Tower Motel sign, Bakersfield, California",https://cdn.loc.gov/service/pnp/mrg/08300/08363v.jpg,CA,Hotel,35.3738712,-119.019463,Bakersfield
-"Fresno Motel sign, Fresno, California",https://cdn.loc.gov/service/pnp/mrg/08500/08503v.jpg,CA,Hotel,36.7394421,-119.78483,Fresno
-"Fresno Motel sign, Fresno, California",https://cdn.loc.gov/service/pnp/mrg/08500/08504v.jpg,CA,Hotel,36.7394421,-119.78483,Fresno
-"Wigwam Village Motel sign, Rialto, California",https://cdn.loc.gov/service/pnp/mrg/08500/08539v.jpg,CA,Hotel,34.1064001,-117.3703235,Rialto
-"Dick's Motor Inn, Banning, California",https://cdn.loc.gov/service/pnp/mrg/08500/08547v.jpg,CA,Hotel,33.9255685,-116.875289,Banning
-"Del Coronado Hotel, Coronado Beach, California",https://cdn.loc.gov/service/pnp/mrg/09300/09337v.jpg,CA,Hotel,32.6831259,-117.1858699,Coronado Beach
-"Del Coronado Hotel, Coronado Beach, California",https://cdn.loc.gov/service/pnp/mrg/09300/09338v.jpg,CA,Hotel,32.6831259,-117.1858699,Coronado Beach
-"Residential Court, Venice, California",https://cdn.loc.gov/service/pnp/mrg/09300/09339v.jpg,CA,Other,33.995044,-118.4668875,Venice
-"Billy's Apartments, Venice, California",https://cdn.loc.gov/service/pnp/mrg/09300/09340v.jpg,CA,Other,33.995044,-118.4668875,Venice
-"Ocean front walk, Venice, California",https://cdn.loc.gov/service/pnp/mrg/10400/10498v.jpg,CA,Other,33.995044,-118.4668875,Venice
-"Ocean front walk, Venice, California",https://cdn.loc.gov/service/pnp/mrg/10400/10499v.jpg,CA,Other,33.995044,-118.4668875,Venice
-"Trike rental, Venice, California",https://cdn.loc.gov/service/pnp/mrg/10500/10500v.jpg,CA,Other,33.995044,-118.4668875,Venice
-"Shops, Venice, California",https://cdn.loc.gov/service/pnp/mrg/10500/10501v.jpg,CA,Retail,33.995044,-118.4668875,Venice
-"Venice columns, Venice, California",https://cdn.loc.gov/service/pnp/mrg/10500/10502v.jpg,CA,Other,33.995044,-118.4668875,Venice
-"Venice column capital, Venice, California",https://cdn.loc.gov/service/pnp/mrg/10500/10503v.jpg,CA,Other,33.995044,-118.4668875,Venice
-"Venice bath house, Venice, California",https://cdn.loc.gov/service/pnp/mrg/10500/10504v.jpg,CA,Historical Building,33.995044,-118.4668875,Venice
-"Venice columns 2, Venice, California",https://cdn.loc.gov/service/pnp/mrg/10500/10505v.jpg,CA,Other,33.995044,-118.4668875,Venice
-"Venice bath house sign, Venice, California",https://cdn.loc.gov/service/pnp/mrg/10500/10506v.jpg,CA,Sign,33.995044,-118.4668875,Venice
-"Poster shop, Venice, California",https://cdn.loc.gov/service/pnp/mrg/10500/10507v.jpg,CA,Retail,33.995044,-118.4668875,Venice
-"Ocean Park Pier fire, Santa Monica, California",https://cdn.loc.gov/service/pnp/mrg/10500/10508v.jpg,CA,Park,34.0194704,-118.491227,Santa Monica
-"Santa Monica Pier, Santa Monica, California",https://cdn.loc.gov/service/pnp/mrg/10500/10509v.jpg,CA,Other,34.0194704,-118.491227,Santa Monica
-"Carousel, Santa Monica, California",https://cdn.loc.gov/service/pnp/mrg/10500/10510v.jpg,CA,Other,34.0194704,-118.491227,Santa Monica
-"Carousel, Santa Monica, California",https://cdn.loc.gov/service/pnp/mrg/10500/10511v.jpg,CA,Other,34.0194704,-118.491227,Santa Monica
-"Carousel, Santa Monica, California",https://cdn.loc.gov/service/pnp/mrg/10500/10512v.jpg,CA,Other,34.0194704,-118.491227,Santa Monica
-"Carousel, Santa Monica, California",https://cdn.loc.gov/service/pnp/mrg/10500/10513v.jpg,CA,Other,34.0194704,-118.491227,Santa Monica
-"Santa Monica Pier, Santa Monica, California",https://cdn.loc.gov/service/pnp/mrg/10500/10514v.jpg,CA,Other,34.0194704,-118.491227,Santa Monica
-"Castle Park Golf, hole 18, Redondo Beach, California",https://cdn.loc.gov/service/pnp/mrg/11700/11728v.jpg,CA,Sports,33.8398289,-118.3845942,Redondo Beach
-"Cafe Dining Cars (1947), Buellton, California",https://cdn.loc.gov/service/pnp/mrg/11700/11734v.jpg,CA,Restaurant,34.6134727,-120.193669,Buellton
-"Municipal Building, Santa Barbara, California",https://cdn.loc.gov/service/pnp/mrg/00900/00974v.jpg,CA,Historical Building,34.4221319,-119.702667,Santa Barbara
-"Peking Restaurant, Pico Boulevard, Santa Monica, California",https://cdn.loc.gov/service/pnp/mrg/01300/01303v.jpg,CA,Restaurant,34.0194704,-118.491227,Santa Monica
-"Rice Bowl Cafe, Ocean Avenue, Lompoc, California",https://cdn.loc.gov/service/pnp/mrg/01300/01316v.jpg,CA,Restaurant,34.6391501,-120.4579009,Lompoc
-"Road House, Route 66, Fontana, California",https://cdn.loc.gov/service/pnp/mrg/01300/01319v.jpg,CA,Historical Building,34.0922947,-117.43433,Fontana
-"Michael's Dancing, Ocean Avenue, Lompoc, California",https://cdn.loc.gov/service/pnp/mrg/01300/01320v.jpg,CA,Other,34.6391501,-120.4579009,Lompoc
-"La Casiga Bar, 1109 E. Anaheim Street, Wilmington, California",https://cdn.loc.gov/service/pnp/mrg/01300/01321v.jpg,CA,Other,33.7800164,-118.262509,Wilmington
-"Club Montage, Spring Street, Paso Robles, California",https://cdn.loc.gov/service/pnp/mrg/01300/01322v.jpg,CA,Other,35.6262618,-120.6901319,Paso Robles
-"Club Montage, detail, Spring Street, Paso Robles, California",https://cdn.loc.gov/service/pnp/mrg/01300/01323v.jpg,CA,Other,35.6262618,-120.6901319,Paso Robles
-"Road House (?), Ramsey Street (Route 99?), Banning, California",https://cdn.loc.gov/service/pnp/mrg/01300/01324v.jpg,CA,Historical Building,33.9255685,-116.875289,Banning
-"Rainbow Bar, Foothill Boulevard, Route 66, Rialto, California",https://cdn.loc.gov/service/pnp/mrg/01300/01325v.jpg,CA,Other,34.1064001,-117.3703235,Rialto
-"Torino's Bar & Restaurant, Sutter Street, Stockton, California",https://cdn.loc.gov/service/pnp/mrg/01300/01326v.jpg,CA,Restaurant,37.9577016,-121.290779,Stockton
-"Kelly's Pub, El Cajon Boulevard, El Cajon, California",https://cdn.loc.gov/service/pnp/mrg/01300/01327v.jpg,CA,Other,32.7947731,-116.962526,El Cajon
-"Father's Also Tavern, Redlands, California",https://cdn.loc.gov/service/pnp/mrg/01300/01328v.jpg,CA,Other,34.0550328,-117.1827445,Redlands
-"Gene's Little Ole Tavern, Ventura, California",https://cdn.loc.gov/service/pnp/mrg/01300/01329v.jpg,CA,Other,34.4458248,-119.0779359,Ventura
-"Tom's Cafe, 2181 Manchester, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/01300/01330v.jpg,CA,Restaurant,34.0536909,-118.242766,Los Angeles
-"Johnny's 329 Club, Avalon and Wilmingotn Boulevards, Wilmington, California",https://cdn.loc.gov/service/pnp/mrg/01300/01331v.jpg,CA,Other,33.7800164,-118.262509,Wilmington
-"Foodman Market, Pacific Coast Highway and Marine Avenue, Wilmington, California",https://cdn.loc.gov/service/pnp/mrg/01400/01408v.jpg,CA,Other,33.7800164,-118.262509,Wilmington
-"Hollywood Inn sign, Motel Drive, Fresno, California",https://cdn.loc.gov/service/pnp/mrg/01400/01431v.jpg,CA,Hotel,36.7394421,-119.78483,Fresno
-"Ranch-O-Tel sign, Motel Drive, Fresno, California",https://cdn.loc.gov/service/pnp/mrg/01400/01432v.jpg,CA,Hotel,36.7394421,-119.78483,Fresno
-"Blue Bell Motel (1937) sign, 3053 S. Higuera Street, San Luis Obispo, California",https://cdn.loc.gov/service/pnp/mrg/01400/01433v.jpg,CA,Hotel,35.3540209,-120.375716,San Luis Obispo
-"El Portal Motel sign, Santa Rosa Avenue, Santa Rosa, California",https://cdn.loc.gov/service/pnp/mrg/01400/01434v.jpg,CA,Hotel,38.4404925,-122.7141049,Santa Rosa
-"Roy's Motel sign, Route 66, Amboy, California",https://cdn.loc.gov/service/pnp/mrg/01400/01435v.jpg,CA,Hotel,34.5577721,-115.7444411,Amboy
-"San Bernardino Motel sign, Route 66 (Foothill Boulevard), San Bernardino, California",https://cdn.loc.gov/service/pnp/mrg/01400/01437v.jpg,CA,Hotel,34.8253019,-116.0833144,San Bernardino
-"El Sombrero Motel sign, Abbott Avenue, Salinas, California",https://cdn.loc.gov/service/pnp/mrg/01400/01438v.jpg,CA,Hotel,36.6744117,-121.655037,Salinas
-"Lark Motel sign, vertical view, Route 101, Willits, California",https://cdn.loc.gov/service/pnp/mrg/01400/01439v.jpg,CA,Hotel,39.4096043,-123.3555602,Willits
-"Lark Motel sign, horizontal view, Route 101, Willits, California",https://cdn.loc.gov/service/pnp/mrg/01400/01440v.jpg,CA,Hotel,39.4096043,-123.3555602,Willits
-"Manhattan Motel sign, Route 99 (Market Street), Redding, California",https://cdn.loc.gov/service/pnp/mrg/01400/01441v.jpg,CA,Hotel,40.5863563,-122.391675,Redding
-"Grove Motel sign, Route 99, Willows, California",https://cdn.loc.gov/service/pnp/mrg/01400/01442v.jpg,CA,Hotel,39.5233276,-122.193531,Willows
-"Casa Linda Motel sign, Route 99, Willows, California",https://cdn.loc.gov/service/pnp/mrg/01400/01443v.jpg,CA,Hotel,39.5233276,-122.193531,Willows
-"Komfort Court sign, King City, California",https://cdn.loc.gov/service/pnp/mrg/01400/01444v.jpg,CA,Sign,36.2135291,-121.1247365,King City
-"Missile Motel sign, Port Hueneme, California",https://cdn.loc.gov/service/pnp/mrg/01400/01445v.jpg,CA,Hotel,34.1477558,-119.1951559,Port Hueneme
-"Candy Motel sign, Route 99, Fresno, California",https://cdn.loc.gov/service/pnp/mrg/01400/01477v.jpg,CA,Hotel,36.7394421,-119.78483,Fresno
-"Astro Motel sign, Motel Drive, Fresno, California",https://cdn.loc.gov/service/pnp/mrg/01400/01478v.jpg,CA,Hotel,36.7394421,-119.78483,Fresno
-"Serra Motel sign, Old Route 101, Gilroy, California",https://cdn.loc.gov/service/pnp/mrg/01400/01479v.jpg,CA,Hotel,37.0065078,-121.5631723,Gilroy
-"Doggie Diner sign, McArthur Boulevard & San Pablo, Oakland, California",https://cdn.loc.gov/service/pnp/mrg/01400/01489v.jpg,CA,Sign,37.8044557,-122.271356,Oakland
-"Dining Cars Cafe sign, Frontage Road, Route 101, Buellton, California",https://cdn.loc.gov/service/pnp/mrg/01400/01490v.jpg,CA,Sign,34.6134727,-120.193669,Buellton
-"McDonald's Restaurant sign, detail, Lakewood Boulevard, Downey, California",https://cdn.loc.gov/service/pnp/mrg/01500/01501v.jpg,CA,Sign,33.9404441,-118.1292846,Downey
-"McDonald's Restaurant sign, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/01500/01502v.jpg,CA,Sign,34.0536909,-118.242766,Los Angeles
-"McDonald's Restaurant sign, Route 66, Azusa, California",https://cdn.loc.gov/service/pnp/mrg/01500/01503v.jpg,CA,Sign,34.1338751,-117.9056046,Azusa
-"McDonald's Restaurant sign, Route 66, Azusa, California",https://cdn.loc.gov/service/pnp/mrg/01500/01504v.jpg,CA,Sign,34.1338751,-117.9056046,Azusa
-"McDonald's Restaurant sign, detail one, Route 66, Azusa, California",https://cdn.loc.gov/service/pnp/mrg/01500/01505v.jpg,CA,Sign,34.1338751,-117.9056046,Azusa
-"McDonald's Restaurant sign, detail two, Route 66, Azusa, California",https://cdn.loc.gov/service/pnp/mrg/01500/01506v.jpg,CA,Sign,34.1338751,-117.9056046,Azusa
-"Argo's Coffee Shop sign, Santa Monica Boulevard, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/01500/01583v.jpg,CA,Sign,34.0536909,-118.242766,Los Angeles
-"Shrimp Boat Restaurant sign, Rosemead Boulevard, Temple City, California",https://cdn.loc.gov/service/pnp/mrg/01500/01584v.jpg,CA,Sign,34.1082994,-118.0577568,Temple City
-"Gas pump, Alhambra Boulevard, Sacramento, California",https://cdn.loc.gov/service/pnp/mrg/01600/01662v.jpg,CA,Gas Station,38.5810606,-121.493895,Sacramento
-"Visible gas pump (restoration with Sinclair globe), Santa Margarita, California",https://cdn.loc.gov/service/pnp/mrg/01600/01663v.jpg,CA,Gas Station,35.3899734,-120.609057,Santa Margarita
-"Visible gas pump (restoration with Sinclair globe), close up view, Santa Margarita, California",https://cdn.loc.gov/service/pnp/mrg/01600/01664v.jpg,CA,Gas Station,35.3899734,-120.609057,Santa Margarita
-"Babcock's barber sign, Green Street, Tehachapi, California",https://cdn.loc.gov/service/pnp/mrg/01800/01828v.jpg,CA,Sign,35.1321878,-118.4489739,Tehachapi
-"Rubidoux Drive-in Theater, Mission Boulevard, Rubidoux, California",https://cdn.loc.gov/service/pnp/mrg/01800/01871v.jpg,CA,Theater,33.9943119,-117.4237761,Rubidoux
-"Mission Drive-in Theater, San Juan Capistrano, California",https://cdn.loc.gov/service/pnp/mrg/01900/01900v.jpg,CA,Theater,33.5016932,-117.6625509,San Juan Capistrano
-"Victory Drive-in Theater, Victory west of Coldwater Canyon, Van Nuys, California",https://cdn.loc.gov/service/pnp/mrg/01900/01906v.jpg,CA,Theater,34.1866193,-118.4486675,Van Nuys
-"Victory Drive-in Theater, Victory west of Coldwater Canyon, Van Nuys, California",https://cdn.loc.gov/service/pnp/mrg/01900/01907v.jpg,CA,Theater,34.1866193,-118.4486675,Van Nuys
-"Compton Drive-in Theater, Rosecrans Avenue, Compton, California",https://cdn.loc.gov/service/pnp/mrg/01900/01913v.jpg,CA,Theater,33.894927,-118.226624,Compton
-"Fountain Grove round barn, Santa Rosa, California",https://cdn.loc.gov/service/pnp/mrg/01900/01977v.jpg,CA,Fountain,38.4404925,-122.7141049,Santa Rosa
-"Statue of Liberty at Shoreline Market, Route 101, Orick, California",https://cdn.loc.gov/service/pnp/mrg/01900/01984v.jpg,CA,Statue,41.2867896,-124.0597937,Orick
-"Statue of Liberty at Shoreline market (close up), Route 101, Orick, California",https://cdn.loc.gov/service/pnp/mrg/01900/01986v.jpg,CA,Statue,41.2867896,-124.0597937,Orick
-"Octagonal barn, South Higuera Street, San Luis Obispo, California",https://cdn.loc.gov/service/pnp/mrg/02000/02008v.jpg,CA,Other,35.3540209,-120.375716,San Luis Obispo
-"Teepee at Grandfather Tree, Route 101, Garberville, California",https://cdn.loc.gov/service/pnp/mrg/02000/02038v.jpg,CA,Other,40.100569,-123.796139,Garberville
-"Public parking, Sutter Street, Stockton, California",https://cdn.loc.gov/service/pnp/mrg/02000/02060v.jpg,CA,Park,37.9577016,-121.290779,Stockton
-"Public parking structure, cornice detail, Sutter Street, Stockton, California",https://cdn.loc.gov/service/pnp/mrg/02000/02061v.jpg,CA,Park,37.9577016,-121.290779,Stockton
-"Car dealership, Santa Monica, California",https://cdn.loc.gov/service/pnp/mrg/02000/02062v.jpg,CA,Other,34.0194704,-118.491227,Santa Monica
-"Mazda Dealer, 1285 Colorado Boulevard, Pasadena, California",https://cdn.loc.gov/service/pnp/mrg/02000/02065v.jpg,CA,Other,34.1476507,-118.144155,Pasadena
-"P&J Motors, 11059 Garvey Avenue, El Monte, California",https://cdn.loc.gov/service/pnp/mrg/02000/02066v.jpg,CA,Other,34.0751571,-118.036849,El Monte
-"P&J Motors, 11059 Garvey Avenue, El Monte, California",https://cdn.loc.gov/service/pnp/mrg/02000/02067v.jpg,CA,Other,34.0751571,-118.036849,El Monte
-"Breck's Auto Parts, 1922 showroom, 7355 Greenleaf Avenue, Whittier, California",https://cdn.loc.gov/service/pnp/mrg/02000/02072v.jpg,CA,Other,33.9749136,-118.0338664,Whittier
-"Breck's Auto Parts, 1922 showroom, 7355 Greenleaf Avenue, Whittier, California",https://cdn.loc.gov/service/pnp/mrg/02000/02073v.jpg,CA,Other,33.9749136,-118.0338664,Whittier
-"25 Cent Car Wash, Main Street & Ocean Park Boulevard, Santa Monica, California",https://cdn.loc.gov/service/pnp/mrg/02000/02080v.jpg,CA,Park,34.0194704,-118.491227,Santa Monica
-"Cummings Buick, 15th Santa Monica Boulevard, Santa Monica, California",https://cdn.loc.gov/service/pnp/mrg/02000/02082v.jpg,CA,Other,34.0194704,-118.491227,Santa Monica
-"Tire Town, 7402 Lankershim Boulevard, North Hollywood, California",https://cdn.loc.gov/service/pnp/mrg/02000/02083v.jpg,CA,Other,34.1649502,-118.374752,North Hollywood
-"Old gas station, 7229 W. Melrose Ave., Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/02000/02099v.jpg,CA,Gas Station,34.0536909,-118.242766,Los Angeles
-"Uniroyal factory, Telegraph Road, Commerce, California",https://cdn.loc.gov/service/pnp/mrg/02100/02101v.jpg,CA,Other,34.003218,-118.1541961,Commerce
-"Sanders Oldsmobile, La Brea & Wilshire, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/02100/02105v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
-"Sanders Oldsmobile, La Brea & Wilshire, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/02100/02106v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
-"Samson Auto Salvage, 8103 S. Alameda, Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/02100/02107v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
-"Old oil dispensers, Union Oil, Sawtelle near Mississippi, West Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/02100/02116v.jpg,CA,Other,34.0468546,-118.430254,West Los Angeles
-"Golden Eagle gas pump (#1), San Diego, California",https://cdn.loc.gov/service/pnp/mrg/02100/02117v.jpg,CA,Gas Station,32.7174202,-117.162772,San Diego
-"Golden Eagle gas pump (#2), San Diego, California",https://cdn.loc.gov/service/pnp/mrg/02100/02141v.jpg,CA,Gas Station,32.7174202,-117.162772,San Diego
-"Five Golden Eagle gas pumps (#2), San Diego, California",https://cdn.loc.gov/service/pnp/mrg/02100/02142v.jpg,CA,Gas Station,32.7174202,-117.162772,San Diego
-"Chevron gas pump, Jim Ruth Chevrolet, Home Gardens, California",https://cdn.loc.gov/service/pnp/mrg/02100/02143v.jpg,CA,Gas Station,33.8808327,-117.5133522,Home Gardens
-"Three Texaco gas pumps, Altadena, California",https://cdn.loc.gov/service/pnp/mrg/02100/02144v.jpg,CA,Gas Station,34.1928193,-118.1374663,Altadena
-"Four oil dispensers, Monterey Park, California",https://cdn.loc.gov/service/pnp/mrg/02100/02145v.jpg,CA,Park,34.051522,-118.129807,Monterey Park
-"Gas pump, Sacramento, California",https://cdn.loc.gov/service/pnp/mrg/02100/02147v.jpg,CA,Gas Station,38.5810606,-121.493895,Sacramento
-"Union Oil Garage interior, Sawtelle near Mississippi, West Los Angeles, California",https://cdn.loc.gov/service/pnp/mrg/02100/02148v.jpg,CA,Other,34.0468546,-118.430254,West Los Angeles
-"Mattoon Service Station interior, Gulf, Culver City, California",https://cdn.loc.gov/service/pnp/mrg/02100/02191v.jpg,CA,Gas Station,34.0211224,-118.396466,Culver City
-"Corker's Landing Rocket Gas sign, Turlock, California",https://cdn.loc.gov/service/pnp/mrg/02100/02198v.jpg,CA,Gas Station,37.4946568,-120.8465941,Turlock
-"Foster's Old Fashion Freeze ice cream sign, Paso Robles, California",https://cdn.loc.gov/service/pnp/mrg/02200/02264v.jpg,CA,Sign,35.6262618,-120.6901319,Paso Robles
-"Foster's Old Fashion Freeze ice cream sign, Paso Robles, California",https://cdn.loc.gov/service/pnp/mrg/02200/02265v.jpg,CA,Sign,35.6262618,-120.6901319,Paso Robles
-"Peg House, Redwood Gifts, Route 101, Leggett, California",https://cdn.loc.gov/service/pnp/mrg/01900/01929v.jpg,CA,Historical Building,39.8657071,-123.714188,Leggett
-"Stump House, Redwood Gifts, Route 101, Eureka, California",https://cdn.loc.gov/service/pnp/mrg/01900/01935v.jpg,CA,Historical Building,40.8018746,-124.1707558,Eureka
-"Peg House Gas, Route 101, Leggett, California",https://cdn.loc.gov/service/pnp/mrg/05500/05516v.jpg,CA,Gas Station,39.8657071,-123.714188,Leggett
-"Peg House Gas, Route 101, Leggett, California",https://cdn.loc.gov/service/pnp/mrg/05500/05517v.jpg,CA,Gas Station,39.8657071,-123.714188,Leggett
+World's Largest Redwood Tree Service Station (1936),https://cdn.loc.gov/service/pnp/mrg/00000/00007v.jpg,CA,Gas Station,39.1501662,-123.2077861,Ukiah
+Gordon Spencer gas station,https://cdn.loc.gov/service/pnp/mrg/00000/00022v.jpg,CA,Gas Station,34.1133062,-118.1478291,South Pasadena
+Mattoon Service Station (pre-fabricated),https://cdn.loc.gov/service/pnp/mrg/00000/00037v.jpg,CA,Gas Station,34.0211224,-118.396466,Culver City
+Richfield Gas,https://cdn.loc.gov/service/pnp/mrg/00000/00038v.jpg,CA,Gas Station,34.0991995,-117.6022102,Cucamonga
+Far-Go gas pumps,https://cdn.loc.gov/service/pnp/mrg/00000/00053v.jpg,CA,Gas Station,34.8986215,-117.0244313,Barstow
+Earl Schieb Auto Painting sign,https://cdn.loc.gov/service/pnp/mrg/00000/00063v.jpg,CA,Sign,34.0696501,-118.3963062,Beverly Hills
+Compton Car Wash,https://cdn.loc.gov/service/pnp/mrg/00000/00068v.jpg,CA,Other,33.894927,-118.226624,Compton
+Delta Queen Car Wash,https://cdn.loc.gov/service/pnp/mrg/00000/00069v.jpg,CA,Other,37.2870626,-121.944881,Campbell
+Hillborn Top Shop formerly Gates Tires,https://cdn.loc.gov/service/pnp/mrg/00000/00071v.jpg,CA,Retail,34.0037605,-118.4391641,Mar Vista
+The Donut Hole,https://cdn.loc.gov/service/pnp/mrg/00000/00081v.jpg,CA,Other,34.0280619,-117.953097,La Puente
+Hoot Owl Cafe,https://cdn.loc.gov/service/pnp/mrg/00000/00084v.jpg,CA,Restaurant,34.0536909,-118.242766,Los Angeles
+The Mad Greek (formerly Sam's Roast Beef),https://cdn.loc.gov/service/pnp/mrg/00000/00097v.jpg,CA,Other,33.8752945,-117.566444,Corona
+McDonald's,https://cdn.loc.gov/service/pnp/mrg/00100/00137v.jpg,CA,Other,34.1338751,-117.9056046,Azusa
+Tower Restaurant,https://cdn.loc.gov/service/pnp/mrg/00100/00144v.jpg,CA,Historical Building,32.7174202,-117.162772,San Diego
+George Joe Restaurant,https://cdn.loc.gov/service/pnp/mrg/00100/00152v.jpg,CA,Restaurant,32.7678288,-117.0230839,La Mesa
+"Motel Inn (1925) (""first motel"")",https://cdn.loc.gov/service/pnp/mrg/00100/00178v.jpg,CA,Hotel,35.3540209,-120.375716,San Luis Obispo
+"Motel Inn (""first motel"")",https://cdn.loc.gov/service/pnp/mrg/00100/00179v.jpg,CA,Hotel,35.3540209,-120.375716,San Luis Obispo
+Log Cabin Motel Office,https://cdn.loc.gov/service/pnp/mrg/00100/00190v.jpg,CA,Hotel,37.7249296,-122.1560768,San Leandro
+Motel Crystal Pier,https://cdn.loc.gov/service/pnp/mrg/00200/00202v.jpg,CA,Hotel,32.7978268,-117.2403183,Pacific Beach
+Log Cabin Motel,https://cdn.loc.gov/service/pnp/mrg/00200/00231v.jpg,CA,Hotel,35.3658075,-120.849901,Morro Bay
+Mission Motel,https://cdn.loc.gov/service/pnp/mrg/00200/00235v.jpg,CA,Hotel,34.8253019,-116.0833144,San Bernardino
+El Monte Drive-In Theater,https://cdn.loc.gov/service/pnp/mrg/00200/00299v.jpg,CA,Theater,34.0751571,-118.036849,El Monte
+Lakewood Drive-In Theater,https://cdn.loc.gov/service/pnp/mrg/00300/00300v.jpg,CA,Theater,33.8503463,-118.117191,Lakewood
+Tri City Drive-In Theater,https://cdn.loc.gov/service/pnp/mrg/00300/00301v.jpg,CA,Theater,34.0537971,-117.2610925,Loma Linda
+San Pedro Drive-In Theater,https://cdn.loc.gov/service/pnp/mrg/00300/00303v.jpg,CA,Theater,34.0536909,-118.242766,Los Angeles
+Van Nuys Drive-In Theater,https://cdn.loc.gov/service/pnp/mrg/00300/00308v.jpg,CA,Theater,34.1866193,-118.4486675,Van Nuys
+Terrace Drive-In Theater,https://cdn.loc.gov/service/pnp/mrg/00300/00322v.jpg,CA,Theater,35.3738712,-119.019463,Bakersfield
+The Tower Bowl,https://cdn.loc.gov/service/pnp/mrg/00300/00340v.jpg,CA,Historical Building,32.7174202,-117.162772,San Diego
+City Hall,https://cdn.loc.gov/service/pnp/mrg/00400/00412v.jpg,CA,Other,37.6688205,-122.080796,Hayward
+Arcata Theater,https://cdn.loc.gov/service/pnp/mrg/00400/00447v.jpg,CA,Theater,40.866517,-124.08284,Arcata
+Reel Joy Theater,https://cdn.loc.gov/service/pnp/mrg/00400/00449v.jpg,CA,Theater,36.2135291,-121.1247365,King City
+Tower Theater Box Office,https://cdn.loc.gov/service/pnp/mrg/00400/00450v.jpg,CA,Theater,36.7394421,-119.78483,Fresno
+Merced Theater,https://cdn.loc.gov/service/pnp/mrg/00400/00451v.jpg,CA,Theater,37.1641544,-120.7678602,Merced
+Loyola Theater,https://cdn.loc.gov/service/pnp/mrg/00400/00453v.jpg,CA,Theater,33.9597349,-118.400632,Westchester
+McDougal Building (1898),https://cdn.loc.gov/service/pnp/mrg/00500/00523v.jpg,CA,Historical Building,36.6744117,-121.655037,Salinas
+McDougal Building,https://cdn.loc.gov/service/pnp/mrg/00500/00525v.jpg,CA,Historical Building,36.6744117,-121.655037,Salinas
+B.P.O.E. Elks Lodge,https://cdn.loc.gov/service/pnp/mrg/00500/00533v.jpg,CA,Other,41.487123,-120.542327,Alturas
+Moose Lodge,https://cdn.loc.gov/service/pnp/mrg/00500/00534v.jpg,CA,Other,35.3738712,-119.019463,Bakersfield
+Masonic Temple,https://cdn.loc.gov/service/pnp/mrg/00500/00535v.jpg,CA,Other,36.3302284,-119.292058,Visalia
+I.O.O.F. Building (now an antique store),https://cdn.loc.gov/service/pnp/mrg/00500/00542v.jpg,CA,Historical Building,40.1784279,-122.235923,Red Bluff
+Orchid Beauty Shop,https://cdn.loc.gov/service/pnp/mrg/00500/00594v.jpg,CA,Retail,32.7174202,-117.162772,San Diego
+Nolo's Barber Shop,https://cdn.loc.gov/service/pnp/mrg/00600/00605v.jpg,CA,Retail,34.1866193,-118.4486675,Van Nuys
+Santa Fe Railroad Station,https://cdn.loc.gov/service/pnp/mrg/00600/00629v.jpg,CA,Gas Station,33.9824949,-117.374238,Riverside
+Union Pacific Railroad Station,https://cdn.loc.gov/service/pnp/mrg/00600/00630v.jpg,CA,Gas Station,33.9824949,-117.374238,Riverside
+Coca Cola Bottling Company,https://cdn.loc.gov/service/pnp/mrg/00600/00641v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
+The Hogan,https://cdn.loc.gov/service/pnp/mrg/00600/00659v.jpg,CA,Other,33.7839664,-116.9589086,San Jacinto
+"Deschwanden's Shoe Repair (""The Big Shoe"")",https://cdn.loc.gov/service/pnp/mrg/00600/00660v.jpg,CA,Other,35.3738712,-119.019463,Bakersfield
+The Big Shoe,https://cdn.loc.gov/service/pnp/mrg/00600/00662v.jpg,CA,Other,35.3738712,-119.019463,Bakersfield
+Main Street stores,https://cdn.loc.gov/service/pnp/mrg/00600/00684v.jpg,CA,Retail,40.1784279,-122.235923,Red Bluff
+Bitter End,https://cdn.loc.gov/service/pnp/mrg/00700/00745v.jpg,CA,Other,32.7174202,-117.162772,San Diego
+Thrift store,https://cdn.loc.gov/service/pnp/mrg/00700/00746v.jpg,CA,Retail,35.754959,-120.6932271,San Miguel
+Mendota Block,https://cdn.loc.gov/service/pnp/mrg/00700/00747v.jpg,CA,Other,34.0194704,-118.491227,Santa Monica
+Live Oak Realty,https://cdn.loc.gov/service/pnp/mrg/00700/00748v.jpg,CA,Other,34.6161143,-120.0933753,Santa Ynez
+Commercial building,https://cdn.loc.gov/service/pnp/mrg/00700/00750v.jpg,CA,Historical Building,36.6744117,-121.655037,Salinas
+Law offices,https://cdn.loc.gov/service/pnp/mrg/00700/00751v.jpg,CA,Other,36.6744117,-121.655037,Salinas
+Medico-Dental Building,https://cdn.loc.gov/service/pnp/mrg/00700/00752v.jpg,CA,Historical Building,37.9577016,-121.290779,Stockton
+Shirley's Beauty Salon,https://cdn.loc.gov/service/pnp/mrg/00700/00754v.jpg,CA,Other,33.995044,-118.4668875,Venice
+Beauty salon,https://cdn.loc.gov/service/pnp/mrg/00700/00755v.jpg,CA,Other,38.5810606,-121.493895,Sacramento
+Courthouse,https://cdn.loc.gov/service/pnp/mrg/00800/00833v.jpg,CA,Historical Building,36.3302284,-119.292058,Visalia
+San Luis Obispo County Courthouse,https://cdn.loc.gov/service/pnp/mrg/00800/00834v.jpg,CA,Historical Building,35.3540209,-120.375716,San Luis Obispo
+Modoc County Courthouse,https://cdn.loc.gov/service/pnp/mrg/00800/00836v.jpg,CA,Historical Building,41.487123,-120.542327,Alturas
+Moose Lodge #2171,https://cdn.loc.gov/service/pnp/mrg/00800/00862v.jpg,CA,Other,35.3899734,-120.609057,Santa Margarita
+Masonic Hall,https://cdn.loc.gov/service/pnp/mrg/00800/00864v.jpg,CA,Other,38.2325829,-122.636465,Petaluma
+American Legion Post,https://cdn.loc.gov/service/pnp/mrg/00800/00865v.jpg,CA,Other,35.6262618,-120.6901319,Paso Robles
+Holiday Inn,https://cdn.loc.gov/service/pnp/mrg/00900/00922v.jpg,CA,Hotel,34.0980031,-118.329523,Hollywood
+Hotel Stockton,https://cdn.loc.gov/service/pnp/mrg/00900/00923v.jpg,CA,Hotel,37.9577016,-121.290779,Stockton
+Mission Inn,https://cdn.loc.gov/service/pnp/mrg/00900/00924v.jpg,CA,Hotel,33.9824949,-117.374238,Riverside
+Palace Hotel (1891),https://cdn.loc.gov/service/pnp/mrg/00900/00926v.jpg,CA,Hotel,39.1501662,-123.2077861,Ukiah
+Solvang Castle Inn,https://cdn.loc.gov/service/pnp/mrg/00900/00927v.jpg,CA,Hotel,34.5960774,-120.1381144,Solvang
+The Hopland Inn,https://cdn.loc.gov/service/pnp/mrg/00900/00929v.jpg,CA,Hotel,38.9729542,-123.1163918,Hopland
+Corner Building,https://cdn.loc.gov/service/pnp/mrg/00900/00934v.jpg,CA,Historical Building,39.1501662,-123.2077861,Ukiah
+Cole Block (1891),https://cdn.loc.gov/service/pnp/mrg/00900/00936v.jpg,CA,Other,32.7174202,-117.162772,San Diego
+George J. Keating Building (1890),https://cdn.loc.gov/service/pnp/mrg/00900/00937v.jpg,CA,Historical Building,32.7174202,-117.162772,San Diego
+Corner Building detail,https://cdn.loc.gov/service/pnp/mrg/00900/00938v.jpg,CA,Historical Building,35.6262618,-120.6901319,Paso Robles
+Old McKinleyville Store (1897),https://cdn.loc.gov/service/pnp/mrg/00900/00941v.jpg,CA,Retail,40.966005,-124.1027898,McKinleyville
+Old City Hall,https://cdn.loc.gov/service/pnp/mrg/00900/00975v.jpg,CA,Other,33.9824949,-117.374238,Riverside
+Maywood City Hall,https://cdn.loc.gov/service/pnp/mrg/00900/00977v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
+Auditorium,https://cdn.loc.gov/service/pnp/mrg/00900/00978v.jpg,CA,Other,35.3738712,-119.019463,Bakersfield
+Central Fire Station,https://cdn.loc.gov/service/pnp/mrg/00900/00979v.jpg,CA,Gas Station,35.3738712,-119.019463,Bakersfield
+Post Office,https://cdn.loc.gov/service/pnp/mrg/01000/01001v.jpg,CA,Other,39.5233276,-122.193531,Willows
+Memorial Park Building,https://cdn.loc.gov/service/pnp/mrg/01000/01003v.jpg,CA,Park,36.3302284,-119.292058,Visalia
+Veteran's Memorial Building,https://cdn.loc.gov/service/pnp/mrg/01000/01004v.jpg,CA,Historical Building,40.4162842,-120.653006,Susanville
+Post Office (then an antiques mall),https://cdn.loc.gov/service/pnp/mrg/01000/01012v.jpg,CA,Other,38.2325829,-122.636465,Petaluma
+City of Novato Community Development Building,https://cdn.loc.gov/service/pnp/mrg/01000/01013v.jpg,CA,Historical Building,38.1061979,-122.5681191,Novato
+Street view,https://cdn.loc.gov/service/pnp/mrg/01000/01066v.jpg,CA,Other,34.5960774,-120.1381144,Solvang
+Street view 2,https://cdn.loc.gov/service/pnp/mrg/01000/01067v.jpg,CA,Other,34.5960774,-120.1381144,Solvang
+Soft Water Wash,https://cdn.loc.gov/service/pnp/mrg/01000/01069v.jpg,CA,Other,34.0022327,-118.4836879,Ocean Park
+Harris Department Store,https://cdn.loc.gov/service/pnp/mrg/01000/01070v.jpg,CA,Retail,34.8253019,-116.0833144,San Bernardino
+Thrift Store,https://cdn.loc.gov/service/pnp/mrg/01000/01071v.jpg,CA,Retail,34.8253019,-116.0833144,San Bernardino
+Lanmart [i.e. Lan Mart] Building (1911),https://cdn.loc.gov/service/pnp/mrg/01000/01072v.jpg,CA,Historical Building,38.2325829,-122.636465,Petaluma
+Gift Shop (redwood),https://cdn.loc.gov/service/pnp/mrg/01000/01073v.jpg,CA,Retail,41.2867896,-124.0597937,Orick
+Retro deco building,https://cdn.loc.gov/service/pnp/mrg/01000/01074v.jpg,CA,Historical Building,35.3658075,-120.849901,Morro Bay
+Pacific Boats,https://cdn.loc.gov/service/pnp/mrg/01000/01075v.jpg,CA,Other,33.7690164,-118.191604,Long Beach
+Model Drive In Cleaner,https://cdn.loc.gov/service/pnp/mrg/01000/01076v.jpg,CA,Theater,33.7690164,-118.191604,Long Beach
+Repp & Mott Auction House,https://cdn.loc.gov/service/pnp/mrg/01000/01078v.jpg,CA,Historical Building,33.7690164,-118.191604,Long Beach
+Boulevard Furniture,https://cdn.loc.gov/service/pnp/mrg/01000/01080v.jpg,CA,Other,32.7947731,-116.962526,El Cajon
+Ruth [i.e. Roth] Draperies,https://cdn.loc.gov/service/pnp/mrg/01000/01081v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
+R & R Blue Print Company,https://cdn.loc.gov/service/pnp/mrg/01000/01082v.jpg,CA,Other,33.7800164,-118.262509,Wilmington
+Foodman Market,https://cdn.loc.gov/service/pnp/mrg/01000/01083v.jpg,CA,Other,33.7800164,-118.262509,Wilmington
+Gilbert 5 10 25,https://cdn.loc.gov/service/pnp/mrg/01000/01084v.jpg,CA,Other,33.7800164,-118.262509,Wilmington
+Storefront,https://cdn.loc.gov/service/pnp/mrg/01000/01085v.jpg,CA,Retail,33.995044,-118.4668875,Venice
+Windecor,https://cdn.loc.gov/service/pnp/mrg/01000/01086v.jpg,CA,Other,34.4458248,-119.0779359,Ventura
+Ritz Building (1940),https://cdn.loc.gov/service/pnp/mrg/01000/01098v.jpg,CA,Historical Building,40.8018746,-124.1707558,Eureka
+Kofopilau,https://cdn.loc.gov/service/pnp/mrg/01000/01099v.jpg,CA,Other,40.8018746,-124.1707558,Eureka
+Carson Block (1892),https://cdn.loc.gov/service/pnp/mrg/01100/01103v.jpg,CA,Other,40.8018746,-124.1707558,Eureka
+Graystone Distinctive Jewelry,https://cdn.loc.gov/service/pnp/mrg/01100/01107v.jpg,CA,Other,40.8018746,-124.1707558,Eureka
+Gavett Studios,https://cdn.loc.gov/service/pnp/mrg/01100/01108v.jpg,CA,Other,32.7174202,-117.162772,San Diego
+Ralph Kuettel Pianos,https://cdn.loc.gov/service/pnp/mrg/01100/01109v.jpg,CA,Other,36.7394421,-119.78483,Fresno
+Chuck's Billiards,https://cdn.loc.gov/service/pnp/mrg/01100/01110v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
+Big Town Food Center,https://cdn.loc.gov/service/pnp/mrg/01100/01111v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
+Heard's Market,https://cdn.loc.gov/service/pnp/mrg/01100/01112v.jpg,CA,Other,40.3826772,-120.387163,Litchfield
+The Flower Shop (reused gas station),https://cdn.loc.gov/service/pnp/mrg/01100/01113v.jpg,CA,Gas Station,36.2135291,-121.1247365,King City
+Woolworths,https://cdn.loc.gov/service/pnp/mrg/01100/01115v.jpg,CA,Other,34.1649502,-118.374752,North Hollywood
+American Kleaner,https://cdn.loc.gov/service/pnp/mrg/01100/01116v.jpg,CA,Other,35.3738712,-119.019463,Bakersfield
+Easton's Gym,https://cdn.loc.gov/service/pnp/mrg/01100/01118v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
+Liquor store,https://cdn.loc.gov/service/pnp/mrg/01100/01119v.jpg,CA,Retail,32.6915199,-117.1766947,Coronado
+Woolworth's Antique Mall,https://cdn.loc.gov/service/pnp/mrg/01100/01120v.jpg,CA,Other,35.3738712,-119.019463,Bakersfield
+Bahn's Jewelers,https://cdn.loc.gov/service/pnp/mrg/01100/01121v.jpg,CA,Other,34.4458248,-119.0779359,Ventura
+Disabled Vets Thrift Shop,https://cdn.loc.gov/service/pnp/mrg/01100/01123v.jpg,CA,Retail,34.1812089,-118.307201,Burbank
+Snyder Surplus,https://cdn.loc.gov/service/pnp/mrg/01100/01124v.jpg,CA,Other,34.1812089,-118.307201,Burbank
+Henne's Homemade Candy,https://cdn.loc.gov/service/pnp/mrg/01200/01250v.jpg,CA,Other,39.1501662,-123.2077861,Ukiah
+Milt's Iron Horse Restaurant,https://cdn.loc.gov/service/pnp/mrg/01200/01264v.jpg,CA,Restaurant,35.3738712,-119.019463,Bakersfield
+Carney's Diner,https://cdn.loc.gov/service/pnp/mrg/01200/01265v.jpg,CA,Restaurant,34.0980031,-118.329523,Hollywood
+Carney's Express,https://cdn.loc.gov/service/pnp/mrg/01200/01267v.jpg,CA,Other,34.0980031,-118.329523,Hollywood
+Bob's Big Boy statue sign,https://cdn.loc.gov/service/pnp/mrg/01500/01582v.jpg,CA,Sign,34.0536909,-118.242766,Los Angeles
+Old Klamath Smoke House & Market sign,https://cdn.loc.gov/service/pnp/mrg/02300/02394v.jpg,CA,Sign,41.5265092,-124.038406,Klamath
+Legend of Big Foot Gift Shop sign,https://cdn.loc.gov/service/pnp/mrg/02300/02395v.jpg,CA,Sign,40.100569,-123.796139,Garberville
+Grandfather Tree billboard,https://cdn.loc.gov/service/pnp/mrg/02300/02396v.jpg,CA,Other,40.100569,-123.796139,Garberville
+Wheel in mini Mart sign,https://cdn.loc.gov/service/pnp/mrg/02300/02398v.jpg,CA,Sign,33.9090305,-116.7795345,Cabazon
+Grandfather Tree entrance,https://cdn.loc.gov/service/pnp/mrg/02400/02400v.jpg,CA,Other,40.100569,-123.796139,Garberville
+Candy House,https://cdn.loc.gov/service/pnp/mrg/03100/03165v.jpg,CA,Historical Building,33.9824949,-117.374238,Riverside
+Mission,https://cdn.loc.gov/service/pnp/mrg/03100/03166v.jpg,CA,Religious Site,33.9824949,-117.374238,Riverside
+Seating and landscape,https://cdn.loc.gov/service/pnp/mrg/03100/03167v.jpg,CA,Other,33.9824949,-117.374238,Riverside
+Fountain and haunted house,https://cdn.loc.gov/service/pnp/mrg/03100/03168v.jpg,CA,Historical Building,33.9824949,-117.374238,Riverside
+Mosque,https://cdn.loc.gov/service/pnp/mrg/03100/03170v.jpg,CA,Other,33.8398289,-118.3845942,Redondo Beach
+Castle overall,https://cdn.loc.gov/service/pnp/mrg/03100/03175v.jpg,CA,Historical Building,34.1508718,-118.448986,Sherman Oaks
+Castle overall 2,https://cdn.loc.gov/service/pnp/mrg/03100/03176v.jpg,CA,Historical Building,34.1508718,-118.448986,Sherman Oaks
+Castle overall 3,https://cdn.loc.gov/service/pnp/mrg/03100/03177v.jpg,CA,Historical Building,34.1508718,-118.448986,Sherman Oaks
+Watch tower,https://cdn.loc.gov/service/pnp/mrg/03100/03178v.jpg,CA,Historical Building,34.1508718,-118.448986,Sherman Oaks
+Haunted house,https://cdn.loc.gov/service/pnp/mrg/03100/03179v.jpg,CA,Historical Building,34.1508718,-118.448986,Sherman Oaks
+Entrance,https://cdn.loc.gov/service/pnp/mrg/03100/03180v.jpg,CA,Other,34.1508718,-118.448986,Sherman Oaks
+Skeet ball hole,https://cdn.loc.gov/service/pnp/mrg/03100/03181v.jpg,CA,Other,34.1508718,-118.448986,Sherman Oaks
+Castle overall 4,https://cdn.loc.gov/service/pnp/mrg/03100/03182v.jpg,CA,Historical Building,34.1508718,-118.448986,Sherman Oaks
+Straight lane hole,https://cdn.loc.gov/service/pnp/mrg/03100/03183v.jpg,CA,Other,34.1508718,-118.448986,Sherman Oaks
+Square lane hole,https://cdn.loc.gov/service/pnp/mrg/03100/03184v.jpg,CA,Other,34.1508718,-118.448986,Sherman Oaks
+Two holes view,https://cdn.loc.gov/service/pnp/mrg/03100/03185v.jpg,CA,Other,34.1508718,-118.448986,Sherman Oaks
+Two holes view 2,https://cdn.loc.gov/service/pnp/mrg/03100/03186v.jpg,CA,Other,34.1508718,-118.448986,Sherman Oaks
+Stars and moon hole view 1,https://cdn.loc.gov/service/pnp/mrg/03100/03187v.jpg,CA,Other,34.1508718,-118.448986,Sherman Oaks
+Stars and moon hole view 2,https://cdn.loc.gov/service/pnp/mrg/03100/03188v.jpg,CA,Other,34.1508718,-118.448986,Sherman Oaks
+Two holes view 3,https://cdn.loc.gov/service/pnp/mrg/03100/03189v.jpg,CA,Other,34.1508718,-118.448986,Sherman Oaks
+Water,https://cdn.loc.gov/service/pnp/mrg/03100/03190v.jpg,CA,Other,34.1508718,-118.448986,Sherman Oaks
+Stars and moon hole view 3,https://cdn.loc.gov/service/pnp/mrg/03100/03191v.jpg,CA,Other,34.1508718,-118.448986,Sherman Oaks
+Overall view,https://cdn.loc.gov/service/pnp/mrg/03100/03193v.jpg,CA,Other,33.8398289,-118.3845942,Redondo Beach
+16th hole with spire,https://cdn.loc.gov/service/pnp/mrg/03100/03194v.jpg,CA,Other,33.8398289,-118.3845942,Redondo Beach
+Eiffel Tower,https://cdn.loc.gov/service/pnp/mrg/03100/03196v.jpg,CA,Historical Building,32.7174202,-117.162772,San Diego
+Castle hole,https://cdn.loc.gov/service/pnp/mrg/03100/03197v.jpg,CA,Historical Building,32.7174202,-117.162772,San Diego
+House,https://cdn.loc.gov/service/pnp/mrg/03100/03199v.jpg,CA,Historical Building,32.7174202,-117.162772,San Diego
+Obelisk,https://cdn.loc.gov/service/pnp/mrg/03200/03200v.jpg,CA,Other,32.7174202,-117.162772,San Diego
+Trading post,https://cdn.loc.gov/service/pnp/mrg/03200/03202v.jpg,CA,Other,32.7174202,-117.162772,San Diego
+Windmill,https://cdn.loc.gov/service/pnp/mrg/03200/03203v.jpg,CA,Windmill,40.5863563,-122.391675,Redding
+Lighthouse,https://cdn.loc.gov/service/pnp/mrg/03200/03204v.jpg,CA,Historical Building,40.5863563,-122.391675,Redding
+Castle,https://cdn.loc.gov/service/pnp/mrg/03200/03205v.jpg,CA,Historical Building,40.5863563,-122.391675,Redding
+Two level green,https://cdn.loc.gov/service/pnp/mrg/03200/03206v.jpg,CA,Other,40.5863563,-122.391675,Redding
+Sign,https://cdn.loc.gov/service/pnp/mrg/03200/03207v.jpg,CA,Sign,40.5863563,-122.391675,Redding
+Pine hole marker #16,https://cdn.loc.gov/service/pnp/mrg/03200/03209v.jpg,CA,Other,40.5863563,-122.391675,Redding
+Overall 1,https://cdn.loc.gov/service/pnp/mrg/03200/03297v.jpg,CA,Other,34.4458248,-119.0779359,Ventura
+Overall 2,https://cdn.loc.gov/service/pnp/mrg/03200/03298v.jpg,CA,Other,34.4458248,-119.0779359,Ventura
+Pueblo house,https://cdn.loc.gov/service/pnp/mrg/03300/03300v.jpg,CA,Historical Building,34.4458248,-119.0779359,Ventura
+Three podium hole,https://cdn.loc.gov/service/pnp/mrg/03300/03301v.jpg,CA,Other,34.4458248,-119.0779359,Ventura
+Pump house hole,https://cdn.loc.gov/service/pnp/mrg/03300/03302v.jpg,CA,Historical Building,33.7038145,-117.9627349,Fountain Valley
+Windmill 1,https://cdn.loc.gov/service/pnp/mrg/03300/03303v.jpg,CA,Windmill,33.7038145,-117.9627349,Fountain Valley
+Windmill 2,https://cdn.loc.gov/service/pnp/mrg/03300/03304v.jpg,CA,Windmill,33.7038145,-117.9627349,Fountain Valley
+USA Shuttle,https://cdn.loc.gov/service/pnp/mrg/03300/03306v.jpg,CA,Other,33.7038145,-117.9627349,Fountain Valley
+Tiger hole,https://cdn.loc.gov/service/pnp/mrg/03300/03307v.jpg,CA,Other,33.7038145,-117.9627349,Fountain Valley
+Overall,https://cdn.loc.gov/service/pnp/mrg/03300/03308v.jpg,CA,Other,33.7038145,-117.9627349,Fountain Valley
+Clock tower,https://cdn.loc.gov/service/pnp/mrg/03300/03310v.jpg,CA,Historical Building,33.7038145,-117.9627349,Fountain Valley
+Mission San Juan view 1,https://cdn.loc.gov/service/pnp/mrg/03300/03311v.jpg,CA,Religious Site,33.7038145,-117.9627349,Fountain Valley
+Mission San Juan view 2,https://cdn.loc.gov/service/pnp/mrg/03300/03312v.jpg,CA,Religious Site,33.7038145,-117.9627349,Fountain Valley
+Circular hole with stone wall,https://cdn.loc.gov/service/pnp/mrg/03300/03313v.jpg,CA,Other,33.7038145,-117.9627349,Fountain Valley
+Circular hole detail,https://cdn.loc.gov/service/pnp/mrg/03300/03314v.jpg,CA,Other,33.7038145,-117.9627349,Fountain Valley
+Castle Far Away,https://cdn.loc.gov/service/pnp/mrg/03300/03334v.jpg,CA,Historical Building,36.7394421,-119.78483,Fresno
+U.S. Telegraph,https://cdn.loc.gov/service/pnp/mrg/03300/03337v.jpg,CA,Other,36.7394421,-119.78483,Fresno
+Big Ben,https://cdn.loc.gov/service/pnp/mrg/03300/03338v.jpg,CA,Other,36.7394421,-119.78483,Fresno
+Star and two patches,https://cdn.loc.gov/service/pnp/mrg/03300/03339v.jpg,CA,Other,36.7394421,-119.78483,Fresno
+Star hole,https://cdn.loc.gov/service/pnp/mrg/03300/03340v.jpg,CA,Other,36.7394421,-119.78483,Fresno
+Crazy House,https://cdn.loc.gov/service/pnp/mrg/03300/03342v.jpg,CA,Historical Building,36.7394421,-119.78483,Fresno
+Concrete decor,https://cdn.loc.gov/service/pnp/mrg/03300/03344v.jpg,CA,Other,36.7394421,-119.78483,Fresno
+Six bumpers,https://cdn.loc.gov/service/pnp/mrg/03300/03345v.jpg,CA,Other,36.7394421,-119.78483,Fresno
+Lighthouse view 2,https://cdn.loc.gov/service/pnp/mrg/03300/03347v.jpg,CA,Historical Building,36.7394421,-119.78483,Fresno
+Chicks,https://cdn.loc.gov/service/pnp/mrg/03300/03348v.jpg,CA,Other,36.7394421,-119.78483,Fresno
+Carpet detail,https://cdn.loc.gov/service/pnp/mrg/03300/03349v.jpg,CA,Other,36.7394421,-119.78483,Fresno
+Boulder,https://cdn.loc.gov/service/pnp/mrg/03400/03481v.jpg,CA,Other,33.9824949,-117.374238,Riverside
+Old Klamath Smoke House and Market,https://cdn.loc.gov/service/pnp/mrg/03500/03532v.jpg,CA,Historical Building,41.5265092,-124.038406,Klamath
+Brontosaurus,https://cdn.loc.gov/service/pnp/mrg/03500/03562v.jpg,CA,Other,33.9090305,-116.7795345,Cabazon
+Legend of Big Foot Gift Shop,https://cdn.loc.gov/service/pnp/mrg/03500/03575v.jpg,CA,Retail,40.100569,-123.796139,Garberville
+Pumpkin sign,https://cdn.loc.gov/service/pnp/mrg/03500/03579v.jpg,CA,Sign,40.1298788,-122.1211032,Dairyville
+Brontosaurus back view,https://cdn.loc.gov/service/pnp/mrg/03600/03608v.jpg,CA,Other,33.9090305,-116.7795345,Cabazon
+Paul Bunyan and Babe angle 1,https://cdn.loc.gov/service/pnp/mrg/03600/03626v.jpg,CA,Other,41.5265092,-124.038406,Klamath
+Three cabins,https://cdn.loc.gov/service/pnp/mrg/03700/03722v.jpg,CA,Historical Building,34.1064001,-117.3703235,Rialto
+Giant artichoke,https://cdn.loc.gov/service/pnp/mrg/03700/03757v.jpg,CA,Other,36.7657904,-121.758005,Castroville
+Lighthouse at Neighborhood Church,https://cdn.loc.gov/service/pnp/mrg/03700/03787v.jpg,CA,Historical Building,41.2867896,-124.0597937,Orick
+Municipal Building,https://cdn.loc.gov/service/pnp/mrg/03800/03861v.jpg,CA,Historical Building,34.4221319,-119.702667,Santa Barbara
+Public parking structure,https://cdn.loc.gov/service/pnp/mrg/03900/03960v.jpg,CA,Park,37.9577016,-121.290779,Stockton
+California Bridge Center,https://cdn.loc.gov/service/pnp/mrg/03900/03985v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
+Center Fire Station,https://cdn.loc.gov/service/pnp/mrg/03900/03988v.jpg,CA,Gas Station,35.3738712,-119.019463,Bakersfield
+Carnegie Library (museum),https://cdn.loc.gov/service/pnp/mrg/04000/04001v.jpg,CA,Museum,40.8018746,-124.1707558,Eureka
+Bank,https://cdn.loc.gov/service/pnp/mrg/04000/04016v.jpg,CA,Other,36.2135291,-121.1247365,King City
+Wells Fargo Bank,https://cdn.loc.gov/service/pnp/mrg/04000/04017v.jpg,CA,Other,36.5080741,-121.4447041,Gonzales
+American Trust Co. credit union,https://cdn.loc.gov/service/pnp/mrg/04000/04029v.jpg,CA,Other,38.2325829,-122.636465,Petaluma
+Old bank,https://cdn.loc.gov/service/pnp/mrg/04000/04038v.jpg,CA,Other,38.2325829,-122.636465,Petaluma
+Bank of Eureka and Savings Bank of Humboldt County,https://cdn.loc.gov/service/pnp/mrg/04000/04041v.jpg,CA,Other,40.8018746,-124.1707558,Eureka
+Bank of America,https://cdn.loc.gov/service/pnp/mrg/04000/04080v.jpg,CA,Other,34.0668947,-118.439944,Westwood
+Masonic Temple (1920),https://cdn.loc.gov/service/pnp/mrg/04100/04136v.jpg,CA,Other,40.4162842,-120.653006,Susanville
+Masonic Temple (1924),https://cdn.loc.gov/service/pnp/mrg/04100/04137v.jpg,CA,Other,40.4162842,-120.653006,Susanville
+Tom's Auto Body,https://cdn.loc.gov/service/pnp/mrg/04200/04204v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
+Elmore Pharmacy sign,https://cdn.loc.gov/service/pnp/mrg/04200/04212v.jpg,CA,Sign,40.1784279,-122.235923,Red Bluff
+Greyhound Bus sign,https://cdn.loc.gov/service/pnp/mrg/04200/04231v.jpg,CA,Sign,36.6744117,-121.655037,Salinas
+Korea Times Building,https://cdn.loc.gov/service/pnp/mrg/04200/04272v.jpg,CA,Historical Building,34.0536909,-118.242766,Los Angeles
+Crossroads of the World,https://cdn.loc.gov/service/pnp/mrg/04300/04319v.jpg,CA,Other,34.0980031,-118.329523,Hollywood
+Barber-Levy Shop,https://cdn.loc.gov/service/pnp/mrg/04300/04324v.jpg,CA,Retail,32.7174202,-117.162772,San Diego
+Dellard Furniture Imports,https://cdn.loc.gov/service/pnp/mrg/04300/04357v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
+The Craft Company,https://cdn.loc.gov/service/pnp/mrg/04300/04364v.jpg,CA,Other,40.1784279,-122.235923,Red Bluff
+Beverly Upholstery,https://cdn.loc.gov/service/pnp/mrg/04300/04378v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
+Roth Draperies,https://cdn.loc.gov/service/pnp/mrg/04300/04379v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
+Cafe Waterfront,https://cdn.loc.gov/service/pnp/mrg/04300/04393v.jpg,CA,Restaurant,40.8018746,-124.1707558,Eureka
+Blue Fox Lounge,https://cdn.loc.gov/service/pnp/mrg/04400/04403v.jpg,CA,Other,35.3738712,-119.019463,Bakersfield
+Strip mall,https://cdn.loc.gov/service/pnp/mrg/04400/04411v.jpg,CA,Other,34.8253019,-116.0833144,San Bernardino
+Carousel Mall,https://cdn.loc.gov/service/pnp/mrg/04400/04413v.jpg,CA,Other,34.8253019,-116.0833144,San Bernardino
+Jeffrey Anderson Jewelry,https://cdn.loc.gov/service/pnp/mrg/04400/04438v.jpg,CA,Other,40.8018746,-124.1707558,Eureka
+Vintage Bank Antiques,https://cdn.loc.gov/service/pnp/mrg/04400/04488v.jpg,CA,Other,38.2325829,-122.636465,Petaluma
+Law office,https://cdn.loc.gov/service/pnp/mrg/04500/04510v.jpg,CA,Other,37.9577016,-121.290779,Stockton
+Bed Bath & Beyond,https://cdn.loc.gov/service/pnp/mrg/04500/04536v.jpg,CA,Other,35.3540209,-120.375716,San Luis Obispo
+Kelli Clothing,https://cdn.loc.gov/service/pnp/mrg/04500/04572v.jpg,CA,Other,37.1641544,-120.7678602,Merced
+Palisade Garden Roller Skating,https://cdn.loc.gov/service/pnp/mrg/04600/04604v.jpg,CA,Other,32.7174202,-117.162772,San Diego
+Beacon Liquors,https://cdn.loc.gov/service/pnp/mrg/04600/04620v.jpg,CA,Other,34.0468546,-118.430254,West Los Angeles
+Helms Bakery,https://cdn.loc.gov/service/pnp/mrg/04600/04632v.jpg,CA,Other,34.0211224,-118.396466,Culver City
+American Fruit Growers,https://cdn.loc.gov/service/pnp/mrg/04600/04638v.jpg,CA,Other,33.9824949,-117.374238,Riverside
+Dutch Ice,https://cdn.loc.gov/service/pnp/mrg/04600/04642v.jpg,CA,Other,37.7986184,-121.2117148,Manteca
+Palm Market,https://cdn.loc.gov/service/pnp/mrg/04600/04671v.jpg,CA,Other,34.1976308,-119.180381,Oxnard
+Baer's Market,https://cdn.loc.gov/service/pnp/mrg/04600/04693v.jpg,CA,Other,34.0194704,-118.491227,Santa Monica
+Foxy's Hair Studio,https://cdn.loc.gov/service/pnp/mrg/04700/04703v.jpg,CA,Other,35.3738712,-119.019463,Bakersfield
+Rock Stram Baths,https://cdn.loc.gov/service/pnp/mrg/04700/04726v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
+Barber pole,https://cdn.loc.gov/service/pnp/mrg/04700/04755v.jpg,CA,Other,32.7174202,-117.162772,San Diego
+Razor's Edge Barber Shop,https://cdn.loc.gov/service/pnp/mrg/04700/04767v.jpg,CA,Retail,39.1546844,-122.1498204,Williams
+Ber Neice's Barber Shop,https://cdn.loc.gov/service/pnp/mrg/04700/04772v.jpg,CA,Retail,34.8253019,-116.0833144,San Bernardino
+Tire Man,https://cdn.loc.gov/service/pnp/mrg/04800/04810v.jpg,CA,Other,33.995044,-118.4668875,Venice
+Citizen's Bank of Paso Robles sign,https://cdn.loc.gov/service/pnp/mrg/04800/04827v.jpg,CA,Sign,35.6262618,-120.6901319,Paso Robles
+Tower Bowl,https://cdn.loc.gov/service/pnp/mrg/04800/04837v.jpg,CA,Historical Building,35.3540209,-120.375716,San Luis Obispo
+Orange Bowl sign,https://cdn.loc.gov/service/pnp/mrg/04800/04883v.jpg,CA,Sign,34.1064001,-117.3703235,Rialto
+Mendes Park Western Wear sign,https://cdn.loc.gov/service/pnp/mrg/04900/04911v.jpg,CA,Sign,36.7394421,-119.78483,Fresno
+100F Building,https://cdn.loc.gov/service/pnp/mrg/04900/04975v.jpg,CA,Historical Building,36.5080741,-121.4447041,Gonzales
+Parkhurst Building,https://cdn.loc.gov/service/pnp/mrg/04900/04997v.jpg,CA,Park,34.0194704,-118.491227,Santa Monica
+Shine Parlor,https://cdn.loc.gov/service/pnp/mrg/05000/05000v.jpg,CA,Other,35.3738712,-119.019463,Bakersfield
+Shops,https://cdn.loc.gov/service/pnp/mrg/05000/05050v.jpg,CA,Retail,33.995044,-118.4668875,Venice
+Three stores,https://cdn.loc.gov/service/pnp/mrg/05100/05118v.jpg,CA,Retail,32.7678288,-117.0230839,La Mesa
+Hillcrest Arch,https://cdn.loc.gov/service/pnp/mrg/05100/05122v.jpg,CA,Other,32.7174202,-117.162772,San Diego
+United Equipment,https://cdn.loc.gov/service/pnp/mrg/05100/05143v.jpg,CA,Other,37.4946568,-120.8465941,Turlock
+Windmire Building,https://cdn.loc.gov/service/pnp/mrg/05100/05152v.jpg,CA,Historical Building,34.5960774,-120.1381144,Solvang
+Sodaro's Furniture,https://cdn.loc.gov/service/pnp/mrg/05100/05167v.jpg,CA,Other,34.1233803,-116.3128792,Joshua Tree
+Atwater Signal-Merced Daily Sun Star,https://cdn.loc.gov/service/pnp/mrg/05100/05186v.jpg,CA,Sign,37.3477174,-120.609084,Atwater
+Union Oil,https://cdn.loc.gov/service/pnp/mrg/05200/05209v.jpg,CA,Other,34.0468546,-118.430254,West Los Angeles
+Union 76,https://cdn.loc.gov/service/pnp/mrg/05200/05212v.jpg,CA,Other,34.0991995,-117.6022102,Cucamonga
+Old gas station,https://cdn.loc.gov/service/pnp/mrg/05200/05228v.jpg,CA,Gas Station,33.9299925,-116.9763092,Beaumont
+Chevron station,https://cdn.loc.gov/service/pnp/mrg/05200/05232v.jpg,CA,Gas Station,37.9317766,-121.696026,Brentwood
+Span Colon Gas,https://cdn.loc.gov/service/pnp/mrg/05200/05238v.jpg,CA,Gas Station,34.4358295,-119.8276389,Goleta
+Seaside Gas,https://cdn.loc.gov/service/pnp/mrg/05200/05241v.jpg,CA,Gas Station,34.0536909,-118.242766,Los Angeles
+Cattoir Texaco,https://cdn.loc.gov/service/pnp/mrg/05200/05249v.jpg,CA,Other,35.1235374,-120.5785796,Arroyo Grande
+Ang's Service Mobil,https://cdn.loc.gov/service/pnp/mrg/05200/05265v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
+Gas station,https://cdn.loc.gov/service/pnp/mrg/05200/05271v.jpg,CA,Gas Station,34.0211224,-118.396466,Culver City
+Richfield Station,https://cdn.loc.gov/service/pnp/mrg/05300/05310v.jpg,CA,Gas Station,34.0991995,-117.6022102,Cucamonga
+Realty Staton,https://cdn.loc.gov/service/pnp/mrg/05300/05314v.jpg,CA,Other,35.5605315,-120.7007616,Templeton
+World's Largest Redwood Tree Service Station,https://cdn.loc.gov/service/pnp/mrg/05300/05343v.jpg,CA,Gas Station,39.1501662,-123.2077861,Ukiah
+Gas station Church,https://cdn.loc.gov/service/pnp/mrg/05300/05372v.jpg,CA,Gas Station,34.2625025,-118.427027,Pacoima
+Barnsdahl-Rio Gas,https://cdn.loc.gov/service/pnp/mrg/05400/05401v.jpg,CA,Gas Station,34.4358295,-119.8276389,Goleta
+Union 76 Gas,https://cdn.loc.gov/service/pnp/mrg/05400/05408v.jpg,CA,Gas Station,33.7494951,-117.873221,Santa Ana
+Gas station at Dining Cars Cafe,https://cdn.loc.gov/service/pnp/mrg/05400/05409v.jpg,CA,Gas Station,34.6134727,-120.193669,Buellton
+Gas station Richfield,https://cdn.loc.gov/service/pnp/mrg/05400/05433v.jpg,CA,Gas Station,34.4358295,-119.8276389,Goleta
+Brother's Mobil,https://cdn.loc.gov/service/pnp/mrg/05400/05497v.jpg,CA,Other,34.0194704,-118.491227,Santa Monica
+Mattoon Service Gulf,https://cdn.loc.gov/service/pnp/mrg/05500/05501v.jpg,CA,Other,34.0211224,-118.396466,Culver City
+Giant Felix Used Cars,https://cdn.loc.gov/service/pnp/mrg/05500/05525v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
+Golden Eagle Gas,https://cdn.loc.gov/service/pnp/mrg/05500/05526v.jpg,CA,Gas Station,32.7174202,-117.162772,San Diego
+Egyptian Garage,https://cdn.loc.gov/service/pnp/mrg/05500/05543v.jpg,CA,Other,32.7174202,-117.162772,San Diego
+Felix Chevrolet,https://cdn.loc.gov/service/pnp/mrg/05500/05557v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
+Bell Point Motors,https://cdn.loc.gov/service/pnp/mrg/05500/05564v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
+Firestone Factory,https://cdn.loc.gov/service/pnp/mrg/05500/05565v.jpg,CA,Other,37.4333295,-122.1512119,Southgate
+Gates Tires,https://cdn.loc.gov/service/pnp/mrg/05500/05566v.jpg,CA,Other,34.0037605,-118.4391641,Mar Vista
+Felix Body Shop,https://cdn.loc.gov/service/pnp/mrg/05500/05575v.jpg,CA,Retail,34.0536909,-118.242766,Los Angeles
+Orange Blossom Grocery and Gas,https://cdn.loc.gov/service/pnp/mrg/05500/05584v.jpg,CA,Gas Station,34.0922947,-117.43433,Fontana
+Union Oil Gas,https://cdn.loc.gov/service/pnp/mrg/05600/05601v.jpg,CA,Gas Station,34.0536909,-118.242766,Los Angeles
+Wheel align sign,https://cdn.loc.gov/service/pnp/mrg/05600/05630v.jpg,CA,Sign,32.7174202,-117.162772,San Diego
+OK Used Car sign,https://cdn.loc.gov/service/pnp/mrg/05600/05634v.jpg,CA,Sign,40.866517,-124.08284,Arcata
+Tire Man Big Brand tire statue,https://cdn.loc.gov/service/pnp/mrg/05600/05643v.jpg,CA,Statue,34.1866193,-118.4486675,Van Nuys
+Earl Scheib sign,https://cdn.loc.gov/service/pnp/mrg/05600/05649v.jpg,CA,Sign,34.0696501,-118.3963062,Beverly Hills
+Far-go gas pump,https://cdn.loc.gov/service/pnp/mrg/05600/05695v.jpg,CA,Gas Station,34.8986215,-117.0244313,Barstow
+Olympic gas pumps,https://cdn.loc.gov/service/pnp/mrg/05700/05704v.jpg,CA,Gas Station,32.7947731,-116.962526,El Cajon
+Visible pump,https://cdn.loc.gov/service/pnp/mrg/05700/05708v.jpg,CA,Other,34.0537971,-117.2610925,Loma Linda
+Far-go gas pumps,https://cdn.loc.gov/service/pnp/mrg/05700/05716v.jpg,CA,Gas Station,34.8986215,-117.0244313,Barstow
+Fox Theater,https://cdn.loc.gov/service/pnp/mrg/05700/05720v.jpg,CA,Theater,35.3738712,-119.019463,Bakersfield
+Hollywood Palladium,https://cdn.loc.gov/service/pnp/mrg/05700/05747v.jpg,CA,Other,34.0980031,-118.329523,Hollywood
+Cinema,https://cdn.loc.gov/service/pnp/mrg/05700/05749v.jpg,CA,Other,37.1641544,-120.7678602,Merced
+Mayfair Music Hall,https://cdn.loc.gov/service/pnp/mrg/05700/05750v.jpg,CA,Other,34.0194704,-118.491227,Santa Monica
+Grauman's Chinese Theater,https://cdn.loc.gov/service/pnp/mrg/05700/05753v.jpg,CA,Theater,34.0980031,-118.329523,Hollywood
+Minor Theater,https://cdn.loc.gov/service/pnp/mrg/05700/05757v.jpg,CA,Theater,40.866517,-124.08284,Arcata
+Atwater signal-Merced Daily Sun Star,https://cdn.loc.gov/service/pnp/mrg/05700/05758v.jpg,CA,Sign,37.3477174,-120.609084,Atwater
+Chinese Theater,https://cdn.loc.gov/service/pnp/mrg/05700/05759v.jpg,CA,Theater,34.0980031,-118.329523,Hollywood
+Culver Theater,https://cdn.loc.gov/service/pnp/mrg/05700/05760v.jpg,CA,Theater,34.0211224,-118.396466,Culver City
+Balboa Theater,https://cdn.loc.gov/service/pnp/mrg/05700/05762v.jpg,CA,Theater,32.7174202,-117.162772,San Diego
+Crest Theater,https://cdn.loc.gov/service/pnp/mrg/05700/05763v.jpg,CA,Theater,36.7394421,-119.78483,Fresno
+Tower Theater,https://cdn.loc.gov/service/pnp/mrg/05700/05771v.jpg,CA,Theater,38.5810606,-121.493895,Sacramento
+Star Theater,https://cdn.loc.gov/service/pnp/mrg/05700/05781v.jpg,CA,Theater,38.5810606,-121.493895,Sacramento
+Esquire Theater,https://cdn.loc.gov/service/pnp/mrg/05700/05782v.jpg,CA,Theater,38.5810606,-121.493895,Sacramento
+Colonial Theater,https://cdn.loc.gov/service/pnp/mrg/05700/05795v.jpg,CA,Theater,38.5810606,-121.493895,Sacramento
+Tejon Theater,https://cdn.loc.gov/service/pnp/mrg/05700/05797v.jpg,CA,Theater,35.3738712,-119.019463,Bakersfield
+Brenden Theater,https://cdn.loc.gov/service/pnp/mrg/05700/05798v.jpg,CA,Theater,37.6393419,-120.9968892,Modesto
+Fox Westwood Village Theater,https://cdn.loc.gov/service/pnp/mrg/05700/05799v.jpg,CA,Theater,34.0668947,-118.439944,Westwood
+Paramount Theater,https://cdn.loc.gov/service/pnp/mrg/05800/05809v.jpg,CA,Theater,37.8044557,-122.271356,Oakland
+XPO Adult Theater,https://cdn.loc.gov/service/pnp/mrg/05800/05852v.jpg,CA,Theater,33.7800164,-118.262509,Wilmington
+5th Avenue Theater,https://cdn.loc.gov/service/pnp/mrg/06000/06012v.jpg,CA,Theater,33.9562003,-118.353132,Inglewood
+Opera house,https://cdn.loc.gov/service/pnp/mrg/06000/06053v.jpg,CA,Historical Building,38.2325829,-122.636465,Petaluma
+Reused neon from Campus Drive-In,https://cdn.loc.gov/service/pnp/mrg/06000/06073v.jpg,CA,Theater,32.7425516,-117.0314172,Lemon Grove
+Mt. Baldy Drive-In,https://cdn.loc.gov/service/pnp/mrg/06000/06088v.jpg,CA,Theater,34.1008426,-117.7678355,La Verne
+Olympic Drive-In,https://cdn.loc.gov/service/pnp/mrg/06000/06089v.jpg,CA,Theater,34.0468546,-118.430254,West Los Angeles
+Rubidoux Drive-In,https://cdn.loc.gov/service/pnp/mrg/06000/06090v.jpg,CA,Theater,33.9943119,-117.4237761,Rubidoux
+Studio Drive-In,https://cdn.loc.gov/service/pnp/mrg/06000/06092v.jpg,CA,Theater,34.0211224,-118.396466,Culver City
+Van Nuys Drive-In,https://cdn.loc.gov/service/pnp/mrg/06000/06097v.jpg,CA,Theater,34.1866193,-118.4486675,Van Nuys
+Campus Drive-In,https://cdn.loc.gov/service/pnp/mrg/06000/06099v.jpg,CA,Theater,32.7174202,-117.162772,San Diego
+Lakewood Drive-In,https://cdn.loc.gov/service/pnp/mrg/06100/06101v.jpg,CA,Theater,33.8503463,-118.117191,Lakewood
+Tri City Drive-In,https://cdn.loc.gov/service/pnp/mrg/06100/06102v.jpg,CA,Theater,34.0537971,-117.2610925,Loma Linda
+Green Pines mini golf,https://cdn.loc.gov/service/pnp/mrg/06100/06134v.jpg,CA,Sports,40.5863563,-122.391675,Redding
+Blackbeard's mini golf,https://cdn.loc.gov/service/pnp/mrg/06100/06188v.jpg,CA,Sports,36.7394421,-119.78483,Fresno
+Castle Amusement,https://cdn.loc.gov/service/pnp/mrg/06200/06239v.jpg,CA,Historical Building,33.9824949,-117.374238,Riverside
+Twin Pines mini golf,https://cdn.loc.gov/service/pnp/mrg/06200/06247v.jpg,CA,Sports,34.2642987,-118.5398653,Readings
+Gold mine Castle Amusement Park golf,https://cdn.loc.gov/service/pnp/mrg/06200/06269v.jpg,CA,Sports,33.9824949,-117.374238,Riverside
+Fountain Valley mini golf,https://cdn.loc.gov/service/pnp/mrg/06200/06273v.jpg,CA,Sports,33.7038145,-117.9627349,Fountain Valley
+Prehistoric Museum,https://cdn.loc.gov/service/pnp/mrg/06300/06386v.jpg,CA,Museum,33.9090305,-116.7795345,Cabazon
+Paul Bunyan & Babe,https://cdn.loc.gov/service/pnp/mrg/06500/06548v.jpg,CA,Other,41.5265092,-124.038406,Klamath
+Montana De Oro State Park,https://cdn.loc.gov/service/pnp/mrg/06600/06608v.jpg,CA,Park,35.3107214,-120.832348,Los Osos
+Wheel-In Mini Mart,https://cdn.loc.gov/service/pnp/mrg/06700/06741v.jpg,CA,Other,33.9090305,-116.7795345,Cabazon
+Fire Chief Hat Dog,https://cdn.loc.gov/service/pnp/mrg/06900/06943v.jpg,CA,Other,34.8986215,-117.0244313,Barstow
+Col. Sanders,https://cdn.loc.gov/service/pnp/mrg/06900/06989v.jpg,CA,Other,37.6904826,-122.47267,Daly City
+Bob-A-Q Restaurant,https://cdn.loc.gov/service/pnp/mrg/06900/06997v.jpg,CA,Restaurant,35.3658075,-120.849901,Morro Bay
+Sea Food Hut,https://cdn.loc.gov/service/pnp/mrg/07000/07006v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
+Bill's Hot Dog Stand,https://cdn.loc.gov/service/pnp/mrg/07000/07068v.jpg,CA,Other,34.1812089,-118.307201,Burbank
+Variety Barrel,https://cdn.loc.gov/service/pnp/mrg/07000/07085v.jpg,CA,Other,32.7947731,-116.962526,El Cajon
+Rice Bowl,https://cdn.loc.gov/service/pnp/mrg/07000/07086v.jpg,CA,Other,37.1641544,-120.7678602,Merced
+King's Fried Chicken (Church),https://cdn.loc.gov/service/pnp/mrg/07000/07089v.jpg,CA,Religious Site,34.0536909,-118.242766,Los Angeles
+Sombrero Taco Shop,https://cdn.loc.gov/service/pnp/mrg/07000/07094v.jpg,CA,Retail,32.7174202,-117.162772,San Diego
+Johnnies Fat Boy,https://cdn.loc.gov/service/pnp/mrg/07100/07102v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
+The Bucket Burgers,https://cdn.loc.gov/service/pnp/mrg/07100/07109v.jpg,CA,Other,34.1390325,-118.2140958,Eagle Rock
+Dining Cars Cafe,https://cdn.loc.gov/service/pnp/mrg/07100/07111v.jpg,CA,Restaurant,34.6134727,-120.193669,Buellton
+The Deli Station,https://cdn.loc.gov/service/pnp/mrg/07100/07124v.jpg,CA,Gas Station,37.6393419,-120.9968892,Modesto
+La Cana Restaurant,https://cdn.loc.gov/service/pnp/mrg/07100/07160v.jpg,CA,Restaurant,34.1649502,-118.374752,North Hollywood
+Brown Derby Restaurant,https://cdn.loc.gov/service/pnp/mrg/07100/07161v.jpg,CA,Restaurant,34.0536909,-118.242766,Los Angeles
+Crosswinds Restaurant,https://cdn.loc.gov/service/pnp/mrg/07100/07162v.jpg,CA,Restaurant,40.866517,-124.08284,Arcata
+Far East Restaurant,https://cdn.loc.gov/service/pnp/mrg/07100/07179v.jpg,CA,Restaurant,35.3738712,-119.019463,Bakersfield
+Maharaja Club,https://cdn.loc.gov/service/pnp/mrg/07200/07259v.jpg,CA,Other,38.5810606,-121.493895,Sacramento
+Hot Cha Beer,https://cdn.loc.gov/service/pnp/mrg/07300/07303v.jpg,CA,Other,33.7690164,-118.191604,Long Beach
+Henne's Homemade Candies & Ice Cream,https://cdn.loc.gov/service/pnp/mrg/07300/07338v.jpg,CA,Other,39.1501662,-123.2077861,Ukiah
+Yum Yum Frosty Freeze,https://cdn.loc.gov/service/pnp/mrg/07300/07351v.jpg,CA,Other,34.09751,-117.6483876,Upland
+Yoghurt Mill,https://cdn.loc.gov/service/pnp/mrg/07300/07378v.jpg,CA,Other,32.7947731,-116.962526,El Cajon
+OJ Stand,https://cdn.loc.gov/service/pnp/mrg/07300/07379v.jpg,CA,Other,37.4946568,-120.8465941,Turlock
+Giant orange,https://cdn.loc.gov/service/pnp/mrg/07300/07385v.jpg,CA,Other,37.7543731,-121.3707773,Banta
+Vanderamps Coffee Shop,https://cdn.loc.gov/service/pnp/mrg/07400/07403v.jpg,CA,Retail,33.9776848,-118.448647,Marina Del Rey
+Tail O' the Pup,https://cdn.loc.gov/service/pnp/mrg/07400/07406v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
+Mr. Good's Donut House,https://cdn.loc.gov/service/pnp/mrg/07400/07425v.jpg,CA,Historical Building,33.894927,-118.226624,Compton
+Randy's Donuts,https://cdn.loc.gov/service/pnp/mrg/07400/07435v.jpg,CA,Other,33.9562003,-118.353132,Inglewood
+Big Do-Nut Drive-in,https://cdn.loc.gov/service/pnp/mrg/07400/07439v.jpg,CA,Theater,33.9562003,-118.353132,Inglewood
+Pancho's Family Dinners,https://cdn.loc.gov/service/pnp/mrg/07400/07443v.jpg,CA,Hotel,34.0468546,-118.430254,West Los Angeles
+Jolly Kone Drive-in sign,https://cdn.loc.gov/service/pnp/mrg/07400/07498v.jpg,CA,Theater,35.3738712,-119.019463,Bakersfield
+Foster's Freeze ice cream stand,https://cdn.loc.gov/service/pnp/mrg/07400/07499v.jpg,CA,Other,38.8064632,-123.0178759,Cloverdale
+Ray and Phil Bar sign,https://cdn.loc.gov/service/pnp/mrg/07500/07560v.jpg,CA,Sign,37.9577016,-121.290779,Stockton
+Hunters Inn sign,https://cdn.loc.gov/service/pnp/mrg/07500/07583v.jpg,CA,Hotel,39.2770035,-122.192406,Maxwell
+Far East Food sign,https://cdn.loc.gov/service/pnp/mrg/07500/07592v.jpg,CA,Sign,35.3738712,-119.019463,Bakersfield
+A & W sign,https://cdn.loc.gov/service/pnp/mrg/07600/07603v.jpg,CA,Sign,37.9357576,-122.347748,Richmond
+El Rebozo Restaurant sign,https://cdn.loc.gov/service/pnp/mrg/07600/07606v.jpg,CA,Sign,39.1501662,-123.2077861,Ukiah
+Jimmy Wong's Golden Dragon sign,https://cdn.loc.gov/service/pnp/mrg/07600/07621v.jpg,CA,Sign,32.7678288,-117.0230839,La Mesa
+Pancho's Village Cocktails sign,https://cdn.loc.gov/service/pnp/mrg/07600/07643v.jpg,CA,Sign,36.6744117,-121.655037,Salinas
+Cafe Dining Cars sign,https://cdn.loc.gov/service/pnp/mrg/07600/07697v.jpg,CA,Sign,34.6134727,-120.193669,Buellton
+Campus Drive-in sign,https://cdn.loc.gov/service/pnp/mrg/07700/07719v.jpg,CA,Theater,36.3207998,-121.243813,Greenfield
+Old Klamath Smoke House sign,https://cdn.loc.gov/service/pnp/mrg/07700/07722v.jpg,CA,Sign,41.5265092,-124.038406,Klamath
+Snappy Lunch sign,https://cdn.loc.gov/service/pnp/mrg/07700/07741v.jpg,CA,Sign,34.971644,-120.571836,Guadalupe
+Angelo's Drive-in Burger sign,https://cdn.loc.gov/service/pnp/mrg/07700/07742v.jpg,CA,Theater,36.7394421,-119.78483,Fresno
+Bob-A-Q sign near Morro Bay,https://cdn.loc.gov/service/pnp/mrg/07700/07743v.jpg,CA,Sign,35.3658075,-120.849901,Morro Bay
+Andre's Giant Burgers sign,https://cdn.loc.gov/service/pnp/mrg/07700/07753v.jpg,CA,Sign,35.3738712,-119.019463,Bakersfield
+Father's Also Tavern sign,https://cdn.loc.gov/service/pnp/mrg/07700/07755v.jpg,CA,Sign,34.0550328,-117.1827445,Redlands
+Eel River Cafe sign,https://cdn.loc.gov/service/pnp/mrg/07700/07757v.jpg,CA,Sign,40.100569,-123.796139,Garberville
+Burger King sign,https://cdn.loc.gov/service/pnp/mrg/07700/07759v.jpg,CA,Sign,34.5361067,-117.2911565,Victorville
+Restwell Court,https://cdn.loc.gov/service/pnp/mrg/07700/07797v.jpg,CA,Other,35.1427436,-120.641288,Pismo Beach
+El Portal Motel,https://cdn.loc.gov/service/pnp/mrg/07800/07801v.jpg,CA,Hotel,38.4404925,-122.7141049,Santa Rosa
+Wigwam Village #7,https://cdn.loc.gov/service/pnp/mrg/07800/07865v.jpg,CA,Other,34.1064001,-117.3703235,Rialto
+Wigwam Village Motel,https://cdn.loc.gov/service/pnp/mrg/07800/07876v.jpg,CA,Hotel,34.1064001,-117.3703235,Rialto
+Motel Inn,https://cdn.loc.gov/service/pnp/mrg/07800/07889v.jpg,CA,Hotel,35.3540209,-120.375716,San Luis Obispo
+Woodland Villa Motel,https://cdn.loc.gov/service/pnp/mrg/07900/07901v.jpg,CA,Hotel,41.5265092,-124.038406,Klamath
+Roy's Motel,https://cdn.loc.gov/service/pnp/mrg/07900/07910v.jpg,CA,Hotel,34.5577721,-115.7444411,Amboy
+Sea-Vue Motel,https://cdn.loc.gov/service/pnp/mrg/07900/07923v.jpg,CA,Hotel,35.4427512,-120.892125,Cayucos
+Hilldale Court,https://cdn.loc.gov/service/pnp/mrg/07900/07927v.jpg,CA,Other,32.7947731,-116.962526,El Cajon
+Madonna Inn,https://cdn.loc.gov/service/pnp/mrg/07900/07928v.jpg,CA,Hotel,35.3540209,-120.375716,San Luis Obispo
+Farm House Motel,https://cdn.loc.gov/service/pnp/mrg/07900/07929v.jpg,CA,Hotel,33.9824949,-117.374238,Riverside
+Gateway Motel,https://cdn.loc.gov/service/pnp/mrg/07900/07931v.jpg,CA,Hotel,37.1641544,-120.7678602,Merced
+Blue Bell Motel,https://cdn.loc.gov/service/pnp/mrg/07900/07985v.jpg,CA,Hotel,35.3540209,-120.375716,San Luis Obispo
+Tower Motel sign,https://cdn.loc.gov/service/pnp/mrg/08300/08361v.jpg,CA,Hotel,35.3738712,-119.019463,Bakersfield
+Fresno Motel sign,https://cdn.loc.gov/service/pnp/mrg/08500/08503v.jpg,CA,Hotel,36.7394421,-119.78483,Fresno
+Wigwam Village Motel sign,https://cdn.loc.gov/service/pnp/mrg/08500/08539v.jpg,CA,Hotel,34.1064001,-117.3703235,Rialto
+Dick's Motor Inn,https://cdn.loc.gov/service/pnp/mrg/08500/08547v.jpg,CA,Hotel,33.9255685,-116.875289,Banning
+Del Coronado Hotel,https://cdn.loc.gov/service/pnp/mrg/09300/09337v.jpg,CA,Hotel,32.6831259,-117.1858699,Coronado Beach
+Residential Court,https://cdn.loc.gov/service/pnp/mrg/09300/09339v.jpg,CA,Other,33.995044,-118.4668875,Venice
+Billy's Apartments,https://cdn.loc.gov/service/pnp/mrg/09300/09340v.jpg,CA,Other,33.995044,-118.4668875,Venice
+Ocean front walk,https://cdn.loc.gov/service/pnp/mrg/10400/10498v.jpg,CA,Other,33.995044,-118.4668875,Venice
+Trike rental,https://cdn.loc.gov/service/pnp/mrg/10500/10500v.jpg,CA,Other,33.995044,-118.4668875,Venice
+Venice columns,https://cdn.loc.gov/service/pnp/mrg/10500/10502v.jpg,CA,Other,33.995044,-118.4668875,Venice
+Venice column capital,https://cdn.loc.gov/service/pnp/mrg/10500/10503v.jpg,CA,Other,33.995044,-118.4668875,Venice
+Venice bath house,https://cdn.loc.gov/service/pnp/mrg/10500/10504v.jpg,CA,Historical Building,33.995044,-118.4668875,Venice
+Venice columns 2,https://cdn.loc.gov/service/pnp/mrg/10500/10505v.jpg,CA,Other,33.995044,-118.4668875,Venice
+Venice bath house sign,https://cdn.loc.gov/service/pnp/mrg/10500/10506v.jpg,CA,Sign,33.995044,-118.4668875,Venice
+Poster shop,https://cdn.loc.gov/service/pnp/mrg/10500/10507v.jpg,CA,Retail,33.995044,-118.4668875,Venice
+Ocean Park Pier fire,https://cdn.loc.gov/service/pnp/mrg/10500/10508v.jpg,CA,Park,34.0194704,-118.491227,Santa Monica
+Santa Monica Pier,https://cdn.loc.gov/service/pnp/mrg/10500/10509v.jpg,CA,Other,34.0194704,-118.491227,Santa Monica
+Carousel,https://cdn.loc.gov/service/pnp/mrg/10500/10510v.jpg,CA,Other,34.0194704,-118.491227,Santa Monica
+Castle Park Golf,https://cdn.loc.gov/service/pnp/mrg/11700/11728v.jpg,CA,Sports,33.8398289,-118.3845942,Redondo Beach
+Cafe Dining Cars (1947),https://cdn.loc.gov/service/pnp/mrg/11700/11734v.jpg,CA,Restaurant,34.6134727,-120.193669,Buellton
+Peking Restaurant,https://cdn.loc.gov/service/pnp/mrg/01300/01303v.jpg,CA,Restaurant,34.0194704,-118.491227,Santa Monica
+Rice Bowl Cafe,https://cdn.loc.gov/service/pnp/mrg/01300/01316v.jpg,CA,Restaurant,34.6391501,-120.4579009,Lompoc
+Road House,https://cdn.loc.gov/service/pnp/mrg/01300/01319v.jpg,CA,Historical Building,34.0922947,-117.43433,Fontana
+Michael's Dancing,https://cdn.loc.gov/service/pnp/mrg/01300/01320v.jpg,CA,Other,34.6391501,-120.4579009,Lompoc
+La Casiga Bar,https://cdn.loc.gov/service/pnp/mrg/01300/01321v.jpg,CA,Other,33.7800164,-118.262509,Wilmington
+Club Montage,https://cdn.loc.gov/service/pnp/mrg/01300/01322v.jpg,CA,Other,35.6262618,-120.6901319,Paso Robles
+Road House (?),https://cdn.loc.gov/service/pnp/mrg/01300/01324v.jpg,CA,Historical Building,33.9255685,-116.875289,Banning
+Rainbow Bar,https://cdn.loc.gov/service/pnp/mrg/01300/01325v.jpg,CA,Other,34.1064001,-117.3703235,Rialto
+Torino's Bar & Restaurant,https://cdn.loc.gov/service/pnp/mrg/01300/01326v.jpg,CA,Restaurant,37.9577016,-121.290779,Stockton
+Kelly's Pub,https://cdn.loc.gov/service/pnp/mrg/01300/01327v.jpg,CA,Other,32.7947731,-116.962526,El Cajon
+Father's Also Tavern,https://cdn.loc.gov/service/pnp/mrg/01300/01328v.jpg,CA,Other,34.0550328,-117.1827445,Redlands
+Gene's Little Ole Tavern,https://cdn.loc.gov/service/pnp/mrg/01300/01329v.jpg,CA,Other,34.4458248,-119.0779359,Ventura
+Tom's Cafe,https://cdn.loc.gov/service/pnp/mrg/01300/01330v.jpg,CA,Restaurant,34.0536909,-118.242766,Los Angeles
+Johnny's 329 Club,https://cdn.loc.gov/service/pnp/mrg/01300/01331v.jpg,CA,Other,33.7800164,-118.262509,Wilmington
+Hollywood Inn sign,https://cdn.loc.gov/service/pnp/mrg/01400/01431v.jpg,CA,Hotel,36.7394421,-119.78483,Fresno
+Ranch-O-Tel sign,https://cdn.loc.gov/service/pnp/mrg/01400/01432v.jpg,CA,Sign,36.7394421,-119.78483,Fresno
+Blue Bell Motel (1937) sign,https://cdn.loc.gov/service/pnp/mrg/01400/01433v.jpg,CA,Hotel,35.3540209,-120.375716,San Luis Obispo
+El Portal Motel sign,https://cdn.loc.gov/service/pnp/mrg/01400/01434v.jpg,CA,Hotel,38.4404925,-122.7141049,Santa Rosa
+Roy's Motel sign,https://cdn.loc.gov/service/pnp/mrg/01400/01435v.jpg,CA,Hotel,34.5577721,-115.7444411,Amboy
+San Bernardino Motel sign,https://cdn.loc.gov/service/pnp/mrg/01400/01437v.jpg,CA,Hotel,34.8253019,-116.0833144,San Bernardino
+El Sombrero Motel sign,https://cdn.loc.gov/service/pnp/mrg/01400/01438v.jpg,CA,Hotel,36.6744117,-121.655037,Salinas
+Lark Motel sign,https://cdn.loc.gov/service/pnp/mrg/01400/01439v.jpg,CA,Hotel,39.4096043,-123.3555602,Willits
+Manhattan Motel sign,https://cdn.loc.gov/service/pnp/mrg/01400/01441v.jpg,CA,Hotel,40.5863563,-122.391675,Redding
+Grove Motel sign,https://cdn.loc.gov/service/pnp/mrg/01400/01442v.jpg,CA,Hotel,39.5233276,-122.193531,Willows
+Casa Linda Motel sign,https://cdn.loc.gov/service/pnp/mrg/01400/01443v.jpg,CA,Hotel,39.5233276,-122.193531,Willows
+Komfort Court sign,https://cdn.loc.gov/service/pnp/mrg/01400/01444v.jpg,CA,Sign,36.2135291,-121.1247365,King City
+Missile Motel sign,https://cdn.loc.gov/service/pnp/mrg/01400/01445v.jpg,CA,Hotel,34.1477558,-119.1951559,Port Hueneme
+Candy Motel sign,https://cdn.loc.gov/service/pnp/mrg/01400/01477v.jpg,CA,Hotel,36.7394421,-119.78483,Fresno
+Astro Motel sign,https://cdn.loc.gov/service/pnp/mrg/01400/01478v.jpg,CA,Hotel,36.7394421,-119.78483,Fresno
+Serra Motel sign,https://cdn.loc.gov/service/pnp/mrg/01400/01479v.jpg,CA,Hotel,37.0065078,-121.5631723,Gilroy
+Doggie Diner sign,https://cdn.loc.gov/service/pnp/mrg/01400/01489v.jpg,CA,Sign,37.8044557,-122.271356,Oakland
+Dining Cars Cafe sign,https://cdn.loc.gov/service/pnp/mrg/01400/01490v.jpg,CA,Sign,34.6134727,-120.193669,Buellton
+McDonald's Restaurant sign,https://cdn.loc.gov/service/pnp/mrg/01500/01501v.jpg,CA,Sign,33.9404441,-118.1292846,Downey
+Argo's Coffee Shop sign,https://cdn.loc.gov/service/pnp/mrg/01500/01583v.jpg,CA,Sign,34.0536909,-118.242766,Los Angeles
+Shrimp Boat Restaurant sign,https://cdn.loc.gov/service/pnp/mrg/01500/01584v.jpg,CA,Sign,34.1082994,-118.0577568,Temple City
+Gas pump,https://cdn.loc.gov/service/pnp/mrg/01600/01662v.jpg,CA,Gas Station,38.5810606,-121.493895,Sacramento
+Visible gas pump (restoration with Sinclair globe),https://cdn.loc.gov/service/pnp/mrg/01600/01663v.jpg,CA,Gas Station,35.3899734,-120.609057,Santa Margarita
+Babcock's barber sign,https://cdn.loc.gov/service/pnp/mrg/01800/01828v.jpg,CA,Sign,35.1321878,-118.4489739,Tehachapi
+Rubidoux Drive-in Theater,https://cdn.loc.gov/service/pnp/mrg/01800/01871v.jpg,CA,Theater,33.9943119,-117.4237761,Rubidoux
+Mission Drive-in Theater,https://cdn.loc.gov/service/pnp/mrg/01900/01900v.jpg,CA,Theater,33.5016932,-117.6625509,San Juan Capistrano
+Victory Drive-in Theater,https://cdn.loc.gov/service/pnp/mrg/01900/01906v.jpg,CA,Theater,34.1866193,-118.4486675,Van Nuys
+Compton Drive-in Theater,https://cdn.loc.gov/service/pnp/mrg/01900/01913v.jpg,CA,Theater,33.894927,-118.226624,Compton
+Fountain Grove round barn,https://cdn.loc.gov/service/pnp/mrg/01900/01977v.jpg,CA,Fountain,38.4404925,-122.7141049,Santa Rosa
+Statue of Liberty at Shoreline Market,https://cdn.loc.gov/service/pnp/mrg/01900/01984v.jpg,CA,Statue,41.2867896,-124.0597937,Orick
+Statue of Liberty at Shoreline market (close up),https://cdn.loc.gov/service/pnp/mrg/01900/01986v.jpg,CA,Statue,41.2867896,-124.0597937,Orick
+Octagonal barn,https://cdn.loc.gov/service/pnp/mrg/02000/02008v.jpg,CA,Other,35.3540209,-120.375716,San Luis Obispo
+Teepee at Grandfather Tree,https://cdn.loc.gov/service/pnp/mrg/02000/02038v.jpg,CA,Other,40.100569,-123.796139,Garberville
+Public parking,https://cdn.loc.gov/service/pnp/mrg/02000/02060v.jpg,CA,Park,37.9577016,-121.290779,Stockton
+Car dealership,https://cdn.loc.gov/service/pnp/mrg/02000/02062v.jpg,CA,Other,34.0194704,-118.491227,Santa Monica
+Mazda Dealer,https://cdn.loc.gov/service/pnp/mrg/02000/02065v.jpg,CA,Other,34.1476507,-118.144155,Pasadena
+P&J Motors,https://cdn.loc.gov/service/pnp/mrg/02000/02066v.jpg,CA,Other,34.0751571,-118.036849,El Monte
+Breck's Auto Parts,https://cdn.loc.gov/service/pnp/mrg/02000/02072v.jpg,CA,Other,33.9749136,-118.0338664,Whittier
+25 Cent Car Wash,https://cdn.loc.gov/service/pnp/mrg/02000/02080v.jpg,CA,Other,34.0194704,-118.491227,Santa Monica
+Cummings Buick,https://cdn.loc.gov/service/pnp/mrg/02000/02082v.jpg,CA,Other,34.0194704,-118.491227,Santa Monica
+Tire Town,https://cdn.loc.gov/service/pnp/mrg/02000/02083v.jpg,CA,Other,34.1649502,-118.374752,North Hollywood
+Uniroyal factory,https://cdn.loc.gov/service/pnp/mrg/02100/02101v.jpg,CA,Other,34.003218,-118.1541961,Commerce
+Sanders Oldsmobile,https://cdn.loc.gov/service/pnp/mrg/02100/02105v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
+Samson Auto Salvage,https://cdn.loc.gov/service/pnp/mrg/02100/02107v.jpg,CA,Other,34.0536909,-118.242766,Los Angeles
+Old oil dispensers,https://cdn.loc.gov/service/pnp/mrg/02100/02116v.jpg,CA,Other,34.0468546,-118.430254,West Los Angeles
+Golden Eagle gas pump (#1),https://cdn.loc.gov/service/pnp/mrg/02100/02117v.jpg,CA,Gas Station,32.7174202,-117.162772,San Diego
+Golden Eagle gas pump (#2),https://cdn.loc.gov/service/pnp/mrg/02100/02141v.jpg,CA,Gas Station,32.7174202,-117.162772,San Diego
+Five Golden Eagle gas pumps (#2),https://cdn.loc.gov/service/pnp/mrg/02100/02142v.jpg,CA,Gas Station,32.7174202,-117.162772,San Diego
+Chevron gas pump,https://cdn.loc.gov/service/pnp/mrg/02100/02143v.jpg,CA,Gas Station,33.8808327,-117.5133522,Home Gardens
+Three Texaco gas pumps,https://cdn.loc.gov/service/pnp/mrg/02100/02144v.jpg,CA,Gas Station,34.1928193,-118.1374663,Altadena
+Four oil dispensers,https://cdn.loc.gov/service/pnp/mrg/02100/02145v.jpg,CA,Other,34.051522,-118.129807,Monterey Park
+Union Oil Garage interior,https://cdn.loc.gov/service/pnp/mrg/02100/02148v.jpg,CA,Other,34.0468546,-118.430254,West Los Angeles
+Mattoon Service Station interior,https://cdn.loc.gov/service/pnp/mrg/02100/02191v.jpg,CA,Gas Station,34.0211224,-118.396466,Culver City
+Corker's Landing Rocket Gas sign,https://cdn.loc.gov/service/pnp/mrg/02100/02198v.jpg,CA,Gas Station,37.4946568,-120.8465941,Turlock
+Foster's Old Fashion Freeze ice cream sign,https://cdn.loc.gov/service/pnp/mrg/02200/02264v.jpg,CA,Sign,35.6262618,-120.6901319,Paso Robles
+Peg House,https://cdn.loc.gov/service/pnp/mrg/01900/01929v.jpg,CA,Historical Building,39.8657071,-123.714188,Leggett
+Stump House,https://cdn.loc.gov/service/pnp/mrg/01900/01935v.jpg,CA,Historical Building,40.8018746,-124.1707558,Eureka
+Peg House Gas,https://cdn.loc.gov/service/pnp/mrg/05500/05516v.jpg,CA,Gas Station,39.8657071,-123.714188,Leggett
