@@ -1,7 +1,4 @@
 #!/usr/bin/env python3
-"""
-Main entry point for the Summer Activity Route Optimizer API.
-"""
 
 from api_interface import RouteOptimizationAPI
 import json

@@ -1,7 +1,4 @@
 #!/usr/bin/env python3
-"""
-API interface for the route optimization system.
-"""
 
 import logging
 import numpy as np
@@ -37,7 +34,6 @@ class RouteOptimizationAPI:
             raise
     
     def get_all_locations(self) -> List[Dict[str, Any]]:
-        """Get all attractions as locations"""
         return self.attractions
     
     def add_custom_location(self, name: str, latitude: float, longitude: float) -> int:
@@ -84,7 +80,6 @@ class RouteOptimizationAPI:
             
             selected_coords = np.array(selected_coords)
             
-            # Simple route optimization (nearest neighbor)
             optimized_route = self._simple_optimize_route(selected_coords)
             
             total_distance = self._calculate_route_distance(selected_coords, optimized_route)
@@ -107,12 +102,10 @@ class RouteOptimizationAPI:
             raise
     
     def _simple_optimize_route(self, coordinates: np.ndarray) -> List[int]:
-        """Simple nearest neighbor optimization"""
         n = len(coordinates)
         if n <= 1:
             return list(range(n))
         
-        # Start with first point
         route = [0]
         unvisited = set(range(1, n))
         
@@ -125,7 +118,6 @@ class RouteOptimizationAPI:
         return route
     
     def _calculate_route_distance(self, coordinates: np.ndarray, route: List[int]) -> float:
-        """Calculate total distance of route"""
         total_distance = 0.0
         for i in range(len(route) - 1):
             point1 = coordinates[route[i]]
@@ -149,7 +141,6 @@ class RouteOptimizationAPI:
             
             selected_coords = np.array(selected_coords)
             
-            # Generate random route
             import random
             random_route = list(range(len(selected_coords)))
             random.shuffle(random_route)
@@ -229,12 +220,10 @@ class RouteOptimizationAPI:
             raise
 
     def get_street_directions(self, optimized_route: List[Dict[str, Any]]) -> Dict[str, Any]:
-        """Get street directions for an optimized route"""
         try:
             if len(optimized_route) < 2:
                 return {"error": "Need at least 2 locations for directions"}
             
-            # Extract coordinates from the optimized route
             coordinates = []
             for location in optimized_route:
                 if 'location' in location and 'lat' in location['location'] and 'lng' in location['location']:
@@ -247,7 +236,6 @@ class RouteOptimizationAPI:
             if len(coordinates) < 2:
                 return {"error": "Invalid coordinates in route"}
             
-            # Create waypoints for the route
             waypoints = []
             if len(coordinates) > 2:
                 waypoints = coordinates[1:-1]
@@ -267,18 +255,12 @@ class RouteOptimizationAPI:
             raise
 
     def get_attractions_along_route(self, from_city: str, to_city: str, max_attractions: int = 9, max_distance_miles: float = 25.0) -> List[Dict[str, Any]]:
-        """
-        Get attractions along route between two cities.
-        Returns attractions formatted for the frontend team's Google Maps integration.
-        """
         try:
             from geopy.geocoders import Nominatim
             from geopy.distance import geodesic
             
-            # Initialize geocoder
             geolocator = Nominatim(user_agent="route_optimizer")
             
-            # Get coordinates for start and end cities
             start_location = geolocator.geocode(f"{from_city}, CA, USA")
             end_location = geolocator.geocode(f"{to_city}, CA, USA")
             
@@ -290,24 +272,21 @@ class RouteOptimizationAPI:
             
             logger.info(f"Route from {from_city} ({start_coords}) to {to_city} ({end_coords})")
             
-            # Get route using Google Maps Directions API
             route_points = self._get_route_points(start_coords, end_coords)
             
-            # Find attractions near the route
             nearby_attractions = self._find_attractions_near_route(
                 self.attractions, route_points, max_distance_miles, max_attractions
             )
             
             logger.info(f"Found {len(nearby_attractions)} attractions near route")
             
-            # Format for frontend (matching their expected structure)
             formatted_attractions = []
             for i, attraction in enumerate(nearby_attractions):
                 formatted_attraction = {
                     'key': f"attraction_{i}",
                     'name': attraction['name'],
                     'town': attraction['city'],
-                    'rating': 4.5,  # Default rating since we don't have ratings in our data
+                    'rating': 4.5,
                     'image': attraction.get('image_link', 'https://via.placeholder.com/300x200?text=Attraction'),
                     'location': {
                         'lat': attraction['latitude'],
@@ -326,44 +305,34 @@ class RouteOptimizationAPI:
             raise
 
     def get_route_points_coordinates(self, from_city: str, to_city: str) -> Dict[str, Any]:
-        """
-        Get latitude and longitude coordinates for two cities.
-        Returns coordinates formatted for frontend map display.
-        """
         try:
             from geopy.geocoders import Nominatim
             
-            # Initialize geocoder
             geolocator = Nominatim(user_agent="route_optimizer")
             
-            # Get coordinates for start city
             start_location = geolocator.geocode(f"{from_city}, CA, USA")
             if not start_location:
-                # Try without state if California not found
                 start_location = geolocator.geocode(f"{from_city}, USA")
             
-            # Get coordinates for end city
             end_location = geolocator.geocode(f"{to_city}, CA, USA")
             if not end_location:
-                # Try without state if California not found
                 end_location = geolocator.geocode(f"{to_city}, USA")
             
             if not start_location or not end_location:
                 raise ValueError(f"Could not find coordinates for {from_city} or {to_city}")
             
-            # Format response for frontend map display
             route_points = {
                 'start': {
                     'city': from_city,
                     'lat': start_location.latitude,
                     'lng': start_location.longitude,
-                    'color': 'blue'  # Blue marker for start
+                    'color': 'blue'
                 },
                 'end': {
                     'city': to_city,
                     'lat': end_location.latitude,
                     'lng': end_location.longitude,
-                    'color': 'green'  # Green marker for end
+                    'color': 'green'
                 }
             }
             
@@ -374,14 +343,10 @@ class RouteOptimizationAPI:
             raise
 
     def _get_route_points(self, start_coords: tuple, end_coords: tuple) -> List[tuple]:
-        """Get route points using Google Maps Directions API"""
         try:
-            # For now, return a simple straight line with intermediate points
-            # In production, you'd use Google Maps Directions API
             import numpy as np
             
-            # Create more intermediate points along the route for better attraction finding
-            num_points = 50  # Increased from 20 to 50 for better coverage
+            num_points = 50
             lat_points = np.linspace(start_coords[0], end_coords[0], num_points)
             lng_points = np.linspace(start_coords[1], end_coords[1], num_points)
             
@@ -390,11 +355,9 @@ class RouteOptimizationAPI:
             
         except Exception as e:
             logger.error(f"Error getting route points: {e}")
-            # Fallback to direct route
             return [start_coords, end_coords]
 
     def _load_california_attractions(self) -> List[Dict[str, Any]]:
-        """Load California attractions from CSV file"""
         try:
             if not os.path.exists(self.data_file):
                 raise FileNotFoundError(f"Attractions file not found: {self.data_file}")
@@ -422,7 +385,6 @@ class RouteOptimizationAPI:
             raise
 
     def _find_attractions_near_route(self, attractions: List[Dict], route_points: List[tuple], max_distance_miles: float, max_attractions: int) -> List[Dict]:
-        """Find attractions within specified distance of route points"""
         try:
             from geopy.distance import geodesic
             
@@ -435,26 +397,21 @@ class RouteOptimizationAPI:
                 attraction_coords = (attraction['latitude'], attraction['longitude'])
                 min_distance = float('inf')
                 
-                # Find minimum distance to any point on the route
                 for route_point in route_points:
                     distance = geodesic(attraction_coords, route_point).miles
                     if distance < min_distance:
                         min_distance = distance
                 
-                # All attractions can be up to max_distance_miles from the path
                 max_allowed_distance = max_distance_miles
                 
-                # Include attraction if within the appropriate distance
                 if min_distance <= max_allowed_distance:
                     attraction['distance_from_route'] = min_distance
                     nearby_attractions.append(attraction)
             
             logger.info(f"Found {len(nearby_attractions)} attractions within {max_distance_miles} miles")
             
-            # Sort by distance from route
             nearby_attractions.sort(key=lambda x: x['distance_from_route'])
             
-            # Remove duplicates based on name similarity and ensure varied coordinates
             unique_attractions = []
             seen_names = set()
             seen_coordinates = set()
@@ -463,7 +420,6 @@ class RouteOptimizationAPI:
                 name = attraction['name'].lower()
                 coords = (attraction['latitude'], attraction['longitude'])
                 
-                # Check if this is a duplicate (similar name or same coordinates)
                 is_duplicate_name = any(
                     name in seen_name or seen_name in name 
                     for seen_name in seen_names

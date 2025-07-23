@@ -1,8 +1,4 @@
 #!/usr/bin/env python3
-"""
-Startup script for the Route Optimization API.
-Run this to start the web API server for the software engineering team.
-"""
 
 import subprocess
 import sys
@@ -12,12 +8,10 @@ def main():
     print("🚀 Starting Route Optimization API Server...")
     print("=" * 50)
     
-    # Check if we're in the right directory
     if not os.path.exists("web_api.py"):
         print("❌ Error: web_api.py not found. Please run this script from the backend directory.")
         sys.exit(1)
     
-    # Check if requirements are installed
     try:
         import fastapi
         import uvicorn
@@ -47,7 +41,6 @@ def main():
     print("\n🛑 Press Ctrl+C to stop the server")
     print("=" * 50)
     
-    # Start the server
     try:
         subprocess.run([
             sys.executable, "-m", "uvicorn", 
