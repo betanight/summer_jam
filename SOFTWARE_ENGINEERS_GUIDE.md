@@ -12,6 +12,40 @@ This guide shows software engineers how to easily integrate our route optimizati
 - `GET /route-points` - Get city coordinates  
 - `POST /optimize` - Basic route optimization
 - `POST /optimize-with-directions` - Complete route optimization with street directions
+- `GET /locations` - Get all available attractions
+- `POST /locations` - Add custom location
+- `POST /compare` - Compare optimized vs random routes
+- `POST /visualization` - Get visualization data
+- `POST /street-routing` - Get street routing data
+- `GET /quick-optimize` - Quick optimization with URL parameters
+- `GET /stats` - API statistics
+
+## 🧪 API Testing
+
+### Automated Testing
+Run the comprehensive test suite:
+```bash
+cd backend
+python3 test_api.py
+```
+
+### Manual Testing
+Test individual endpoints:
+```bash
+# Health check
+curl http://localhost:8000/health
+
+# Get all locations
+curl http://localhost:8000/locations
+
+# Find attractions along route
+curl "http://localhost:8000/places?fromCity=Los%20Angeles&toCity=San%20Francisco"
+
+# Optimize route
+curl -X POST http://localhost:8000/optimize \
+  -H "Content-Type: application/json" \
+  -d '{"location_ids": [0, 1, 2, 3, 4]}'
+```
 
 ## 🔗 Easy Integration Methods
 
@@ -180,9 +214,50 @@ optimized = api.optimize_route([0, 1, 2, 3])
 directions = api.get_street_directions(optimized_route)
 ```
 
-## 📡 API Response Formats
+## 📡 Complete API Documentation
 
-### Attractions Response
+### Health Check
+```http
+GET /health
+```
+**Response:**
+```json
+{
+  "success": true,
+  "message": "API is running",
+  "timestamp": "2024-01-01T12:00:00Z"
+}
+```
+
+### Get All Locations
+```http
+GET /locations
+```
+**Response:**
+```json
+{
+  "success": true,
+  "data": {
+    "locations": [
+      {
+        "id": 0,
+        "name": "Hollywood Sign",
+        "city": "Los Angeles",
+        "state": "CA",
+        "category": "Landmark",
+        "latitude": 34.1341,
+        "longitude": -118.3215
+      }
+    ]
+  }
+}
+```
+
+### Find Attractions Along Route
+```http
+GET /places?fromCity=Los%20Angeles&toCity=San%20Francisco
+```
+**Response:**
 ```json
 {
   "success": true,
@@ -204,7 +279,43 @@ directions = api.get_street_directions(optimized_route)
 }
 ```
 
-### Route Optimization Response
+### Optimize Route
+```http
+POST /optimize
+Content-Type: application/json
+
+{
+  "location_ids": [0, 1, 2, 3, 4]
+}
+```
+**Response:**
+```json
+{
+  "success": true,
+  "data": {
+    "optimized_route": {
+      "location_ids": [4, 3, 0, 2, 1],
+      "location_names": ["Disneyland", "Universal Studios", "Hollywood Sign", "Getty Center", "Venice Beach"],
+      "total_distance": 1234.5,
+      "execution_time": 0.003
+    }
+  }
+}
+```
+
+### Optimize with Directions
+```http
+POST /optimize-with-directions
+Content-Type: application/json
+
+[
+  {
+    "key": "attraction_0",
+    "location": {"lat": 34.1341, "lng": -118.3215}
+  }
+]
+```
+**Response:**
 ```json
 {
   "success": true,
@@ -227,7 +338,69 @@ directions = api.get_street_directions(optimized_route)
 }
 ```
 
-## 🗺️ Map Integration
+### Compare Routes
+```http
+POST /compare
+Content-Type: application/json
+
+{
+  "location_ids": [0, 1, 2, 3, 4]
+}
+```
+**Response:**
+```json
+{
+  "success": true,
+  "data": {
+    "random_route": {
+      "distance": 1500.2,
+      "route": [0, 1, 2, 3, 4]
+    },
+    "optimized_route": {
+      "distance": 1234.5,
+      "route": [4, 3, 0, 2, 1]
+    },
+    "improvement_percentage": 17.7,
+    "distance_saved": 265.7
+  }
+}
+```
+
+### Quick Optimize
+```http
+GET /quick-optimize?location_ids=0,1,2,3,4
+```
+**Response:**
+```json
+{
+  "success": true,
+  "data": {
+    "optimized_route": {
+      "location_ids": [4, 3, 0, 2, 1],
+      "total_distance": 1234.5
+    }
+  }
+}
+```
+
+### Get Stats
+```http
+GET /stats
+```
+**Response:**
+```json
+{
+  "success": true,
+  "data": {
+    "total_locations": 952,
+    "api_uptime": "2h 30m",
+    "total_requests": 150,
+    "average_response_time": 0.045
+  }
+}
+```
+
+## 🗺️ Frontend Integration
 
 ### Google Maps Integration
 ```javascript
@@ -252,6 +425,93 @@ directionsService.route({
     directionsRenderer.setDirections(result);
   }
 });
+```
+
+### React Component Example
+```jsx
+import React, { useState, useEffect } from 'react';
+
+const RouteOptimizer = () => {
+  const [attractions, setAttractions] = useState([]);
+  const [selectedAttractions, setSelectedAttractions] = useState([]);
+  const [optimizedRoute, setOptimizedRoute] = useState(null);
+
+  const findAttractions = async (fromCity, toCity) => {
+    try {
+      const response = await fetch(
+        `http://localhost:8000/places?fromCity=${encodeURIComponent(fromCity)}&toCity=${encodeURIComponent(toCity)}`
+      );
+      const data = await response.json();
+      if (data.success) {
+        setAttractions(data.data.attractions);
+      }
+    } catch (error) {
+      console.error('Error finding attractions:', error);
+    }
+  };
+
+  const optimizeRoute = async () => {
+    try {
+      const response = await fetch('http://localhost:8000/optimize-with-directions', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(selectedAttractions)
+      });
+      const data = await response.json();
+      if (data.success) {
+        setOptimizedRoute(data.data);
+      }
+    } catch (error) {
+      console.error('Error optimizing route:', error);
+    }
+  };
+
+  return (
+    <div>
+      <button onClick={() => findAttractions('Los Angeles', 'San Francisco')}>
+        Find Attractions
+      </button>
+      <button onClick={optimizeRoute}>
+        Optimize Route
+      </button>
+      {/* Display attractions and route */}
+    </div>
+  );
+};
+```
+
+### HTML/JavaScript Integration
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Route Optimizer</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=geometry"></script>
+</head>
+<body>
+    <div id="map" style="height: 400px; width: 100%;"></div>
+    <button onclick="findAttractions()">Find Attractions</button>
+    <button onclick="optimizeRoute()">Optimize Route</button>
+
+    <script>
+        async function findAttractions() {
+            const response = await fetch('http://localhost:8000/places?fromCity=Los%20Angeles&toCity=San%20Francisco');
+            const data = await response.json();
+            console.log('Attractions:', data.data.attractions);
+        }
+
+        async function optimizeRoute() {
+            const response = await fetch('http://localhost:8000/optimize-with-directions', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(selectedAttractions)
+            });
+            const data = await response.json();
+            console.log('Optimized route:', data.data);
+        }
+    </script>
+</body>
+</html>
 ```
 
 ## 🔧 Customization Options
@@ -289,6 +549,15 @@ categories = ['Restaurant', 'Landmark', 'Museum']  # Filter by categories
 - `GET /stats` - View API statistics
 - `GET /locations` - List all attractions
 
+### Error Responses
+```json
+{
+  "success": false,
+  "message": "Error description",
+  "error_code": "ERROR_TYPE"
+}
+```
+
 ## 📞 Support
 
 For integration help:
@@ -296,6 +565,7 @@ For integration help:
 2. Review the core functions in `backend/api_interface.py`
 3. Test with the provided examples above
 4. Use the health check endpoint to verify API status
+5. Run `python3 test_api.py` for comprehensive testing
 
 ---
 
